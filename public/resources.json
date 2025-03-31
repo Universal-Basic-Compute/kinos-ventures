@@ -1,0 +1,129 @@
+{
+  "foundationalResources": [
+    {
+      "category": "Core Philosophy & Strategy",
+      "resources": [
+        {
+          "title": "KinOS Ventures Manifesto",
+          "description": "Core values, mission, and vision defining our approach to AI development"
+        },
+        {
+          "title": "Vertical Integration Strategy",
+          "description": "Framework for identifying, developing, and scaling new business verticals"
+        },
+        {
+          "title": "Technology Unification Principles",
+          "description": "Guidelines for maintaining a cohesive technology core across diverse applications"
+        },
+        {
+          "title": "First Principles Decision-Making Framework",
+          "description": "Structured approach to making decisions based on fundamental truths"
+        }
+      ]
+    },
+    {
+      "category": "Technology & Product Development",
+      "resources": [
+        {
+          "title": "KinOS Engine Architecture Guide",
+          "description": "Technical overview of the core technology platform and its capabilities"
+        },
+        {
+          "title": "Product Development Lifecycle",
+          "description": "Standardized process from concept to launch across all verticals"
+        },
+        {
+          "title": "Cross-Vertical Feature Implementation Protocol",
+          "description": "System for deploying core capabilities across different products"
+        },
+        {
+          "title": "Technical Debt Management Strategy",
+          "description": "Principles for balancing rapid innovation with sustainable architecture"
+        },
+        {
+          "title": "AI Memory & Context Retention Standards",
+          "description": "Guidelines for implementing consistent memory features across applications"
+        }
+      ]
+    },
+    {
+      "category": "Operations & Management",
+      "resources": [
+        {
+          "title": "Organizational Structure Blueprint",
+          "description": "Defining the relationship between core company and vertical business units"
+        },
+        {
+          "title": "Resource Allocation Framework",
+          "description": "System for distributing technical and human resources across verticals"
+        },
+        {
+          "title": "Metrics Standardization Guide",
+          "description": "Common success measurements applicable across different business units"
+        },
+        {
+          "title": "Vertical Performance Evaluation System",
+          "description": "How to assess the health and growth potential of different business lines"
+        },
+        {
+          "title": "Partner Integration Handbook",
+          "description": "Standards for working with external partners and third-party integrations"
+        }
+      ]
+    },
+    {
+      "category": "Culture & Talent",
+      "resources": [
+        {
+          "title": "KinOS Knowledge Transfer Protocol",
+          "description": "Systems for sharing insights and learnings across teams and verticals"
+        },
+        {
+          "title": "Talent Acquisition & Development Strategy",
+          "description": "Principles for building specialized teams with shared core values"
+        },
+        {
+          "title": "Remote-First Collaboration Framework",
+          "description": "Guidelines for effective distributed teamwork and communication"
+        },
+        {
+          "title": "Innovation Incentive Structure",
+          "description": "How cross-vertical innovation is rewarded and encouraged"
+        },
+        {
+          "title": "AI Ethics & Responsibility Charter",
+          "description": "Ethical principles guiding all development and business decisions"
+        }
+      ]
+    },
+    {
+      "category": "Business & Growth",
+      "resources": [
+        {
+          "title": "Vertical Market Selection Criteria",
+          "description": "Framework for evaluating and prioritizing new market opportunities"
+        },
+        {
+          "title": "Go-To-Market Playbook",
+          "description": "Standardized launch strategy adaptable to different verticals"
+        },
+        {
+          "title": "Pricing Philosophy & Framework",
+          "description": "Principles for creating value-based pricing across diverse product lines"
+        },
+        {
+          "title": "Customer Success Integration Model",
+          "description": "How customer insights feed back into product development"
+        },
+        {
+          "title": "Partnership Evaluation Matrix",
+          "description": "Criteria for assessing strategic alignment with potential partners"
+        },
+        {
+          "title": "Enterprise Client Engagement Protocol",
+          "description": "Standardized approach for large client relationships and implementations"
+        }
+      ]
+    }
+  ]
+}
