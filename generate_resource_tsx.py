@@ -3,6 +3,7 @@ import json
 import requests
 import time
 import logging
+import concurrent.futures
 from dotenv import load_dotenv
 
 # Set up logging
@@ -381,13 +382,56 @@ def process_all_resources():
     # Load presentation
     presentation_content = load_presentation()
     
-    # Process each resource
+    # Collect all resources to process
+    all_resources = []
     for category in resources_json["foundationalResources"]:
         category_name = category["category"]
-        logger.info(f"Processing category: {category_name}")
-        
         for resource in category["resources"]:
-            process_resource(resource, category_name, resources_json, presentation_content)
+            resource_id = resource["id"]
+            # Check if TSX component already exists
+            if not tsx_component_exists(resource_id, category_name):
+                all_resources.append({
+                    "resource": resource,
+                    "category_name": category_name
+                })
+    
+    logger.info(f"Found {len(all_resources)} resources to process")
+    
+    if not all_resources:
+        logger.info("No new resources to process. All TSX components already exist.")
+        return
+    
+    # Process resources in batches of 8
+    batch_size = 8
+    
+    for i in range(0, len(all_resources), batch_size):
+        batch = all_resources[i:i+batch_size]
+        logger.info(f"Processing batch {i//batch_size + 1} of {(len(all_resources) + batch_size - 1) // batch_size} ({len(batch)} resources)")
+        
+        # Process the batch with ThreadPoolExecutor
+        with concurrent.futures.ThreadPoolExecutor(max_workers=batch_size) as executor:
+            futures = []
+            for item in batch:
+                futures.append(executor.submit(
+                    process_resource, 
+                    item["resource"], 
+                    item["category_name"],
+                    resources_json,
+                    presentation_content
+                ))
+            
+            # Wait for all to complete
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    logger.error(f"Error in batch processing: {str(e)}")
+        
+        # Add a delay between batches to avoid rate limiting
+        if i + batch_size < len(all_resources):
+            delay = 10  # 10 seconds between batches
+            logger.info(f"Waiting {delay} seconds between batches...")
+            time.sleep(delay)
     
     logger.info("Resource TSX generation process completed")
 
