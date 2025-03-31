@@ -107,7 +107,7 @@ def call_claude(prompt, system_prompt):
     
     data = {
         "model": "claude-3-7-sonnet-latest",
-        "max_tokens": 4000,
+        "max_tokens": 10000,  # Increased from 4000 to 10000
         "system": system_prompt,
         "messages": [{"role": "user", "content": prompt}]
     }
@@ -117,7 +117,7 @@ def call_claude(prompt, system_prompt):
             "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
-            timeout=60
+            timeout=120  # Increased timeout for larger responses
         )
         
         if response.status_code != 200:
@@ -188,10 +188,18 @@ def main_document_exists(resource_id):
     file_path = os.path.join("resource_documents", f"{resource_id}.md")
     return os.path.exists(file_path)
 
+# Check if a resource expansion already exists
+def expansion_exists(category_name, resource_id):
+    category_dir = os.path.join("resource_expansions", category_name.replace(" & ", "_").replace(" ", "_"))
+    file_path = os.path.join(category_dir, f"{resource_id}.md")
+    return os.path.exists(file_path)
+
 # Process a single resource
 def process_resource(resource, category_name, presentation_content, resources_json):
     resource_id = resource["id"]
     resource_title = resource["title"]
+    
+    logger.info(f"Starting processing of resource: {resource_title} ({resource_id})")
     
     # Check if main document already exists
     if main_document_exists(resource_id):
@@ -199,15 +207,20 @@ def process_resource(resource, category_name, presentation_content, resources_js
         return
     
     # Load the expansion
+    logger.info(f"Loading expansion for {resource_title}")
     expansion = load_expansion_file(category_name, resource_id)
     if not expansion:
         logger.error(f"Cannot generate main document for {resource_title} - expansion not found")
         return
+    logger.info(f"Successfully loaded expansion for {resource_title} ({len(expansion)} characters)")
     
     # Load useful context resources
+    logger.info(f"Loading useful context resources for {resource_title}")
     context_resources = load_useful_context(resource, resources_json)
+    logger.info(f"Loaded {len(context_resources)} useful context resources for {resource_title}")
     
     # Generate the main document
+    logger.info(f"Generating main document for {resource_title}")
     main_content = generate_main_resource(resource, presentation_content, expansion, context_resources)
     
     if main_content:
@@ -218,7 +231,7 @@ def process_resource(resource, category_name, presentation_content, resources_js
             f.write(f"# {resource_title}\n\n")
             f.write(main_content)
         
-        logger.info(f"Saved main document for {resource_title} to {output_file}")
+        logger.info(f"Saved main document for {resource_title} to {output_file} ({len(main_content)} characters)")
     else:
         logger.error(f"Failed to save main document for {resource_title}")
 
@@ -246,19 +259,24 @@ def process_all_resources():
                 if main_document_exists(resource_id):
                     logger.info(f"Skipping {resource['title']} - main document already exists")
                 else:
-                    all_resources.append({
-                        "resource": resource,
-                        "category_name": category_name
-                    })
+                    # Check if expansion exists before adding to processing queue
+                    if expansion_exists(category_name, resource_id):
+                        all_resources.append({
+                            "resource": resource,
+                            "category_name": category_name
+                        })
+                        logger.info(f"Added {resource['title']} to processing queue")
+                    else:
+                        logger.warning(f"Skipping {resource['title']} - expansion does not exist")
         
         logger.info(f"Found {len(all_resources)} resources to process")
         
         if not all_resources:
-            logger.info("No new resources to process. All main documents already exist.")
+            logger.info("No new resources to process. All main documents already exist or expansions are missing.")
             return
         
-        # Process resources in batches of 5
-        batch_size = 5
+        # Process resources in batches of 10 (changed from 5)
+        batch_size = 10
         
         for i in range(0, len(all_resources), batch_size):
             batch = all_resources[i:i+batch_size]
@@ -277,12 +295,17 @@ def process_all_resources():
                     ))
                 
                 # Wait for all to complete
-                concurrent.futures.wait(futures)
+                for future in concurrent.futures.as_completed(futures):
+                    try:
+                        future.result()
+                    except Exception as e:
+                        logger.error(f"Error in batch processing: {str(e)}")
             
             # Add a delay between batches to avoid rate limiting
             if i + batch_size < len(all_resources):
-                logger.info("Waiting between batches...")
-                time.sleep(5)
+                delay = 10  # Increased delay between batches
+                logger.info(f"Waiting {delay} seconds between batches...")
+                time.sleep(delay)
         
         logger.info("Main resource document generation process completed")
         
