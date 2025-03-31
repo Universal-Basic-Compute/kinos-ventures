@@ -145,7 +145,7 @@ export default async function ResourcePage({ params }: PageProps) {
           {/* Resource Content */}
           <div className="bg-slate-800 border border-slate-700 rounded-xl p-8 mb-8 prose prose-invert max-w-none">
             {contentHtml ? (
-              <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+              <div dangerouslySetInnerHTML={{ __html: contentHtml }} className="prose prose-invert prose-headings:text-white prose-p:text-gray-300 prose-a:text-blue-400 prose-strong:text-white prose-em:text-gray-200 prose-code:text-gray-200 prose-pre:bg-gray-900 prose-pre:text-gray-200 prose-ol:text-gray-300 prose-ul:text-gray-300 prose-li:text-gray-300 prose-blockquote:text-gray-300 prose-blockquote:border-gray-600 prose-hr:border-gray-700 prose-table:text-gray-300 prose-th:text-gray-200 prose-td:text-gray-300" />
             ) : (
               <div className="text-center py-12">
                 <p className="text-gray-400">Content for this resource is being developed.</p>
