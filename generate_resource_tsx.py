@@ -310,6 +310,14 @@ def save_tsx_component(tsx_code, resource_id, category_name):
     if not tsx_code:
         return False
     
+    # Extract code between ```tsx and ``` markers if present
+    if "```tsx" in tsx_code and "```" in tsx_code.split("```tsx", 1)[1]:
+        # Split by ```tsx and take the second part
+        code_part = tsx_code.split("```tsx", 1)[1]
+        # Split by ``` and take the first part
+        tsx_code = code_part.split("```", 1)[0].strip()
+        logger.info(f"Extracted code between tsx markers for {resource_id}")
+    
     category_slug = category_name.lower().replace(" & ", "-").replace(" ", "-")
     dir_path = f"app/resources/{category_slug}/{resource_id}"
     os.makedirs(dir_path, exist_ok=True)
