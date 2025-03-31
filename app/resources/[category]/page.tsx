@@ -4,10 +4,8 @@ import resourcesData from "@/public/resources.json";
 import ResourceImage from "@/components/ResourceImage";
 
 // Define the types for the page params
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
-
 type PageProps = {
-  params: Params & {
+  params: {
     category: string;
   };
 };

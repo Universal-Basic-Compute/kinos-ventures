@@ -8,10 +8,8 @@ import { remark } from 'remark';
 import html from 'remark-html';
 
 // Define the types for the page params
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
-
 type PageProps = {
-  params: Params & {
+  params: {
     category: string;
     id: string;
   };
