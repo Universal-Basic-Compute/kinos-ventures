@@ -101,9 +101,10 @@ The image should follow the style guide precisely, with special attention to:
 4. Following the calligraphy-inspired, futuristic 2050 aesthetic
 5. Using the prompt structure from the style guide
 
-IMPORTANT: The shapes must be RECOGNIZABLE and LITERAL representations of concepts in the resource, not just abstract forms.
-For example, if the resource is about communication, include recognizable shapes like speech bubbles, phones, or connection lines.
-If it's about strategy, include recognizable elements like chess pieces, maps, or directional arrows.
+IMPORTANT: 
+- The shapes must be RECOGNIZABLE and LITERAL representations of concepts in the resource, not just abstract forms
+- The image MUST NOT contain ANY text, letters, numbers, or writing of any kind
+- Explicitly include "NO TEXT" in your prompt to ensure Ideogram doesn't generate any text elements
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """
@@ -128,10 +129,14 @@ The prompt MUST include:
 - Silver-blue gradient metal with reflective properties
 - Brushstroke influence in composition
 - Futuristic 2050 design language (not mentioning any specific brand)
-- No text
+- NO TEXT WHATSOEVER - explicitly state "no text" multiple times in the prompt
 - Specific descriptions of the recognizable objects/shapes that should appear in the image
 
-IMPORTANT: Instead of abstract shapes, specify recognizable objects and symbols that literally represent the resource's concept.
+IMPORTANT: 
+- Instead of abstract shapes, specify recognizable objects and symbols that literally represent the resource's concept
+- Make sure to explicitly state "NO TEXT" multiple times in your prompt to ensure Ideogram doesn't generate any text elements
+- The image should not contain any letters, numbers, words, or writing of any kind
+
 For example:
 - For "Vertical Integration Strategy" - include recognizable vertical layers, connecting pathways, or building blocks
 - For "Customer Success Integration" - include recognizable customer figures, feedback loops, or integration diagrams
@@ -161,6 +166,11 @@ Return ONLY the prompt text that should be sent to Ideogram, nothing else.
             return None
         
         prompt = response.json()["content"][0]["text"].strip()
+        
+        # Ensure "no text" is in the prompt
+        if "no text" not in prompt.lower():
+            prompt += ", no text, no letters, no numbers, no writing of any kind"
+            
         logger.info(f"Successfully generated Ideogram prompt for {resource['title']}")
         # Log the full prompt
         logger.info(f"Full prompt for {resource['title']}: {prompt}")
