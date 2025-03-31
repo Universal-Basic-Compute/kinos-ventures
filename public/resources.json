@@ -7,7 +7,7 @@
           "id": "kinos-ventures-manifesto",
           "title": "KinOS Ventures Manifesto",
           "description": "Core values, mission, and vision defining our approach to AI development",
-          "direction": "This manifesto should articulate our vision of AI as an extension of human capability rather than a replacement. It should emphasize our commitment to creating AI systems that augment human potential while maintaining human agency and control. The document should establish our core values of transparency, interoperability, and ethical responsibility.",
+          "direction": "This manifesto should articulate our vision of AI as an extension of human capability that accelerates development and maintains a lean team structure. It should emphasize our commitment to creating AI systems that augment human potential while maintaining human agency and control. The document should establish our core values of transparency, interoperability, and ethical responsibility, highlighting how our open-source philosophy aligns with rapid development approaches. Focus on practical benefits of AI augmentation rather than theoretical concepts, with concrete examples of how AI extends human capabilities in our products.",
           "url": "/resources/core-philosophy/kinos-ventures-manifesto",
           "usefulContext": [
             "ai-ethics-responsibility-charter",
@@ -21,7 +21,7 @@
           "id": "vertical-integration-strategy",
           "title": "Vertical Integration Strategy",
           "description": "Framework for identifying, developing, and scaling new business verticals",
-          "direction": "This framework should outline our methodology for evaluating potential new verticals based on market opportunity, technological fit, and strategic alignment. It should detail how we maintain the balance between vertical specialization and horizontal technology sharing, with clear criteria for when to develop a new vertical versus expanding an existing one.",
+          "direction": "This framework should outline our methodology for evaluating potential new verticals based on market opportunity, technological fit, and strategic alignment. It should include specific criteria derived from our successful verticals (TherapyKin, KinKong, etc.) with emphasis on rapid prototyping and validation processes that have proven effective. The document should detail how we maintain the balance between vertical specialization and horizontal technology sharing, with clear criteria for when to develop a new vertical versus expanding an existing one. Address specifically how to identify B2C opportunities with strong product-market fit and potential for early revenue generation.",
           "url": "/resources/core-philosophy/vertical-integration-strategy",
           "usefulContext": [
             "vertical-market-selection-criteria",
@@ -36,7 +36,7 @@
           "id": "technology-unification-principles",
           "title": "Technology Unification Principles",
           "description": "Guidelines for maintaining a cohesive technology core across diverse applications",
-          "direction": "These principles should define how we maintain a unified technology foundation while allowing for vertical-specific customization. The document should establish clear boundaries between core technology that must remain consistent across all applications and areas where specialization is encouraged. It should include protocols for how innovations in one vertical can be evaluated for inclusion in the core platform.",
+          "direction": "These principles should define how we maintain a unified technology foundation while allowing for vertical-specific customization, with strong focus on code reusability and standardization of memory/adaptation features. The document should establish clear boundaries between core technology that must remain consistent across all applications and areas where specialization is encouraged. It should include practical examples from working prototypes and address how AI can help maintain consistency while accelerating development. Include protocols for how innovations in one vertical can be evaluated for inclusion in the core platform, with emphasis on maintaining the KinOS engine's capabilities across implementations.",
           "url": "/resources/core-philosophy/technology-unification-principles",
           "usefulContext": [
             "kinos-engine-architecture-guide",
@@ -85,7 +85,7 @@
           "id": "product-development-lifecycle",
           "title": "Product Development Lifecycle",
           "description": "Standardized process from concept to launch across all verticals",
-          "direction": "This lifecycle document should outline our iterative approach to product development, from initial concept validation through to market launch and continuous improvement. It should define stage gates, required deliverables, and decision criteria at each phase. The process should emphasize rapid prototyping, user feedback integration, and cross-vertical knowledge sharing while maintaining quality standards.",
+          "direction": "This lifecycle document should outline our AI-accelerated development methodology, from initial concept validation through to market launch and continuous improvement. It should define stage gates, required deliverables, and decision criteria at each phase, with specific timelines based on our experience with the 6 prototypes and 3 complete products. The process should emphasize rapid iteration, early revenue generation (like our $200/week product), user feedback integration, and cross-vertical knowledge sharing while maintaining quality standards. Include guidelines for using AI to accelerate each phase of development.",
           "url": "/resources/technology/product-development-lifecycle",
           "usefulContext": [
             "go-to-market-playbook",
@@ -148,7 +148,7 @@
           "id": "organizational-structure-blueprint",
           "title": "Organizational Structure Blueprint",
           "description": "Defining the relationship between core company and vertical business units",
-          "direction": "This blueprint should detail the organizational model that balances centralized technology development with vertical business autonomy. It should define reporting structures, decision rights, and resource allocation mechanisms between the parent company and business units. The document should include governance models for cross-vertical initiatives and conflict resolution processes for competing priorities.",
+          "direction": "This blueprint should detail the organizational model designed for our current 3-person team with clear roles (Tech/Lead, Finance, Growth) that balances centralized technology development with vertical business autonomy. It should define reporting structures, decision rights, and resource allocation mechanisms between the parent company and business units. The document should include plans for scaling the organization while keeping headcount low through AI leverage, governance models for cross-vertical initiatives, and conflict resolution processes for competing priorities. Address specifically how to maintain coordination and knowledge sharing with such a lean team structure.",
           "url": "/resources/operations/organizational-structure-blueprint",
           "usefulContext": [
             "vertical-integration-strategy",
@@ -227,7 +227,7 @@
           "id": "kinos-knowledge-transfer-protocol",
           "title": "KinOS Knowledge Transfer Protocol",
           "description": "Systems for sharing insights and learnings across teams and verticals",
-          "direction": "This protocol should establish formal and informal mechanisms for cross-team knowledge sharing, from documentation standards to community of practice structures. It should address both technical knowledge and market/customer insights. The document should include incentive structures that reward knowledge sharing and collaborative problem-solving across organizational boundaries.",
+          "direction": "This protocol should establish formal and informal mechanisms for cross-team knowledge sharing, emphasizing AI-driven documentation and knowledge management systems. It should address both technical knowledge and market/customer insights, including how to use AI to bridge knowledge gaps between team members and automate knowledge capture from development processes. The document should include incentive structures that reward knowledge sharing and collaborative problem-solving across organizational boundaries, with specific focus on maintaining comprehensive knowledge with a small team through AI augmentation.",
           "url": "/resources/culture/kinos-knowledge-transfer-protocol",
           "usefulContext": [
             "remote-first-collaboration",
@@ -286,7 +286,7 @@
           "id": "ai-ethics-responsibility-charter",
           "title": "AI Ethics & Responsibility Charter",
           "description": "Ethical principles guiding all development and business decisions",
-          "direction": "This charter should articulate our ethical principles and commitments regarding AI development and deployment. It should address issues of transparency, bias mitigation, privacy protection, and human oversight. The document should include practical guidelines for ethical decision-making in product development and business strategy, with clear processes for raising and addressing ethical concerns.",
+          "direction": "This charter should articulate our ethical principles and commitments regarding AI development and deployment, aligned with our 'use more AI for everything' principle while addressing potential concerns. It should address issues of transparency, bias mitigation, privacy protection, and human oversight with practical ethical guidelines rather than abstract principles. The document should include practical guidelines for ethical decision-making in product development and business strategy, with clear processes for raising and addressing ethical concerns. Include how our open-source approach supports ethical transparency and accountability.",
           "url": "/resources/culture/ai-ethics-responsibility-charter",
           "usefulContext": [
             "kinos-ventures-manifesto",
@@ -321,7 +321,7 @@
           "id": "go-to-market-playbook",
           "title": "Go-To-Market Playbook",
           "description": "Standardized launch strategy adaptable to different verticals",
-          "direction": "This playbook should provide a flexible but structured approach to market entry that can be customized for each vertical while maintaining core best practices. It should include templates for market positioning, customer segmentation, channel strategy, and launch planning. The document should detail how we leverage cross-vertical learnings while respecting unique market dynamics.",
+          "direction": "This playbook should provide a flexible but structured approach to market entry that can be customized for each vertical while maintaining core best practices, with heavy focus on addressing the 'getting eyes on products' challenge. It should include templates for market positioning, customer segmentation, channel strategy, and launch planning, with specific acquisition strategies that have worked for our revenue-generating products. The document should detail how we leverage cross-vertical learnings while respecting unique market dynamics, emphasizing low-cost, high-impact marketing approaches suitable for an early-stage company with a lean team.",
           "url": "/resources/business/go-to-market-playbook",
           "usefulContext": [
             "product-development-lifecycle",
