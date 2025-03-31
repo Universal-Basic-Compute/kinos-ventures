@@ -309,6 +309,20 @@ def process_all_resources():
         
         logger.info("Main resource document generation process completed")
         
+        # Generate visual components after document generation
+        try:
+            logger.info("Starting visual component generation...")
+            # Make the script executable if it's not already
+            os.chmod("run-visual-generation.sh", 0o755)
+            # Run the visual generation script
+            result = os.system("./run-visual-generation.sh")
+            if result == 0:
+                logger.info("Visual component generation completed successfully")
+            else:
+                logger.error(f"Visual component generation failed with exit code {result}")
+        except Exception as e:
+            logger.error(f"Error running visual component generation: {str(e)}")
+        
     except Exception as e:
         logger.error(f"Error in process_all_resources: {str(e)}")
 
