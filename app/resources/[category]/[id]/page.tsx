@@ -7,13 +7,6 @@ import ResourceImage from "@/components/ResourceImage";
 import { remark } from 'remark';
 import html from 'remark-html';
 
-// Define the types for the page params
-type PageProps = {
-  params: {
-    category: string;
-    id: string;
-  };
-};
 
 // Function to convert URL category to directory name
 function getCategoryDir(urlCategory: string) {
@@ -77,7 +70,11 @@ async function getResourceContent(id: string) {
   }
 }
 
-export default async function ResourcePage({ params }: PageProps) {
+export default async function ResourcePage({ 
+  params 
+}: { 
+  params: { category: string; id: string } 
+}) {
   const { category, id } = params;
   const resource = getResourceData(category, id);
   

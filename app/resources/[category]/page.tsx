@@ -3,12 +3,6 @@ import { notFound } from "next/navigation";
 import resourcesData from "@/public/resources.json";
 import ResourceImage from "@/components/ResourceImage";
 
-// Define the types for the page params
-type PageProps = {
-  params: {
-    category: string;
-  };
-};
 
 // Function to convert URL category to directory name
 function getCategoryDir(urlCategory: string) {
@@ -42,7 +36,11 @@ function getCategoryColor(categoryName: string) {
   }
 }
 
-export default async function CategoryPage({ params }: PageProps) {
+export default async function CategoryPage({ 
+  params 
+}: { 
+  params: { category: string } 
+}) {
   const { category } = params;
   const categoryData = getCategoryData(category);
   
