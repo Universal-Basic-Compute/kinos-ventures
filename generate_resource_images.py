@@ -96,10 +96,14 @@ while adhering to the KinOS Ventures visual style guide.
 
 The image should follow the style guide precisely, with special attention to:
 1. Using white steel as the background material
-2. Creating liquid chrome elements with reflective properties
+2. Creating liquid chrome elements with reflective properties that form CLEARLY RECOGNIZABLE SHAPES related to the resource concept
 3. Incorporating silver-blue gradients
 4. Following the calligraphy-inspired, futuristic 2050 aesthetic
 5. Using the prompt structure from the style guide
+
+IMPORTANT: The shapes must be RECOGNIZABLE and LITERAL representations of concepts in the resource, not just abstract forms.
+For example, if the resource is about communication, include recognizable shapes like speech bubbles, phones, or connection lines.
+If it's about strategy, include recognizable elements like chess pieces, maps, or directional arrows.
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """
@@ -120,17 +124,24 @@ The prompt should create an image that visually represents the concept of this r
 
 The prompt MUST include:
 - White steel background
-- Liquid chrome elements
+- Liquid chrome elements forming CLEARLY RECOGNIZABLE SHAPES related to the resource concept
 - Silver-blue gradient metal with reflective properties
 - Brushstroke influence in composition
 - Futuristic 2050 design language (not mentioning any specific brand)
 - No text
+- Specific descriptions of the recognizable objects/shapes that should appear in the image
+
+IMPORTANT: Instead of abstract shapes, specify recognizable objects and symbols that literally represent the resource's concept.
+For example:
+- For "Vertical Integration Strategy" - include recognizable vertical layers, connecting pathways, or building blocks
+- For "Customer Success Integration" - include recognizable customer figures, feedback loops, or integration diagrams
+- For "AI Ethics Charter" - include recognizable ethical symbols like scales of justice or human/AI interaction elements
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """
 
     data = {
-        "model": "claude-3-7-sonnet-latest",  # Changed from claude-3-opus-20240229 to claude-3-7-sonnet-latest
+        "model": "claude-3-7-sonnet-latest",
         "max_tokens": 1000,
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_prompt}]
