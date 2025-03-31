@@ -184,5 +184,6 @@ export default async function ResourcePage({
         </div>
       </div>
     </div>
-  );
+    );
+  });
 }
