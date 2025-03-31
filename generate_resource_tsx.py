@@ -401,8 +401,8 @@ def process_all_resources():
         logger.info("No new resources to process. All TSX components already exist.")
         return
     
-    # Process resources in batches of 8
-    batch_size = 8
+    # Process resources in batches of 5
+    batch_size = 5  # Changed from 8 to 5
     
     for i in range(0, len(all_resources), batch_size):
         batch = all_resources[i:i+batch_size]
