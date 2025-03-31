@@ -70,13 +70,9 @@ async function getResourceContent(id: string) {
   }
 }
 
-export default async function ResourcePage({ 
-  params 
-}: { 
-  params: { category: string; id: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}) {
-  const { category, id } = params;
+export default function ResourcePage(props: any) {
+  const { category, id } = props.params;
+  
   const resource = getResourceData(category, id);
   
   if (!resource) {
@@ -88,13 +84,12 @@ export default async function ResourcePage({
     ? getRelatedResources(resource.usefulContext)
     : [];
   
-  // Get resource content
-  const contentHtml = await getResourceContent(id);
-  
-  // Image path
-  const imagePath = `/categories/${getCategoryDir(category)}/${id}.png`;
-  
-  return (
+  // Get resource content - convert to use then/catch since we're not using async/await
+  return getResourceContent(id).then(contentHtml => {
+    // Image path
+    const imagePath = `/categories/${getCategoryDir(category)}/${id}.png`;
+    
+    return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 pt-24 pb-20">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
