@@ -233,7 +233,7 @@ def save_image(image_url, resource_id, category_name):
         return False
     
     # Create directory for category if it doesn't exist
-    category_dir = os.path.join("public", category_name.replace(" & ", "_").replace(" ", "_").lower())
+    category_dir = os.path.join("public", "categories", category_name.replace(" & ", "_").replace(" ", "_"))
     os.makedirs(category_dir, exist_ok=True)
     
     # Define the output file path
@@ -260,7 +260,7 @@ def save_image(image_url, resource_id, category_name):
 
 # Check if an image already exists
 def image_exists(resource_id, category_name):
-    category_dir = os.path.join("public", category_name.replace(" & ", "_").replace(" ", "_").lower())
+    category_dir = os.path.join("public", "categories", category_name.replace(" & ", "_").replace(" ", "_"))
     file_path = os.path.join(category_dir, f"{resource_id}.png")
     return os.path.exists(file_path)
 
@@ -370,7 +370,8 @@ def integrate_images_into_documents():
                 # Check if both document and image exist
                 doc_path = os.path.join("resource_documents", f"{resource_id}.md")
                 image_path = os.path.join("public", 
-                                         category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                         "categories",
+                                         category_name.replace(" & ", "_").replace(" ", "_"), 
                                          f"{resource_id}.png")
                 
                 if os.path.exists(doc_path) and os.path.exists(image_path):
@@ -385,7 +386,8 @@ def integrate_images_into_documents():
                     
                     # Create relative path for image
                     relative_image_path = os.path.join("/", 
-                                                      category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                                      "categories",
+                                                      category_name.replace(" & ", "_").replace(" ", "_"), 
                                                       f"{resource_id}.png")
                     
                     # Add image reference after title
@@ -433,7 +435,8 @@ def integrate_images_into_expansions():
                 # Check if both expansion and image exist
                 expansion_path = os.path.join(category_dir, f"{resource_id}.md")
                 image_path = os.path.join("public", 
-                                         category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                         "categories",
+                                         category_name.replace(" & ", "_").replace(" ", "_"), 
                                          f"{resource_id}.png")
                 
                 if os.path.exists(expansion_path) and os.path.exists(image_path):
@@ -448,7 +451,8 @@ def integrate_images_into_expansions():
                     
                     # Create relative path for image
                     relative_image_path = os.path.join("/", 
-                                                      category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                                      "categories",
+                                                      category_name.replace(" & ", "_").replace(" ", "_"), 
                                                       f"{resource_id}.png")
                     
                     # Add image reference after title
