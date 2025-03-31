@@ -4,8 +4,10 @@ import resourcesData from "@/public/resources.json";
 import ResourceImage from "@/components/ResourceImage";
 
 // Define the types for the page params
+import { Params } from 'next/dist/shared/lib/router/utils/route-matcher';
+
 type PageProps = {
-  params: {
+  params: Params & {
     category: string;
   };
 };
@@ -42,7 +44,7 @@ function getCategoryColor(categoryName: string) {
   }
 }
 
-export default function CategoryPage({ params }: PageProps) {
+export default async function CategoryPage({ params }: PageProps) {
   const { category } = params;
   const categoryData = getCategoryData(category);
   
