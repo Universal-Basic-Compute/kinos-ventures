@@ -62,7 +62,10 @@ def generate_image_prompt_with_claude(resource, category_name):
     try:
         with open("docs/visual-style-guide.md", "r", encoding="utf-8") as f:
             style_guide = f.read()
-        logger.info("Successfully loaded visual style guide")
+            # Remove Apple references while keeping the essence
+            style_guide = style_guide.replace("Apple from 2050", "ultramodern minimalist design from 2050")
+            style_guide = style_guide.replace("Apple 2050", "2050 futuristic")
+        logger.info("Successfully loaded and modified visual style guide")
     except Exception as e:
         logger.error(f"Error loading visual style guide: {str(e)}")
         # Fallback style guide if file not found
@@ -70,7 +73,7 @@ def generate_image_prompt_with_claude(resource, category_name):
         # KinOS Ventures Visual Style Guide
 
         ## Core Aesthetic Philosophy
-        KinOS Ventures embodies a visual identity best described as "Apple from 2050" — an elegant fusion of calligraphic tradition and advanced technology. Our aesthetic creates tension between organic movement and precision engineering, between ancient artistic principles and futuristic materials.
+        KinOS Ventures embodies a visual identity best described as "ultramodern minimalist design from 2050" — an elegant fusion of calligraphic tradition and advanced technology. Our aesthetic creates tension between organic movement and precision engineering, between ancient artistic principles and futuristic materials.
 
         ## Key Visual Elements
         - **White Steel**: Primary background surface with subtle texture that suggests engineered precision
@@ -82,7 +85,7 @@ def generate_image_prompt_with_claude(resource, category_name):
         For consistent results when generating images with Ideogram or similar AI tools, follow this template:
 
         ```
-        [subject matter] rendered in liquid chrome on white steel background, calligraphy-inspired [element type] with ultramodern aesthetic, silver-blue gradient metal with reflective properties, brushstroke influence in composition, Apple 2050 design language, elegant negative space, [specific shape or arrangement details], sophisticated light effects, no text except [if required], [additional specific details] --ar 16:9 --style cinematic --v 6.0
+        [subject matter] rendered in liquid chrome on white steel background, calligraphy-inspired [element type] with ultramodern aesthetic, silver-blue gradient metal with reflective properties, brushstroke influence in composition, 2050 futuristic design language, elegant negative space, [specific shape or arrangement details], sophisticated light effects, no text except [if required], [additional specific details] --ar 16:9 --style cinematic --v 6.0
         ```
         """
     
@@ -95,7 +98,7 @@ The image should follow the style guide precisely, with special attention to:
 1. Using white steel as the background material
 2. Creating liquid chrome elements with reflective properties
 3. Incorporating silver-blue gradients
-4. Following the calligraphy-inspired, Apple 2050 aesthetic
+4. Following the calligraphy-inspired, futuristic 2050 aesthetic
 5. Using the prompt structure from the style guide
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
@@ -120,7 +123,7 @@ The prompt MUST include:
 - Liquid chrome elements
 - Silver-blue gradient metal with reflective properties
 - Brushstroke influence in composition
-- Apple 2050 design language
+- Futuristic 2050 design language (not mentioning any specific brand)
 - No text
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
@@ -148,7 +151,8 @@ Return ONLY the prompt text that should be sent to Ideogram, nothing else.
         
         prompt = response.json()["content"][0]["text"].strip()
         logger.info(f"Successfully generated Ideogram prompt for {resource['title']}")
-        logger.info(f"Prompt: {prompt[:100]}...")
+        # Log the full prompt
+        logger.info(f"Full prompt for {resource['title']}: {prompt}")
         return prompt
         
     except Exception as e:
