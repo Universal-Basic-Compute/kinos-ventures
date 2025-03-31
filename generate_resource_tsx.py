@@ -255,6 +255,8 @@ def generate_tsx_component(resource, category_name, document, context_resources,
     prose-blockquote:border-gray-600 prose-hr:border-gray-700 prose-table:text-gray-300 
     prose-th:text-gray-200 prose-td:text-gray-300
     
+    IMPORTANT: Create visual card components for lists and visual representations, rather than displaying them as plain text or entire sections. Use cards with appropriate styling, icons, and visual hierarchy to make the content more engaging and easier to scan.
+    
     Here is the context information:
     
     1. KinOS Ventures Framework:
@@ -283,6 +285,14 @@ The component should:
    - Main content (from the document)
    - Related resources section
    - Interactive elements where appropriate
+
+IMPORTANT DESIGN REQUIREMENTS:
+- Create visual card components for lists and visual representations
+- Use cards with icons, borders, and appropriate spacing to make content more engaging
+- Break up long lists into visually appealing card grids or columns
+- Use visual hierarchy to make the content easy to scan
+- For key points or features, use individual cards rather than bullet points
+- Ensure all text is clearly visible on dark backgrounds
 
 For markdown content, use the prose-invert class and additional prose styling classes to ensure text is visible on dark backgrounds.
 
