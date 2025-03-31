@@ -159,7 +159,7 @@ export default function Home() {
               Contact Us
             </Link>
             <Link 
-              href="/resources/core-philosophy/kinos-ventures-manifesto"
+              href="/resources/core-philosophy-strategy/kinos-ventures-manifesto"
               className="px-8 py-3 bg-transparent border border-white/30 hover:bg-white/10 rounded-full font-medium transition-colors"
             >
               Read Our Manifesto
