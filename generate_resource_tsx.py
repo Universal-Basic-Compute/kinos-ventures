@@ -318,7 +318,7 @@ Please provide the complete TSX code for this component.
             "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
-            timeout=300  # Increased from 240 to 300 for larger responses
+            timeout=600  # Increased from 300 to 600 seconds (10 minutes)
         )
         
         if response.status_code != 200:
