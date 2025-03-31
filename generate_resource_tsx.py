@@ -4,6 +4,7 @@ import requests
 import time
 import logging
 import concurrent.futures
+import argparse
 from dotenv import load_dotenv
 
 # Set up logging
@@ -363,14 +364,24 @@ def tsx_component_exists(resource_id, category_name):
     category_slug = category_name.lower().replace(" & ", "-").replace(" ", "-")
     return os.path.exists(f"app/resources/{category_slug}/{resource_id}/page.tsx")
 
-def process_resource(resource, category_name, resources_json, presentation_content):
+def parse_args():
+    """Parse command line arguments"""
+    parser = argparse.ArgumentParser(description="Generate TSX components for resources")
+    parser.add_argument("--force", action="store_true", help="Force regeneration of all resources")
+    return parser.parse_args()
+
+def process_resource(resource, category_name, resources_json, presentation_content, force_regenerate=False):
     """Process a single resource"""
     resource_id = resource["id"]
     
-    # Check if TSX component already exists
-    if tsx_component_exists(resource_id, category_name):
+    # Check if TSX component already exists (skip check if force_regenerate is True)
+    if not force_regenerate and tsx_component_exists(resource_id, category_name):
         logger.info(f"Skipping {resource_id} - TSX component already exists")
         return
+    
+    # If we're regenerating, log it
+    if force_regenerate and tsx_component_exists(resource_id, category_name):
+        logger.info(f"Force regenerating {resource_id}")
     
     # Load resource document
     document = load_resource_document(resource_id)
@@ -400,6 +411,13 @@ def process_resource(resource, category_name, resources_json, presentation_conte
 
 def process_all_resources():
     """Process all resources"""
+    # Parse command line arguments
+    args = parse_args()
+    force_regenerate = args.force
+    
+    if force_regenerate:
+        logger.info("Force regeneration enabled - will regenerate all resources")
+    
     logger.info("Starting resource TSX generation process")
     
     # Load resources
@@ -414,8 +432,8 @@ def process_all_resources():
         category_name = category["category"]
         for resource in category["resources"]:
             resource_id = resource["id"]
-            # Check if TSX component already exists
-            if not tsx_component_exists(resource_id, category_name):
+            # Check if TSX component already exists (skip check if force_regenerate is True)
+            if force_regenerate or not tsx_component_exists(resource_id, category_name):
                 all_resources.append({
                     "resource": resource,
                     "category_name": category_name
@@ -424,7 +442,7 @@ def process_all_resources():
     logger.info(f"Found {len(all_resources)} resources to process")
     
     if not all_resources:
-        logger.info("No new resources to process. All TSX components already exist.")
+        logger.info("No resources to process.")
         return
     
     # Process resources in batches of 5
@@ -443,7 +461,8 @@ def process_all_resources():
                     item["resource"], 
                     item["category_name"],
                     resources_json,
-                    presentation_content
+                    presentation_content,
+                    force_regenerate  # Pass the force_regenerate flag
                 ))
             
             # Wait for all to complete
