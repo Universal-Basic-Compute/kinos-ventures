@@ -499,17 +499,17 @@ const ResourceAllocationFrameworkPage = () => {
                   </thead>
                   <tbody className="divide-y divide-slate-600">
                     <tr>
-                      <td className="px-4 py-3 text-gray-300">KPI exceeds target by >20% for 2 consecutive months</td>
+                      <td className="px-4 py-3 text-gray-300">KPI exceeds target by &gt;20% for 2 consecutive months</td>
                       <td className="px-4 py-3 text-gray-300">Increase resource allocation by 10-25%</td>
                       <td className="px-4 py-3 text-gray-300">KinOS Finance exceeding customer acquisition targets</td>
                     </tr>
                     <tr>
-                      <td className="px-4 py-3 text-gray-300">KPI falls below target by >20% for 2 consecutive months</td>
+                      <td className="px-4 py-3 text-gray-300">KPI falls below target by &gt;20% for 2 consecutive months</td>
                       <td className="px-4 py-3 text-gray-300">Resource review and potential reduction</td>
                       <td className="px-4 py-3 text-gray-300">KinOS Gaming showing weak user engagement</td>
                     </tr>
                     <tr>
-                      <td className="px-4 py-3 text-gray-300">New market opportunity with projected ROI >50%</td>
+                      <td className="px-4 py-3 text-gray-300">New market opportunity with projected ROI &gt;50%</td>
                       <td className="px-4 py-3 text-gray-300">Rapid resource mobilization</td>
                       <td className="px-4 py-3 text-gray-300">New healthcare regulation creating opportunity for KinOS Health</td>
                     </tr>
