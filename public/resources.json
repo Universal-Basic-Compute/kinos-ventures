@@ -7,6 +7,7 @@
           "id": "kinos-ventures-manifesto",
           "title": "KinOS Ventures Manifesto",
           "description": "Core values, mission, and vision defining our approach to AI development",
+          "presentation": "Our guiding vision for AI as an accelerator of human capability, emphasizing open-source collaboration, lean operations, and ethical responsibility.",
           "direction": "This manifesto should articulate our vision of AI as an extension of human capability that accelerates development and maintains a lean team structure. It should emphasize our commitment to creating AI systems that augment human potential while maintaining human agency and control. The document should establish our core values of transparency, interoperability, and ethical responsibility, highlighting how our open-source philosophy aligns with rapid development approaches. Focus on practical benefits of AI augmentation rather than theoretical concepts, with concrete examples of how AI extends human capabilities in our products.",
           "url": "/resources/core-philosophy/kinos-ventures-manifesto",
           "usefulContext": [
@@ -21,6 +22,7 @@
           "id": "vertical-integration-strategy",
           "title": "Vertical Integration Strategy",
           "description": "Framework for identifying, developing, and scaling new business verticals",
+          "presentation": "A systematic methodology for evaluating, launching, and scaling vertical-specific applications that leverage our unified KinOS technology core.",
           "direction": "This framework should outline our methodology for evaluating potential new verticals based on market opportunity, technological fit, and strategic alignment. It should include specific criteria derived from our successful verticals (TherapyKin, KinKong, etc.) with emphasis on rapid prototyping and validation processes that have proven effective. The document should detail how we maintain the balance between vertical specialization and horizontal technology sharing, with clear criteria for when to develop a new vertical versus expanding an existing one. Address specifically how to identify B2C opportunities with strong product-market fit and potential for early revenue generation.",
           "url": "/resources/core-philosophy/vertical-integration-strategy",
           "usefulContext": [
@@ -36,6 +38,7 @@
           "id": "technology-unification-principles",
           "title": "Technology Unification Principles",
           "description": "Guidelines for maintaining a cohesive technology core across diverse applications",
+          "presentation": "Core principles that ensure our technology foundation remains consistent and reusable while enabling vertical-specific customization and innovation.",
           "direction": "These principles should define how we maintain a unified technology foundation while allowing for vertical-specific customization, with strong focus on code reusability and standardization of memory/adaptation features. The document should establish clear boundaries between core technology that must remain consistent across all applications and areas where specialization is encouraged. It should include practical examples from working prototypes and address how AI can help maintain consistency while accelerating development. Include protocols for how innovations in one vertical can be evaluated for inclusion in the core platform, with emphasis on maintaining the KinOS engine's capabilities across implementations.",
           "url": "/resources/core-philosophy/technology-unification-principles",
           "usefulContext": [
@@ -51,6 +54,7 @@
           "id": "first-principles-decision-making",
           "title": "First Principles Decision-Making Framework",
           "description": "Structured approach to making decisions based on fundamental truths",
+          "presentation": "A methodical framework for breaking down complex problems to their fundamental elements, challenging assumptions, and building innovative solutions aligned with our mission.",
           "direction": "This framework should establish a methodology for breaking down complex problems to their fundamental elements before building up solutions. It should include techniques for identifying and challenging assumptions, evaluating trade-offs, and ensuring decisions align with our core mission. The document should provide practical tools and templates for applying first principles thinking to both strategic and tactical decisions.",
           "url": "/resources/core-philosophy/first-principles-decision-making",
           "usefulContext": [
@@ -70,6 +74,7 @@
           "id": "kinos-engine-architecture-guide",
           "title": "KinOS Engine Architecture Guide",
           "description": "Technical overview of the core technology platform and its capabilities",
+          "presentation": "A comprehensive technical blueprint of our KinOS engine's memory systems, adaptation mechanisms, and growth capabilities that power all vertical applications.",
           "direction": "This guide should provide a comprehensive technical overview of the KinOS engine architecture, focusing on its memory systems, adaptation mechanisms, and growth capabilities. It should detail the API interfaces that vertical applications can leverage, along with implementation examples. The document should balance technical depth with accessibility, serving both as an onboarding tool for new engineers and a reference for experienced team members.",
           "url": "/resources/technology/kinos-engine-architecture-guide",
           "usefulContext": [
@@ -85,6 +90,7 @@
           "id": "product-development-lifecycle",
           "title": "Product Development Lifecycle",
           "description": "Standardized process from concept to launch across all verticals",
+          "presentation": "An AI-accelerated development methodology that enables rapid iteration from concept to revenue-generating product across all our vertical applications.",
           "direction": "This lifecycle document should outline our AI-accelerated development methodology, from initial concept validation through to market launch and continuous improvement. It should define stage gates, required deliverables, and decision criteria at each phase, with specific timelines based on our experience with the 6 prototypes and 3 complete products. The process should emphasize rapid iteration, early revenue generation (like our $200/week product), user feedback integration, and cross-vertical knowledge sharing while maintaining quality standards. Include guidelines for using AI to accelerate each phase of development.",
           "url": "/resources/technology/product-development-lifecycle",
           "usefulContext": [
@@ -100,6 +106,7 @@
           "id": "cross-vertical-feature-implementation",
           "title": "Cross-Vertical Feature Implementation Protocol",
           "description": "System for deploying core capabilities across different products",
+          "presentation": "A systematic approach to identifying, developing, and deploying features that have multi-vertical applicability while maintaining appropriate customization.",
           "direction": "This protocol should establish the process for identifying, developing, and deploying features that have multi-vertical applicability. It should include guidelines for feature prioritization, development responsibility assignment, and implementation coordination across teams. The document should detail how we balance customization needs with standardization benefits, including testing requirements for cross-vertical compatibility.",
           "url": "/resources/technology/cross-vertical-feature-implementation",
           "usefulContext": [
@@ -115,6 +122,7 @@
           "id": "technical-debt-management",
           "title": "Technical Debt Management Strategy",
           "description": "Principles for balancing rapid innovation with sustainable architecture",
+          "presentation": "A framework for strategically managing technical debt to balance rapid innovation with long-term architectural sustainability across our technology ecosystem.",
           "direction": "This strategy should provide a framework for identifying, quantifying, and addressing technical debt across our ecosystem. It should establish guidelines for when taking on technical debt is acceptable to accelerate time-to-market, and when refactoring should be prioritized. The document should include monitoring mechanisms and thresholds that trigger mandatory debt reduction efforts.",
           "url": "/resources/technology/technical-debt-management",
           "usefulContext": [
@@ -129,6 +137,7 @@
           "id": "ai-memory-context-retention",
           "title": "AI Memory & Context Retention Standards",
           "description": "Guidelines for implementing consistent memory features across applications",
+          "presentation": "Technical standards that ensure consistent implementation of memory and context retention capabilities across all KinOS applications while allowing for vertical-specific optimizations.",
           "direction": "These standards should define how memory and context retention are implemented across all KinOS applications, ensuring consistency in user experience while allowing for vertical-specific optimizations. The document should address privacy considerations, data retention policies, and memory degradation models. It should include technical specifications for memory structures and retrieval mechanisms that balance performance with accuracy.",
           "url": "/resources/technology/ai-memory-context-retention",
           "usefulContext": [
@@ -148,6 +157,7 @@
           "id": "organizational-structure-blueprint",
           "title": "Organizational Structure Blueprint",
           "description": "Defining the relationship between core company and vertical business units",
+          "presentation": "A lean organizational model designed for our small team that balances centralized technology development with vertical business autonomy and AI-enabled scaling.",
           "direction": "This blueprint should detail the organizational model designed for our current 3-person team with clear roles (Tech/Lead, Finance, Growth) that balances centralized technology development with vertical business autonomy. It should define reporting structures, decision rights, and resource allocation mechanisms between the parent company and business units. The document should include plans for scaling the organization while keeping headcount low through AI leverage, governance models for cross-vertical initiatives, and conflict resolution processes for competing priorities. Address specifically how to maintain coordination and knowledge sharing with such a lean team structure.",
           "url": "/resources/operations/organizational-structure-blueprint",
           "usefulContext": [
@@ -163,6 +173,7 @@
           "id": "resource-allocation-framework",
           "title": "Resource Allocation Framework",
           "description": "System for distributing technical and human resources across verticals",
+          "presentation": "A transparent methodology for allocating limited resources across competing priorities and verticals based on strategic value and performance metrics.",
           "direction": "This framework should establish transparent criteria and processes for allocating limited resources across competing priorities and verticals. It should include models for evaluating ROI across different time horizons and business models. The document should detail how we balance investment in core technology advancement versus vertical-specific features, with clear guidelines for resource reallocation based on performance metrics.",
           "url": "/resources/operations/resource-allocation-framework",
           "usefulContext": [
@@ -178,6 +189,7 @@
           "id": "metrics-standardization-guide",
           "title": "Metrics Standardization Guide",
           "description": "Common success measurements applicable across different business units",
+          "presentation": "A unified measurement framework that enables cross-vertical comparison while accommodating business-specific KPIs for effective resource allocation and performance evaluation.",
           "direction": "This guide should define a core set of metrics that all verticals must track, enabling cross-business comparison and resource allocation decisions. It should balance universal metrics with the flexibility for vertical-specific KPIs that reflect unique business models. The document should include implementation guidelines for consistent measurement methodologies and reporting cadences.",
           "url": "/resources/operations/metrics-standardization-guide",
           "usefulContext": [
@@ -192,6 +204,7 @@
           "id": "vertical-performance-evaluation",
           "title": "Vertical Performance Evaluation System",
           "description": "How to assess the health and growth potential of different business lines",
+          "presentation": "A balanced scorecard approach for holistically evaluating vertical business units across financial, technological, market, and strategic dimensions.",
           "direction": "This system should establish a balanced scorecard approach for evaluating vertical business unit performance beyond just financial metrics. It should include assessment of technology innovation, market position, team capabilities, and strategic alignment. The document should detail evaluation frequency, responsible parties, and how results inform resource allocation and strategic planning.",
           "url": "/resources/operations/vertical-performance-evaluation",
           "usefulContext": [
@@ -207,6 +220,7 @@
           "id": "partner-integration-handbook",
           "title": "Partner Integration Handbook",
           "description": "Standards for working with external partners and third-party integrations",
+          "presentation": "Comprehensive guidelines for evaluating, onboarding, and managing technology and business partnerships across all verticals with standardized integration protocols.",
           "direction": "This handbook should provide comprehensive guidelines for evaluating, onboarding, and managing technology and business partners across all verticals. It should include technical standards for API integrations, data sharing protocols, and security requirements. The document should also address business relationship management, from contract structures to performance evaluation frameworks.",
           "url": "/resources/operations/partner-integration-handbook",
           "usefulContext": [
@@ -227,6 +241,7 @@
           "id": "kinos-knowledge-transfer-protocol",
           "title": "KinOS Knowledge Transfer Protocol",
           "description": "Systems for sharing insights and learnings across teams and verticals",
+          "presentation": "AI-powered knowledge management systems that enable comprehensive information sharing and preservation across our lean team structure.",
           "direction": "This protocol should establish formal and informal mechanisms for cross-team knowledge sharing, emphasizing AI-driven documentation and knowledge management systems. It should address both technical knowledge and market/customer insights, including how to use AI to bridge knowledge gaps between team members and automate knowledge capture from development processes. The document should include incentive structures that reward knowledge sharing and collaborative problem-solving across organizational boundaries, with specific focus on maintaining comprehensive knowledge with a small team through AI augmentation.",
           "url": "/resources/culture/kinos-knowledge-transfer-protocol",
           "usefulContext": [
@@ -242,6 +257,7 @@
           "id": "talent-acquisition-development",
           "title": "Talent Acquisition & Development Strategy",
           "description": "Principles for building specialized teams with shared core values",
+          "presentation": "A strategic approach to attracting, developing, and retaining talent that balances vertical expertise with collaborative mindsets and shared values.",
           "direction": "This strategy should outline our approach to attracting, developing, and retaining talent that combines deep vertical expertise with collaborative mindsets. It should detail how we balance hiring for cultural alignment with the need for diverse perspectives. The document should include career development frameworks that allow for both vertical specialization and cross-vertical mobility.",
           "url": "/resources/culture/talent-acquisition-development",
           "usefulContext": [
@@ -257,6 +273,7 @@
           "id": "remote-first-collaboration",
           "title": "Remote-First Collaboration Framework",
           "description": "Guidelines for effective distributed teamwork and communication",
+          "presentation": "Best practices for maintaining high-performance collaboration in our distributed organization through structured communication and connection protocols.",
           "direction": "This framework should establish best practices for maintaining high-performance collaboration in a distributed organization. It should address synchronous and asynchronous communication norms, documentation requirements, and decision-making processes. The document should include guidelines for virtual meetings, digital tools usage, and creating moments of connection despite physical distance.",
           "url": "/resources/culture/remote-first-collaboration",
           "usefulContext": [
@@ -271,6 +288,7 @@
           "id": "innovation-incentive-structure",
           "title": "Innovation Incentive Structure",
           "description": "How cross-vertical innovation is rewarded and encouraged",
+          "presentation": "A system that incentivizes and rewards innovations that benefit multiple verticals or advance our core technology through both monetary and non-monetary recognition.",
           "direction": "This structure should detail how we incentivize and reward innovation that benefits multiple verticals or advances our core technology. It should include both monetary and non-monetary recognition systems. The document should outline our approach to innovation time allocation, internal pitch processes, and how we balance directed innovation with exploratory research.",
           "url": "/resources/culture/innovation-incentive-structure",
           "usefulContext": [
@@ -286,6 +304,7 @@
           "id": "ai-ethics-responsibility-charter",
           "title": "AI Ethics & Responsibility Charter",
           "description": "Ethical principles guiding all development and business decisions",
+          "presentation": "Practical ethical guidelines for AI development that balance our 'use more AI for everything' principle with responsible implementation and transparent accountability.",
           "direction": "This charter should articulate our ethical principles and commitments regarding AI development and deployment, aligned with our 'use more AI for everything' principle while addressing potential concerns. It should address issues of transparency, bias mitigation, privacy protection, and human oversight with practical ethical guidelines rather than abstract principles. The document should include practical guidelines for ethical decision-making in product development and business strategy, with clear processes for raising and addressing ethical concerns. Include how our open-source approach supports ethical transparency and accountability.",
           "url": "/resources/culture/ai-ethics-responsibility-charter",
           "usefulContext": [
@@ -306,6 +325,7 @@
           "id": "vertical-market-selection-criteria",
           "title": "Vertical Market Selection Criteria",
           "description": "Framework for evaluating and prioritizing new market opportunities",
+          "presentation": "A systematic evaluation framework for identifying and prioritizing new vertical markets based on strategic fit, market potential, and technological alignment.",
           "direction": "This framework should establish a systematic approach to evaluating potential new markets based on market size, growth trajectory, competitive landscape, and technological fit. It should include scoring methodologies that balance short-term revenue potential with long-term strategic positioning. The document should detail the stage-gate process for moving from market exploration to committed investment.",
           "url": "/resources/business/vertical-market-selection-criteria",
           "usefulContext": [
@@ -321,6 +341,7 @@
           "id": "go-to-market-playbook",
           "title": "Go-To-Market Playbook",
           "description": "Standardized launch strategy adaptable to different verticals",
+          "presentation": "A flexible yet structured approach to market entry that addresses our 'getting eyes on products' challenge through low-cost, high-impact marketing strategies.",
           "direction": "This playbook should provide a flexible but structured approach to market entry that can be customized for each vertical while maintaining core best practices, with heavy focus on addressing the 'getting eyes on products' challenge. It should include templates for market positioning, customer segmentation, channel strategy, and launch planning, with specific acquisition strategies that have worked for our revenue-generating products. The document should detail how we leverage cross-vertical learnings while respecting unique market dynamics, emphasizing low-cost, high-impact marketing approaches suitable for an early-stage company with a lean team.",
           "url": "/resources/business/go-to-market-playbook",
           "usefulContext": [
@@ -336,6 +357,7 @@
           "id": "pricing-philosophy-framework",
           "title": "Pricing Philosophy & Framework",
           "description": "Principles for creating value-based pricing across diverse product lines",
+          "presentation": "A value-based pricing methodology that quantifies and captures the unique benefits our solutions deliver across different customer segments and verticals.",
           "direction": "This framework should articulate our approach to pricing based on value creation rather than cost-plus models. It should provide methodologies for quantifying value delivered to different customer segments and translating that into pricing structures. The document should address how we balance revenue optimization with market penetration goals across different maturity stages.",
           "url": "/resources/business/pricing-philosophy-framework",
           "usefulContext": [
@@ -351,6 +373,7 @@
           "id": "customer-success-integration-model",
           "title": "Customer Success Integration Model",
           "description": "How customer insights feed back into product development",
+          "presentation": "A systematic approach to capturing, analyzing, and implementing customer feedback that drives continuous product improvement across all verticals.",
           "direction": "This model should establish the systems and processes for capturing, analyzing, and acting on customer feedback across all verticals. It should detail how customer success teams collaborate with product development to prioritize enhancements. The document should include frameworks for distinguishing between customer-specific requests and broadly applicable improvements.",
           "url": "/resources/business/customer-success-integration-model",
           "usefulContext": [
@@ -366,6 +389,7 @@
           "id": "partnership-evaluation-matrix",
           "title": "Partnership Evaluation Matrix",
           "description": "Criteria for assessing strategic alignment with potential partners",
+          "presentation": "A structured methodology for evaluating and selecting strategic partnerships based on business alignment, technological compatibility, and cultural fit.",
           "direction": "This matrix should provide a structured methodology for evaluating potential strategic partnerships based on business alignment, technological compatibility, and cultural fit. It should include assessment criteria for different partnership types, from technology integrations to go-to-market collaborations. The document should detail evaluation processes, decision rights, and partnership management frameworks.",
           "url": "/resources/business/partnership-evaluation-matrix",
           "usefulContext": [
@@ -381,6 +405,7 @@
           "id": "enterprise-client-engagement-protocol",
           "title": "Enterprise Client Engagement Protocol",
           "description": "Standardized approach for large client relationships and implementations",
+          "presentation": "A comprehensive methodology for engaging with enterprise clients throughout the entire relationship lifecycle, from outreach to implementation and ongoing management.",
           "direction": "This protocol should establish our methodology for engaging with enterprise clients, from initial outreach through implementation and ongoing relationship management. It should address the unique challenges of enterprise sales cycles, security requirements, and customization requests. The document should include templates for enterprise proposals, implementation plans, and success metrics that balance standardization with necessary flexibility.",
           "url": "/resources/business/enterprise-client-engagement-protocol",
           "usefulContext": [
