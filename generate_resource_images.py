@@ -58,32 +58,47 @@ def generate_image_prompt_with_claude(resource, category_name):
         "content-type": "application/json"
     }
     
-    # Style guide specifications
-    style_guide = """
-    Style: Modern, minimalist, abstract with geometric elements
-    Color Palette: Vibrant blues and purples as primary colors, with accents of teal and orange
-    Mood: Forward-thinking, innovative, professional
-    Visual Elements: Abstract representations of AI, connectivity, and growth
-    Avoid: Realistic human faces, outdated tech imagery, cluttered compositions
-    """
-    
-    # Create category-specific visual elements
-    category_elements = {
-        "Core Philosophy & Strategy": "abstract brain structures, interconnected nodes, compass or direction indicators",
-        "Technology & Product Development": "circuit patterns, code structures, building blocks, development cycles",
-        "Operations & Management": "organizational charts, efficiency symbols, resource allocation visuals",
-        "Culture & Talent": "collaborative networks, knowledge transfer symbols, team connection metaphors",
-        "Business & Growth": "growth charts, market expansion visuals, business relationship symbols"
-    }
-    
-    elements = category_elements.get(category_name, "abstract AI elements")
+    # Load visual style guide
+    try:
+        with open("docs/visual-style-guide.md", "r", encoding="utf-8") as f:
+            style_guide = f.read()
+        logger.info("Successfully loaded visual style guide")
+    except Exception as e:
+        logger.error(f"Error loading visual style guide: {str(e)}")
+        # Fallback style guide if file not found
+        style_guide = """
+        # KinOS Ventures Visual Style Guide
+
+        ## Core Aesthetic Philosophy
+        KinOS Ventures embodies a visual identity best described as "Apple from 2050" — an elegant fusion of calligraphic tradition and advanced technology. Our aesthetic creates tension between organic movement and precision engineering, between ancient artistic principles and futuristic materials.
+
+        ## Key Visual Elements
+        - **White Steel**: Primary background surface with subtle texture that suggests engineered precision
+        - **Liquid Chrome**: Dynamic, flowing elements with reflective properties and dimensional depth
+        - **Silver-Blue Gradients**: Signature color transitions that suggest advanced technology
+        - **Controlled Negative Space**: Strategic use of emptiness to create focus and balance
+
+        ## Image Generation Guidelines
+        For consistent results when generating images with Ideogram or similar AI tools, follow this template:
+
+        ```
+        [subject matter] rendered in liquid chrome on white steel background, calligraphy-inspired [element type] with ultramodern aesthetic, silver-blue gradient metal with reflective properties, brushstroke influence in composition, Apple 2050 design language, elegant negative space, [specific shape or arrangement details], sophisticated light effects, no text except [if required], [additional specific details] --ar 16:9 --style cinematic --v 6.0
+        ```
+        """
     
     system_prompt = """You are an expert in creating prompts for AI image generation tools like Ideogram. 
 You have been provided with a visual style guide for KinOS Ventures and a resource description.
 Your task is to create a detailed prompt for Ideogram that will generate an image representing this resource
 while adhering to the KinOS Ventures visual style guide.
 
-The image should be in 16:9 aspect ratio and follow the style guide precisely.
+The image should follow the style guide precisely, with special attention to:
+1. Using white steel as the background material
+2. Creating liquid chrome elements with reflective properties
+3. Incorporating silver-blue gradients
+4. Following the calligraphy-inspired, Apple 2050 aesthetic
+5. Using the prompt structure from the style guide
+
+Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """
 
     user_prompt = f"""
@@ -95,10 +110,18 @@ Title: {resource['title']}
 Description: {resource['description']}
 Presentation: {resource.get('presentation', '')}
 Category: {category_name}
-Visual Elements: {elements}
 
 Based on the KinOS Ventures visual style guide and this resource information, create a detailed prompt for Ideogram.
+Follow the prompt structure from the style guide, but customize it for this specific resource.
 The prompt should create an image that visually represents the concept of this resource while maintaining the KinOS Ventures visual identity.
+
+The prompt MUST include:
+- White steel background
+- Liquid chrome elements
+- Silver-blue gradient metal with reflective properties
+- Brushstroke influence in composition
+- Apple 2050 design language
+- No text
 
 Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """

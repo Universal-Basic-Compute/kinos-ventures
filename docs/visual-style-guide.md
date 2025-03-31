@@ -103,4 +103,25 @@ When commissioning or generating images for KinOS Ventures materials:
 5. Specify the absence of text (or what text should be included)
 6. Always include the technical parameters
 
-This approach ensures visual consistency while allowing for appropriate variation across different document types and purposes within the KinOS Ventures ecosystem.
+This approach ensures visual consistency while allowing for appropriate variation across different document types and purposes within the KinOS Ventures ecosystem.# KinOS Ventures Visual Style Guide
+
+## Core Aesthetic Philosophy
+KinOS Ventures embodies a visual identity best described as "Apple from 2050" — an elegant fusion of calligraphic tradition and advanced technology. Our aesthetic creates tension between organic movement and precision engineering, between ancient artistic principles and futuristic materials.
+
+## Key Visual Elements
+- **White Steel**: Primary background surface with subtle texture that suggests engineered precision
+- **Liquid Chrome**: Dynamic, flowing elements with reflective properties and dimensional depth
+- **Silver-Blue Gradients**: Signature color transitions that suggest advanced technology
+- **Controlled Negative Space**: Strategic use of emptiness to create focus and balance
+
+## Image Generation Guidelines
+For consistent results when generating images with Ideogram or similar AI tools, follow this template:
+
+```
+[subject matter] rendered in liquid chrome on white steel background, calligraphy-inspired [element type] with ultramodern aesthetic, silver-blue gradient metal with reflective properties, brushstroke influence in composition, Apple 2050 design language, elegant negative space, [specific shape or arrangement details], sophisticated light effects, no text except [if required], [additional specific details] --ar 16:9 --style cinematic --v 6.0
+```
+
+## Application Examples
+- **Resource Documents**: Abstract representations of concepts rendered as flowing chrome shapes on white steel
+- **Vertical Branding**: Distinctive calligraphic elements that maintain consistency while differentiating business units
+- **UI Elements**: Subtle gradients and reflective surfaces that suggest depth without overwhelming content
