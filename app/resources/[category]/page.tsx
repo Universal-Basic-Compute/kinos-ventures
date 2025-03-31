@@ -10,6 +10,12 @@ type PageProps = {
   };
 };
 
+// Function to convert URL category to directory name
+function getCategoryDir(urlCategory: string) {
+  // Convert URL format (with hyphens) to directory format (with underscores)
+  return urlCategory.replace(/-/g, '_');
+}
+
 // Function to get category data
 function getCategoryData(category: string) {
   const { foundationalResources } = resourcesData;
@@ -90,11 +96,11 @@ export default function CategoryPage({ params }: PageProps) {
             >
               <div className="relative h-48 w-full bg-slate-700 overflow-hidden">
                 <ResourceImage
-                  src={`/categories/${category}/${resource.id}.png`}
+                  src={`/categories/${getCategoryDir(category)}/${resource.id}.png`}
                   alt={resource.title}
                   fill={true}
                   className="object-cover"
-                  fallbackSrc={`/categories/${category}/default.png`}
+                  fallbackSrc={`/categories/${getCategoryDir(category)}/default.png`}
                 />
               </div>
               <div className="p-6">

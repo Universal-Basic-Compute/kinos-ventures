@@ -14,6 +14,12 @@ type PageProps = {
   };
 };
 
+// Function to convert URL category to directory name
+function getCategoryDir(urlCategory: string) {
+  // Convert URL format (with hyphens) to directory format (with underscores)
+  return urlCategory.replace(/-/g, '_');
+}
+
 // Function to get resource data
 function getResourceData(category: string, id: string) {
   const { foundationalResources } = resourcesData;
@@ -81,7 +87,7 @@ export default async function ResourcePage({ params }: PageProps) {
   const content = await getResourceContent(id);
   
   // Image path
-  const imagePath = `/categories/${category}/${id}.png`;
+  const imagePath = `/categories/${getCategoryDir(category)}/${id}.png`;
   
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 pt-24 pb-20">
@@ -115,7 +121,7 @@ export default async function ResourcePage({ params }: PageProps) {
                 alt={resource.title}
                 fill={true}
                 className="object-cover"
-                fallbackSrc={`/categories/${category}/default.png`}
+                fallbackSrc={`/categories/${getCategoryDir(category)}/default.png`}
               />
             </div>
             <div className="p-8">
@@ -154,11 +160,11 @@ export default async function ResourcePage({ params }: PageProps) {
                   >
                     <div className="w-12 h-12 bg-slate-700 rounded-lg flex-shrink-0 mr-4 overflow-hidden relative">
                       <ResourceImage
-                        src={`/categories/${related.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/${related.id}.png`}
+                        src={`/categories/${related.category.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_')}/${related.id}.png`}
                         alt={related.title}
                         fill={true}
                         className="object-cover"
-                        fallbackSrc={`/categories/${related.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/default.png`}
+                        fallbackSrc={`/categories/${related.category.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_')}/default.png`}
                       />
                     </div>
                     <div>

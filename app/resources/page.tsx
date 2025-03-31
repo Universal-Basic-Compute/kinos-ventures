@@ -4,8 +4,9 @@ import ResourceImage from "@/components/ResourceImage";
 
 // Helper function to get image path or fallback
 const getImagePath = (category: string, id: string) => {
-  // Try to use the specific resource image
-  return `/categories/${category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/${id}.png`;
+  // Use the full category name with underscores for directory names
+  const categoryDir = category.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_');
+  return `/categories/${categoryDir}/${id}.png`;
 };
 
 export default function ResourcesPage() {
@@ -49,7 +50,7 @@ export default function ResourcesPage() {
                       alt={resource.title}
                       fill={true}
                       className="object-cover"
-                      fallbackSrc={`/categories/${category.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/default.png`}
+                      fallbackSrc={`/categories/${category.category.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_')}/default.png`}
                     />
                   </div>
                   <div className="p-6">
