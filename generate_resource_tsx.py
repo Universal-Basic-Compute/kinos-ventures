@@ -445,8 +445,8 @@ def process_all_resources():
         logger.info("No resources to process.")
         return
     
-    # Process resources in batches of 5
-    batch_size = 5  # Changed from 8 to 5
+    # Process resources in batches of 3
+    batch_size = 3  # Changed from 5 to 3
     
     for i in range(0, len(all_resources), batch_size):
         batch = all_resources[i:i+batch_size]
