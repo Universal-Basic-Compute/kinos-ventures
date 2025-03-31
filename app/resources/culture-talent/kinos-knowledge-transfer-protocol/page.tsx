@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { 
   DocumentTextIcon, 
   ServerIcon, 
-  BrainIcon, 
+  BeakerIcon, 
   UserGroupIcon, 
   ChartBarIcon, 
   PuzzlePieceIcon,
@@ -137,7 +137,7 @@ export default function KinOsKnowledgeTransferProtocolPage() {
               <div className="bg-slate-800 rounded-lg p-6 shadow-lg border border-slate-700">
                 <div className="flex items-start mb-4">
                   <div className="flex-shrink-0 p-2 bg-blue-600 rounded-md">
-                    <BrainIcon className="h-6 w-6 text-white" />
+                    <BeakerIcon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="ml-4 text-xl font-medium">Protocol Objectives</h3>
                 </div>
@@ -280,7 +280,7 @@ export default function KinOsKnowledgeTransferProtocolPage() {
 
                 <div className="bg-slate-800 rounded-lg p-6 shadow-lg border border-slate-700">
                   <div className="flex items-center mb-4 text-blue-400">
-                    <BrainIcon className="h-6 w-6 mr-2" />
+                    <BeakerIcon className="h-6 w-6 mr-2" />
                     <h3 className="text-lg font-medium text-white">Domain Knowledge</h3>
                   </div>
                   <ul className="space-y-2 text-gray-300">
