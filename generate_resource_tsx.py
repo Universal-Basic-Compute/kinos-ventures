@@ -245,6 +245,16 @@ def generate_tsx_component(resource, category_name, document, context_resources,
     The component should display the resource content in a well-structured, visually appealing way.
     Use modern React patterns, Tailwind CSS for styling, and ensure the component is responsive.
     
+    IMPORTANT: The site uses a dark theme with slate colors. All text should be white or light gray on dark backgrounds.
+    Use bg-slate-900, bg-slate-800, text-white, text-gray-300, etc. for styling.
+    
+    For prose content, use the prose-invert class and additional prose styling classes:
+    prose-headings:text-white prose-p:text-gray-300 prose-a:text-blue-400 prose-strong:text-white 
+    prose-em:text-gray-200 prose-code:text-gray-200 prose-pre:bg-gray-900 prose-pre:text-gray-200 
+    prose-ol:text-gray-300 prose-ul:text-gray-300 prose-li:text-gray-300 prose-blockquote:text-gray-300 
+    prose-blockquote:border-gray-600 prose-hr:border-gray-700 prose-table:text-gray-300 
+    prose-th:text-gray-200 prose-td:text-gray-300
+    
     Here is the context information:
     
     1. KinOS Ventures Framework:
@@ -266,13 +276,15 @@ The component should:
 1. Be a client component (use 'use client' directive)
 2. Import necessary components and hooks
 3. Display the resource content in a well-structured, visually appealing way
-4. Use Tailwind CSS for styling
+4. Use Tailwind CSS for styling with a DARK THEME (bg-slate-900, bg-slate-800, text-white, text-gray-300)
 5. Be responsive (mobile, tablet, desktop)
 6. Include sections for:
    - Resource header with title and description
    - Main content (from the document)
    - Related resources section
    - Interactive elements where appropriate
+
+For markdown content, use the prose-invert class and additional prose styling classes to ensure text is visible on dark backgrounds.
 
 The component will be placed in app/resources/{category_name.lower().replace(" & ", "-").replace(" ", "-")}/{resource['id']}/page.tsx
 
