@@ -212,7 +212,7 @@ def save_image(image_url, resource_id, category_name):
 
 # Check if an image already exists
 def image_exists(resource_id, category_name):
-    category_dir = os.path.join("resource_images", category_name.replace(" & ", "_").replace(" ", "_"))
+    category_dir = os.path.join("public", category_name.replace(" & ", "_").replace(" ", "_").lower())
     file_path = os.path.join(category_dir, f"{resource_id}.png")
     return os.path.exists(file_path)
 
