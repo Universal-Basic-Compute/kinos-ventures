@@ -39,7 +39,8 @@ function getCategoryColor(categoryName: string) {
 export default async function CategoryPage({ 
   params 
 }: { 
-  params: { category: string } 
+  params: { category: string };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }) {
   const { category } = params;
   const categoryData = getCategoryData(category);

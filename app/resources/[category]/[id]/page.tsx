@@ -73,7 +73,8 @@ async function getResourceContent(id: string) {
 export default async function ResourcePage({ 
   params 
 }: { 
-  params: { category: string; id: string } 
+  params: { category: string; id: string };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }) {
   const { category, id } = params;
   const resource = getResourceData(category, id);
