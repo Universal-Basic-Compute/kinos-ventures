@@ -526,7 +526,7 @@ const ResourceAllocationFrameworkPage = () => {
         )}
 
         {/* AI Integration Section */}
-        <SectionHeader id="ai-integration" title="AI Integration for Resource Optimization" icon={ChipIcon} />
+        <SectionHeader id="ai-integration" title="AI Integration for Resource Optimization" icon={CpuChipIcon} />
         {expandedSection === "ai-integration" && (
           <div className="mb-12 bg-slate-800/50 p-6 rounded-lg">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
