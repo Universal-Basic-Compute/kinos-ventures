@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import resourcesData from "@/public/resources.json";
+import ResourceImage from "@/components/ResourceImage";
 
 // Define the types for the page params
 type PageProps = {
@@ -89,16 +89,12 @@ export default function CategoryPage({ params }: PageProps) {
               className="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden hover:border-slate-600 hover:translate-y-[-4px] transition-all duration-300"
             >
               <div className="relative h-48 w-full bg-slate-700 overflow-hidden">
-                <Image
+                <ResourceImage
                   src={`/categories/${category}/${resource.id}.png`}
                   alt={resource.title}
-                  fill
+                  fill={true}
                   className="object-cover"
-                  onError={(e) => {
-                    // Fallback to category image if specific resource image doesn't exist
-                    const target = e.target as HTMLImageElement;
-                    target.src = `/categories/${category}/default.png`;
-                  }}
+                  fallbackSrc={`/categories/${category}/default.png`}
                 />
               </div>
               <div className="p-6">

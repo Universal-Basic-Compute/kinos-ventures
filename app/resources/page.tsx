@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import resourcesData from "@/public/resources.json";
+import ResourceImage from "@/components/ResourceImage";
 
 // Helper function to get image path or fallback
 const getImagePath = (category: string, id: string) => {
@@ -44,16 +44,12 @@ export default function ResourcesPage() {
                   className="bg-slate-800 border border-slate-700 rounded-xl overflow-hidden hover:border-slate-600 hover:translate-y-[-4px] transition-all duration-300"
                 >
                   <div className="relative h-48 w-full bg-slate-700 overflow-hidden">
-                    <Image
+                    <ResourceImage
                       src={getImagePath(category.category, resource.id)}
                       alt={resource.title}
-                      fill
+                      fill={true}
                       className="object-cover"
-                      onError={(e) => {
-                        // Fallback to category image if specific resource image doesn't exist
-                        const target = e.target as HTMLImageElement;
-                        target.src = `/categories/${category.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/default.png`;
-                      }}
+                      fallbackSrc={`/categories/${category.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}/default.png`}
                     />
                   </div>
                   <div className="p-6">
