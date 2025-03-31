@@ -1,0 +1,904 @@
+2025-03-31 05:16:51,376 - INFO - Starting resource TSX generation process
+2025-03-31 05:16:51,377 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 05:16:51,377 - INFO - Successfully loaded presentation.txt
+2025-03-31 05:16:51,377 - INFO - Processing category: Core Philosophy & Strategy
+2025-03-31 05:16:51,395 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:16:51,410 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:16:51,426 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:16:51,445 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:16:51,462 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:16:51,479 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:16:51,479 - INFO - Loaded 5 useful context resources
+2025-03-31 05:16:51,479 - INFO - Generating TSX component for kinos-ventures-manifesto
+2025-03-31 05:18:43,386 - INFO - Successfully generated TSX component for kinos-ventures-manifesto
+2025-03-31 05:18:43,389 - INFO - Saved TSX component for kinos-ventures-manifesto
+2025-03-31 05:18:45,390 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:18:45,411 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:18:45,428 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:18:45,429 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:18:45,429 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:18:45,430 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:18:45,446 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:18:45,446 - INFO - Loaded 6 useful context resources
+2025-03-31 05:18:45,446 - INFO - Generating TSX component for vertical-integration-strategy
+2025-03-31 05:25:53,285 - INFO - Starting resource TSX generation process
+2025-03-31 05:25:53,286 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 05:25:53,286 - INFO - Successfully loaded presentation.txt
+2025-03-31 05:25:53,286 - INFO - Found 24 resources to process
+2025-03-31 05:25:53,287 - INFO - Processing batch 1 of 3 (8 resources)
+2025-03-31 05:25:53,289 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:25:53,289 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:25:53,290 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:25:53,291 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:25:53,291 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:25:53,291 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:25:53,291 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:25:53,291 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:25:53,292 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:25:53,292 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:25:53,293 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:25:53,294 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:25:53,294 - INFO - Loaded 5 useful context resources
+2025-03-31 05:25:53,294 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:25:53,294 - INFO - Generating TSX component for first-principles-decision-making
+2025-03-31 05:25:53,295 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:25:53,296 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:25:53,296 - INFO - Loaded 6 useful context resources
+2025-03-31 05:25:53,297 - INFO - Generating TSX component for vertical-integration-strategy
+2025-03-31 05:25:53,303 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:25:53,303 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:25:53,304 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:25:53,304 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:25:53,304 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:25:53,305 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:25:53,305 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:25:53,305 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:25:53,306 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:25:53,306 - INFO - Loaded 5 useful context resources
+2025-03-31 05:25:53,306 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:25:53,306 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:25:53,306 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:25:53,306 - INFO - Generating TSX component for technical-debt-management
+2025-03-31 05:25:53,307 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:25:53,307 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:25:53,308 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:25:53,309 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:25:53,310 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:25:53,310 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:25:53,310 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:25:53,310 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:25:53,310 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:25:53,311 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:25:53,311 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:25:53,311 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:25:53,312 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:25:53,312 - INFO - Loaded 5 useful context resources
+2025-03-31 05:25:53,312 - INFO - Generating TSX component for ai-memory-context-retention
+2025-03-31 05:25:53,319 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:25:53,320 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:25:53,321 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:25:53,321 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:25:53,321 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:25:53,324 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:25:53,325 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:25:53,326 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:25:53,326 - INFO - Loaded 6 useful context resources
+2025-03-31 05:25:53,326 - INFO - Generating TSX component for kinos-engine-architecture-guide
+2025-03-31 05:25:53,330 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:25:53,330 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:25:53,330 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:25:53,330 - INFO - Loaded 6 useful context resources
+2025-03-31 05:25:53,331 - INFO - Generating TSX component for product-development-lifecycle
+2025-03-31 05:25:53,331 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:25:53,331 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:25:53,332 - INFO - Loaded 6 useful context resources
+2025-03-31 05:25:53,332 - INFO - Loaded 6 useful context resources
+2025-03-31 05:25:53,333 - INFO - Generating TSX component for cross-vertical-feature-implementation
+2025-03-31 05:25:53,333 - INFO - Generating TSX component for technology-unification-principles
+2025-03-31 05:25:54,752 - ERROR - API Error: 429
+2025-03-31 05:25:54,753 - ERROR - API Error: 429
+2025-03-31 05:25:54,753 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:25:54,755 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:27:02,235 - INFO - Successfully generated TSX component for vertical-integration-strategy
+2025-03-31 05:27:02,237 - INFO - Extracted code between tsx markers for vertical-integration-strategy
+2025-03-31 05:27:02,239 - INFO - Saved TSX component for vertical-integration-strategy
+2025-03-31 05:27:21,486 - INFO - Successfully generated TSX component for kinos-engine-architecture-guide
+2025-03-31 05:27:21,489 - INFO - Extracted code between tsx markers for kinos-engine-architecture-guide
+2025-03-31 05:27:21,491 - INFO - Saved TSX component for kinos-engine-architecture-guide
+2025-03-31 05:27:53,972 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:27:54,003 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:27:54,019 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:27:54,034 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:27:56,036 - INFO - Waiting 10 seconds between batches...
+2025-03-31 05:28:06,037 - INFO - Processing batch 2 of 3 (8 resources)
+2025-03-31 05:28:06,039 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:28:06,041 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,041 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:28:06,042 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:28:06,042 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:28:06,042 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:28:06,043 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:28:06,043 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:28:06,043 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:28:06,044 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:28:06,044 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:28:06,044 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:28:06,044 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,045 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:28:06,045 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:28:06,045 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:28:06,046 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:28:06,046 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,046 - INFO - Generating TSX component for partner-integration-handbook
+2025-03-31 05:28:06,057 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:28:06,058 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:28:06,059 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:28:06,059 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:28:06,059 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:28:06,059 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:28:06,060 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:28:06,060 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:28:06,060 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:28:06,060 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:28:06,060 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:28:06,061 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:28:06,061 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,061 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:28:06,061 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:28:06,061 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:28:06,062 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:28:06,062 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:28:06,062 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,062 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:28:06,062 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,062 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,062 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,063 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:28:06,063 - INFO - Generating TSX component for organizational-structure-blueprint
+2025-03-31 05:28:06,063 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:28:06,063 - INFO - Generating TSX component for talent-acquisition-development
+2025-03-31 05:28:06,063 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:28:06,063 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:28:06,063 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:28:06,065 - INFO - Loaded 5 useful context resources
+2025-03-31 05:28:06,065 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:28:06,071 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:28:06,072 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:28:06,072 - INFO - Generating TSX component for metrics-standardization-guide
+2025-03-31 05:28:06,073 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:28:06,073 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,073 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:28:06,073 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,074 - INFO - Loaded 5 useful context resources
+2025-03-31 05:28:06,074 - INFO - Generating TSX component for resource-allocation-framework
+2025-03-31 05:28:06,075 - INFO - Loaded 6 useful context resources
+2025-03-31 05:28:06,075 - INFO - Generating TSX component for kinos-knowledge-transfer-protocol
+2025-03-31 05:28:06,075 - INFO - Generating TSX component for remote-first-collaboration
+2025-03-31 05:28:06,076 - INFO - Generating TSX component for vertical-performance-evaluation
+2025-03-31 05:28:07,260 - ERROR - API Error: 429
+2025-03-31 05:28:07,261 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:28:07,874 - ERROR - API Error: 429
+2025-03-31 05:28:07,874 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:29:41,614 - INFO - Successfully generated TSX component for kinos-knowledge-transfer-protocol
+2025-03-31 05:29:41,616 - INFO - Extracted code between tsx markers for kinos-knowledge-transfer-protocol
+2025-03-31 05:29:41,617 - INFO - Saved TSX component for kinos-knowledge-transfer-protocol
+2025-03-31 05:30:06,757 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:30:06,773 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:30:06,788 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:30:06,788 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:30:06,788 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:30:08,790 - INFO - Waiting 10 seconds between batches...
+2025-03-31 05:30:18,791 - INFO - Processing batch 3 of 3 (8 resources)
+2025-03-31 05:30:18,794 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:30:18,795 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:30:18,795 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:30:18,795 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:30:18,796 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:30:18,796 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:30:18,796 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:30:18,798 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:30:18,798 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:30:18,798 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:30:18,798 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:30:18,798 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:30:18,799 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:30:18,799 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:30:18,799 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:30:18,799 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:30:18,799 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:30:18,800 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:30:18,800 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:30:18,800 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:30:18,801 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:30:18,802 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:30:18,802 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:30:18,802 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:30:18,802 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:30:18,802 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:30:18,803 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:30:18,803 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:30:18,803 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:30:18,803 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:30:18,803 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:30:18,804 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:30:18,804 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:30:18,804 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:30:18,804 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:30:18,805 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:30:18,805 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:30:18,805 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:30:18,805 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:30:18,805 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:30:18,806 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:30:18,806 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:30:18,806 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,806 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:30:18,806 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:30:18,806 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:30:18,807 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:30:18,807 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:30:18,808 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,808 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:30:18,808 - INFO - Generating TSX component for innovation-incentive-structure
+2025-03-31 05:30:18,808 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,808 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,808 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:30:18,808 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,808 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:30:18,808 - INFO - Generating TSX component for ai-ethics-responsibility-charter
+2025-03-31 05:30:18,810 - INFO - Generating TSX component for vertical-market-selection-criteria
+2025-03-31 05:30:18,810 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:30:18,810 - INFO - Generating TSX component for pricing-philosophy-framework
+2025-03-31 05:30:18,810 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,810 - INFO - Generating TSX component for go-to-market-playbook
+2025-03-31 05:30:18,811 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,819 - INFO - Loaded 6 useful context resources
+2025-03-31 05:30:18,821 - INFO - Generating TSX component for customer-success-integration-model
+2025-03-31 05:30:18,822 - INFO - Generating TSX component for enterprise-client-engagement-protocol
+2025-03-31 05:30:18,823 - INFO - Generating TSX component for partnership-evaluation-matrix
+2025-03-31 05:30:19,936 - ERROR - API Error: 429
+2025-03-31 05:30:19,937 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:30:19,963 - ERROR - API Error: 429
+2025-03-31 05:30:19,963 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:32:11,345 - INFO - Successfully generated TSX component for customer-success-integration-model
+2025-03-31 05:32:11,347 - INFO - Extracted code between tsx markers for customer-success-integration-model
+2025-03-31 05:32:11,349 - INFO - Saved TSX component for customer-success-integration-model
+2025-03-31 05:32:19,485 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:32:19,500 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:32:19,500 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:32:19,501 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:32:19,531 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:32:21,533 - INFO - Resource TSX generation process completed
+2025-03-31 05:35:31,242 - INFO - Starting resource TSX generation process
+2025-03-31 05:35:31,242 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 05:35:31,242 - INFO - Successfully loaded presentation.txt
+2025-03-31 05:35:31,243 - INFO - Found 20 resources to process
+2025-03-31 05:35:31,243 - INFO - Processing batch 1 of 3 (8 resources)
+2025-03-31 05:35:31,245 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:35:31,246 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:35:31,246 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:35:31,246 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:35:31,248 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:35:31,248 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:35:31,248 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:35:31,248 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:35:31,249 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:35:31,250 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:35:31,250 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:35:31,250 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:35:31,250 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:35:31,250 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:35:31,251 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:35:31,251 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,251 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:35:31,251 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:35:31,251 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:35:31,252 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,253 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:35:31,253 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:35:31,253 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:35:31,253 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:35:31,253 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,254 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:35:31,254 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:35:31,254 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:35:31,254 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:35:31,254 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:35:31,255 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:35:31,255 - INFO - Loaded 6 useful context resources
+2025-03-31 05:35:31,256 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:35:31,256 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:35:31,256 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:35:31,256 - INFO - Loaded 5 useful context resources
+2025-03-31 05:35:31,256 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:35:31,256 - INFO - Loaded 5 useful context resources
+2025-03-31 05:35:31,256 - INFO - Loaded 5 useful context resources
+2025-03-31 05:35:31,256 - INFO - Generating TSX component for technology-unification-principles
+2025-03-31 05:35:31,257 - INFO - Loaded 6 useful context resources
+2025-03-31 05:35:31,257 - INFO - Generating TSX component for first-principles-decision-making
+2025-03-31 05:35:31,257 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:35:31,257 - INFO - Generating TSX component for technical-debt-management
+2025-03-31 05:35:31,257 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:35:31,257 - INFO - Generating TSX component for ai-memory-context-retention
+2025-03-31 05:35:31,257 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:35:31,259 - INFO - Generating TSX component for product-development-lifecycle
+2025-03-31 05:35:31,259 - INFO - Loaded 6 useful context resources
+2025-03-31 05:35:31,260 - INFO - Loaded 6 useful context resources
+2025-03-31 05:35:31,261 - INFO - Loaded 6 useful context resources
+2025-03-31 05:35:31,262 - INFO - Generating TSX component for cross-vertical-feature-implementation
+2025-03-31 05:35:31,265 - INFO - Generating TSX component for organizational-structure-blueprint
+2025-03-31 05:35:31,267 - INFO - Generating TSX component for resource-allocation-framework
+2025-03-31 05:35:32,791 - ERROR - API Error: 429
+2025-03-31 05:35:32,793 - ERROR - API Error: 429
+2025-03-31 05:35:32,793 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:35:32,795 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 05:37:05,458 - INFO - Successfully generated TSX component for cross-vertical-feature-implementation
+2025-03-31 05:37:05,459 - INFO - Extracted code between tsx markers for cross-vertical-feature-implementation
+2025-03-31 05:37:05,461 - INFO - Saved TSX component for cross-vertical-feature-implementation
+2025-03-31 05:37:07,781 - INFO - Successfully generated TSX component for technology-unification-principles
+2025-03-31 05:37:07,783 - INFO - Extracted code between tsx markers for technology-unification-principles
+2025-03-31 05:37:07,785 - INFO - Saved TSX component for technology-unification-principles
+2025-03-31 05:37:31,410 - INFO - Successfully generated TSX component for organizational-structure-blueprint
+2025-03-31 05:37:31,412 - INFO - Extracted code between tsx markers for organizational-structure-blueprint
+2025-03-31 05:37:31,413 - INFO - Saved TSX component for organizational-structure-blueprint
+2025-03-31 05:37:32,019 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:37:32,054 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=120)
+2025-03-31 05:37:32,092 - INFO - Successfully generated TSX component for product-development-lifecycle
+2025-03-31 05:37:32,094 - INFO - Extracted code between tsx markers for product-development-lifecycle
+2025-03-31 05:37:32,095 - INFO - Saved TSX component for product-development-lifecycle
+2025-03-31 05:41:15,041 - INFO - Starting resource TSX generation process
+2025-03-31 05:41:15,042 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 05:41:15,042 - INFO - Successfully loaded presentation.txt
+2025-03-31 05:41:15,042 - INFO - Found 16 resources to process
+2025-03-31 05:41:15,042 - INFO - Processing batch 1 of 4 (5 resources)
+2025-03-31 05:41:15,045 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:41:15,045 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 05:41:15,045 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:41:15,045 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:41:15,046 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:41:15,046 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:41:15,046 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:41:15,046 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:41:15,047 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:41:15,048 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:41:15,049 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:41:15,049 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:41:15,049 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:41:15,049 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:41:15,049 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:41:15,050 - INFO - Loaded 5 useful context resources
+2025-03-31 05:41:15,050 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:41:15,050 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:41:15,050 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:41:15,050 - INFO - Generating TSX component for first-principles-decision-making
+2025-03-31 05:41:15,051 - INFO - Loaded 5 useful context resources
+2025-03-31 05:41:15,051 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:41:15,051 - INFO - Loaded 5 useful context resources
+2025-03-31 05:41:15,051 - INFO - Generating TSX component for technical-debt-management
+2025-03-31 05:41:15,051 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:41:15,052 - INFO - Generating TSX component for ai-memory-context-retention
+2025-03-31 05:41:15,052 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:41:15,053 - INFO - Loaded 5 useful context resources
+2025-03-31 05:41:15,053 - INFO - Loaded 6 useful context resources
+2025-03-31 05:41:15,053 - INFO - Generating TSX component for metrics-standardization-guide
+2025-03-31 05:41:15,054 - INFO - Generating TSX component for resource-allocation-framework
+2025-03-31 05:42:59,039 - INFO - Successfully generated TSX component for technical-debt-management
+2025-03-31 05:42:59,040 - INFO - Extracted code between tsx markers for technical-debt-management
+2025-03-31 05:42:59,042 - INFO - Saved TSX component for technical-debt-management
+2025-03-31 05:43:01,268 - INFO - Successfully generated TSX component for ai-memory-context-retention
+2025-03-31 05:43:01,271 - INFO - Extracted code between tsx markers for ai-memory-context-retention
+2025-03-31 05:43:01,273 - INFO - Saved TSX component for ai-memory-context-retention
+2025-03-31 05:43:12,712 - INFO - Successfully generated TSX component for first-principles-decision-making
+2025-03-31 05:43:12,714 - INFO - Extracted code between tsx markers for first-principles-decision-making
+2025-03-31 05:43:12,715 - INFO - Saved TSX component for first-principles-decision-making
+2025-03-31 05:43:54,216 - INFO - Successfully generated TSX component for metrics-standardization-guide
+2025-03-31 05:43:54,217 - INFO - Extracted code between tsx markers for metrics-standardization-guide
+2025-03-31 05:43:54,219 - INFO - Saved TSX component for metrics-standardization-guide
+2025-03-31 05:44:08,628 - INFO - Successfully generated TSX component for resource-allocation-framework
+2025-03-31 05:44:08,633 - INFO - Extracted code between tsx markers for resource-allocation-framework
+2025-03-31 05:44:08,637 - INFO - Saved TSX component for resource-allocation-framework
+2025-03-31 05:44:10,638 - INFO - Waiting 10 seconds between batches...
+2025-03-31 05:44:20,639 - INFO - Processing batch 2 of 4 (5 resources)
+2025-03-31 05:44:20,641 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:44:20,641 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:44:20,642 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:44:20,642 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:44:20,642 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:44:20,642 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:44:20,643 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:44:20,643 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:44:20,644 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:44:20,644 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:44:20,644 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:44:20,644 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:44:20,645 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:44:20,645 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:44:20,645 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:44:20,645 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:44:20,646 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 05:44:20,647 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 05:44:20,647 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:44:20,647 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:44:20,647 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:44:20,647 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:44:20,648 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:44:20,648 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:44:20,649 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 05:44:20,650 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:44:20,650 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:44:20,650 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:44:20,650 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:44:20,651 - INFO - Loaded 5 useful context resources
+2025-03-31 05:44:20,651 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:44:20,651 - INFO - Generating TSX component for remote-first-collaboration
+2025-03-31 05:44:20,651 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 05:44:20,651 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 05:44:20,652 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:44:20,653 - INFO - Loaded 6 useful context resources
+2025-03-31 05:44:20,653 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:44:20,654 - INFO - Loaded 6 useful context resources
+2025-03-31 05:44:20,654 - INFO - Loaded 6 useful context resources
+2025-03-31 05:44:20,655 - INFO - Generating TSX component for vertical-performance-evaluation
+2025-03-31 05:44:20,655 - INFO - Loaded 6 useful context resources
+2025-03-31 05:44:20,656 - INFO - Generating TSX component for partner-integration-handbook
+2025-03-31 05:44:20,656 - INFO - Generating TSX component for talent-acquisition-development
+2025-03-31 05:44:20,658 - INFO - Generating TSX component for innovation-incentive-structure
+2025-03-31 05:45:46,612 - INFO - Successfully generated TSX component for innovation-incentive-structure
+2025-03-31 05:45:46,614 - INFO - Extracted code between tsx markers for innovation-incentive-structure
+2025-03-31 05:45:46,615 - INFO - Saved TSX component for innovation-incentive-structure
+2025-03-31 05:46:27,628 - INFO - Successfully generated TSX component for vertical-performance-evaluation
+2025-03-31 05:46:27,631 - INFO - Extracted code between tsx markers for vertical-performance-evaluation
+2025-03-31 05:46:27,632 - INFO - Saved TSX component for vertical-performance-evaluation
+2025-03-31 05:46:28,863 - INFO - Successfully generated TSX component for partner-integration-handbook
+2025-03-31 05:46:28,865 - INFO - Extracted code between tsx markers for partner-integration-handbook
+2025-03-31 05:46:28,866 - INFO - Saved TSX component for partner-integration-handbook
+2025-03-31 05:46:36,053 - INFO - Successfully generated TSX component for talent-acquisition-development
+2025-03-31 05:46:36,056 - INFO - Extracted code between tsx markers for talent-acquisition-development
+2025-03-31 05:46:36,059 - INFO - Saved TSX component for talent-acquisition-development
+2025-03-31 05:47:42,182 - INFO - Successfully generated TSX component for remote-first-collaboration
+2025-03-31 05:47:42,185 - INFO - Extracted code between tsx markers for remote-first-collaboration
+2025-03-31 05:47:42,186 - INFO - Saved TSX component for remote-first-collaboration
+2025-03-31 05:47:44,188 - INFO - Waiting 10 seconds between batches...
+2025-03-31 05:47:54,189 - INFO - Processing batch 3 of 4 (5 resources)
+2025-03-31 05:47:54,191 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:47:54,191 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:47:54,192 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:47:54,192 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:47:54,192 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:47:54,192 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 05:47:54,192 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 05:47:54,193 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:47:54,194 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:47:54,194 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 05:47:54,194 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:47:54,194 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 05:47:54,195 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 05:47:54,195 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 05:47:54,196 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 05:47:54,196 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:47:54,196 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 05:47:54,196 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:47:54,197 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 05:47:54,197 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 05:47:54,197 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:47:54,197 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:47:54,198 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:47:54,198 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 05:47:54,198 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 05:47:54,198 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 05:47:54,198 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 05:47:54,198 - INFO - Loaded 6 useful context resources
+2025-03-31 05:47:54,199 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 05:47:54,199 - INFO - Loaded 6 useful context resources
+2025-03-31 05:47:54,199 - INFO - Generating TSX component for go-to-market-playbook
+2025-03-31 05:47:54,199 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 05:47:54,199 - INFO - Loaded 6 useful context resources
+2025-03-31 05:47:54,199 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 05:47:54,199 - INFO - Generating TSX component for vertical-market-selection-criteria
+2025-03-31 05:47:54,201 - INFO - Loaded 6 useful context resources
+2025-03-31 05:47:54,202 - INFO - Generating TSX component for pricing-philosophy-framework
+2025-03-31 05:47:54,205 - INFO - Generating TSX component for ai-ethics-responsibility-charter
+2025-03-31 05:47:54,206 - INFO - Loaded 6 useful context resources
+2025-03-31 05:47:54,207 - INFO - Generating TSX component for partnership-evaluation-matrix
+2025-03-31 05:49:58,981 - INFO - Successfully generated TSX component for pricing-philosophy-framework
+2025-03-31 05:49:58,982 - INFO - Extracted code between tsx markers for pricing-philosophy-framework
+2025-03-31 05:49:58,984 - INFO - Saved TSX component for pricing-philosophy-framework
+2025-03-31 05:50:04,103 - INFO - Successfully generated TSX component for vertical-market-selection-criteria
+2025-03-31 05:50:04,105 - INFO - Extracted code between tsx markers for vertical-market-selection-criteria
+2025-03-31 05:50:04,107 - INFO - Saved TSX component for vertical-market-selection-criteria
+2025-03-31 05:50:17,615 - INFO - Successfully generated TSX component for ai-ethics-responsibility-charter
+2025-03-31 05:50:17,617 - INFO - Extracted code between tsx markers for ai-ethics-responsibility-charter
+2025-03-31 05:50:17,619 - INFO - Saved TSX component for ai-ethics-responsibility-charter
+2025-03-31 05:50:20,566 - INFO - Successfully generated TSX component for partnership-evaluation-matrix
+2025-03-31 05:50:20,570 - INFO - Extracted code between tsx markers for partnership-evaluation-matrix
+2025-03-31 05:50:20,572 - INFO - Saved TSX component for partnership-evaluation-matrix
+2025-03-31 05:51:01,289 - INFO - Successfully generated TSX component for go-to-market-playbook
+2025-03-31 05:51:01,292 - INFO - Extracted code between tsx markers for go-to-market-playbook
+2025-03-31 05:51:01,294 - INFO - Saved TSX component for go-to-market-playbook
+2025-03-31 06:03:19,020 - INFO - Force regeneration enabled - will regenerate all resources
+2025-03-31 06:03:19,020 - INFO - Starting resource TSX generation process
+2025-03-31 06:03:19,021 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 06:03:19,021 - INFO - Successfully loaded presentation.txt
+2025-03-31 06:03:19,021 - INFO - Found 25 resources to process
+2025-03-31 06:03:19,022 - INFO - Processing batch 1 of 5 (5 resources)
+2025-03-31 06:03:19,023 - INFO - Force regenerating kinos-ventures-manifesto
+2025-03-31 06:03:19,024 - INFO - Force regenerating vertical-integration-strategy
+2025-03-31 06:03:19,024 - INFO - Force regenerating technology-unification-principles
+2025-03-31 06:03:19,024 - INFO - Force regenerating first-principles-decision-making
+2025-03-31 06:03:19,024 - INFO - Force regenerating kinos-engine-architecture-guide
+2025-03-31 06:03:19,024 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 06:03:19,024 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 06:03:19,025 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:03:19,025 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:03:19,025 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:03:19,025 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:03:19,026 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:03:19,027 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:03:19,027 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:03:19,027 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 06:03:19,027 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:03:19,027 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 06:03:19,028 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:03:19,028 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:03:19,028 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:03:19,028 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:03:19,028 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 06:03:19,029 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 06:03:19,029 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 06:03:19,030 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:03:19,030 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 06:03:19,030 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:03:19,030 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:03:19,031 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 06:03:19,031 - INFO - Loaded 5 useful context resources
+2025-03-31 06:03:19,031 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 06:03:19,031 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:03:19,031 - INFO - Generating TSX component for kinos-ventures-manifesto
+2025-03-31 06:03:19,031 - INFO - Loaded 5 useful context resources
+2025-03-31 06:03:19,031 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:03:19,032 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:03:19,032 - INFO - Loaded 6 useful context resources
+2025-03-31 06:03:19,032 - INFO - Generating TSX component for first-principles-decision-making
+2025-03-31 06:03:19,032 - INFO - Loaded 6 useful context resources
+2025-03-31 06:03:19,033 - INFO - Loaded 6 useful context resources
+2025-03-31 06:03:19,033 - INFO - Generating TSX component for vertical-integration-strategy
+2025-03-31 06:03:19,033 - INFO - Generating TSX component for technology-unification-principles
+2025-03-31 06:03:19,034 - INFO - Generating TSX component for kinos-engine-architecture-guide
+2025-03-31 06:03:19,830 - ERROR - API Error: 429
+2025-03-31 06:03:19,830 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 06:03:20,013 - ERROR - API Error: 429
+2025-03-31 06:03:20,013 - ERROR - {"type":"error","error":{"type":"rate_limit_error","message":"This request would exceed the rate limit for your organization (fdfa2e6d-5d95-41b1-8236-08a57dd71882) of 200,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase."}}
+2025-03-31 06:05:45,680 - INFO - Successfully generated TSX component for kinos-engine-architecture-guide
+2025-03-31 06:05:45,682 - INFO - Extracted code between tsx markers for kinos-engine-architecture-guide
+2025-03-31 06:05:45,683 - INFO - Saved TSX component for kinos-engine-architecture-guide
+2025-03-31 06:06:15,034 - INFO - Successfully generated TSX component for kinos-ventures-manifesto
+2025-03-31 06:06:15,037 - INFO - Extracted code between tsx markers for kinos-ventures-manifesto
+2025-03-31 06:06:15,038 - INFO - Saved TSX component for kinos-ventures-manifesto
+2025-03-31 06:07:47,315 - INFO - Successfully generated TSX component for vertical-integration-strategy
+2025-03-31 06:07:47,318 - INFO - Extracted code between tsx markers for vertical-integration-strategy
+2025-03-31 06:07:47,320 - INFO - Saved TSX component for vertical-integration-strategy
+2025-03-31 06:07:49,321 - INFO - Waiting 10 seconds between batches...
+2025-03-31 06:07:59,322 - INFO - Processing batch 2 of 5 (5 resources)
+2025-03-31 06:07:59,324 - INFO - Force regenerating product-development-lifecycle
+2025-03-31 06:07:59,324 - INFO - Force regenerating cross-vertical-feature-implementation
+2025-03-31 06:07:59,325 - INFO - Force regenerating technical-debt-management
+2025-03-31 06:07:59,326 - INFO - Force regenerating ai-memory-context-retention
+2025-03-31 06:07:59,326 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:07:59,326 - INFO - Force regenerating organizational-structure-blueprint
+2025-03-31 06:07:59,326 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 06:07:59,327 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 06:07:59,327 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 06:07:59,327 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:07:59,327 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:07:59,328 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 06:07:59,328 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:07:59,328 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:07:59,328 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:07:59,329 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:07:59,330 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:07:59,330 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:07:59,330 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:07:59,330 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:07:59,330 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:07:59,331 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 06:07:59,331 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:07:59,331 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:07:59,331 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 06:07:59,331 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:07:59,332 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:07:59,332 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:07:59,333 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:07:59,333 - INFO - Loaded 5 useful context resources
+2025-03-31 06:07:59,333 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:07:59,333 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:07:59,333 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:07:59,333 - INFO - Generating TSX component for technical-debt-management
+2025-03-31 06:07:59,333 - INFO - Loaded 6 useful context resources
+2025-03-31 06:07:59,333 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:07:59,333 - INFO - Loaded 5 useful context resources
+2025-03-31 06:07:59,334 - INFO - Loaded 6 useful context resources
+2025-03-31 06:07:59,335 - INFO - Generating TSX component for product-development-lifecycle
+2025-03-31 06:07:59,336 - INFO - Generating TSX component for ai-memory-context-retention
+2025-03-31 06:07:59,336 - INFO - Generating TSX component for cross-vertical-feature-implementation
+2025-03-31 06:07:59,337 - INFO - Loaded 6 useful context resources
+2025-03-31 06:07:59,339 - INFO - Generating TSX component for organizational-structure-blueprint
+2025-03-31 06:11:19,477 - INFO - Successfully generated TSX component for technical-debt-management
+2025-03-31 06:11:19,479 - INFO - Extracted code between tsx markers for technical-debt-management
+2025-03-31 06:11:19,480 - INFO - Saved TSX component for technical-debt-management
+2025-03-31 06:11:40,256 - INFO - Successfully generated TSX component for organizational-structure-blueprint
+2025-03-31 06:11:40,259 - INFO - Extracted code between tsx markers for organizational-structure-blueprint
+2025-03-31 06:11:40,260 - INFO - Saved TSX component for organizational-structure-blueprint
+2025-03-31 06:11:55,087 - INFO - Successfully generated TSX component for cross-vertical-feature-implementation
+2025-03-31 06:11:55,090 - INFO - Extracted code between tsx markers for cross-vertical-feature-implementation
+2025-03-31 06:11:55,091 - INFO - Saved TSX component for cross-vertical-feature-implementation
+2025-03-31 06:12:05,046 - INFO - Successfully generated TSX component for product-development-lifecycle
+2025-03-31 06:12:05,049 - INFO - Extracted code between tsx markers for product-development-lifecycle
+2025-03-31 06:12:05,049 - INFO - Saved TSX component for product-development-lifecycle
+2025-03-31 06:12:39,824 - INFO - Successfully generated TSX component for ai-memory-context-retention
+2025-03-31 06:12:39,827 - INFO - Extracted code between tsx markers for ai-memory-context-retention
+2025-03-31 06:12:39,829 - INFO - Saved TSX component for ai-memory-context-retention
+2025-03-31 06:12:41,830 - INFO - Waiting 10 seconds between batches...
+2025-03-31 06:12:51,831 - INFO - Processing batch 3 of 5 (5 resources)
+2025-03-31 06:12:51,833 - INFO - Force regenerating resource-allocation-framework
+2025-03-31 06:12:51,834 - INFO - Force regenerating metrics-standardization-guide
+2025-03-31 06:12:51,835 - INFO - Force regenerating vertical-performance-evaluation
+2025-03-31 06:12:51,836 - INFO - Force regenerating partner-integration-handbook
+2025-03-31 06:12:51,836 - INFO - Force regenerating kinos-knowledge-transfer-protocol
+2025-03-31 06:12:51,837 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:12:51,838 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:12:51,838 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:12:51,838 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 06:12:51,838 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:12:51,838 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 06:12:51,839 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:12:51,839 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:12:51,839 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:12:51,839 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:12:51,840 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 06:12:51,840 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 06:12:51,840 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:12:51,840 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:12:51,841 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:12:51,842 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:12:51,842 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:12:51,842 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:12:51,842 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:12:51,842 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:12:51,843 - INFO - Loaded 5 useful context resources
+2025-03-31 06:12:51,843 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:12:51,844 - INFO - Loaded 6 useful context resources
+2025-03-31 06:12:51,844 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:12:51,844 - INFO - Generating TSX component for metrics-standardization-guide
+2025-03-31 06:12:51,844 - INFO - Loaded 6 useful context resources
+2025-03-31 06:12:51,844 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:12:51,844 - INFO - Generating TSX component for partner-integration-handbook
+2025-03-31 06:12:51,845 - INFO - Generating TSX component for vertical-performance-evaluation
+2025-03-31 06:12:51,845 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:12:51,846 - INFO - Loaded 6 useful context resources
+2025-03-31 06:12:51,849 - INFO - Loaded 6 useful context resources
+2025-03-31 06:12:51,849 - INFO - Generating TSX component for resource-allocation-framework
+2025-03-31 06:12:51,850 - INFO - Generating TSX component for kinos-knowledge-transfer-protocol
+2025-03-31 06:21:02,499 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:21:04,683 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:21:43,160 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:22:13,531 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:22:16,952 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:22:18,953 - INFO - Waiting 10 seconds between batches...
+2025-03-31 06:22:28,954 - INFO - Processing batch 4 of 5 (5 resources)
+2025-03-31 06:22:28,954 - INFO - Force regenerating talent-acquisition-development
+2025-03-31 06:22:28,955 - INFO - Force regenerating remote-first-collaboration
+2025-03-31 06:22:28,955 - INFO - Force regenerating innovation-incentive-structure
+2025-03-31 06:22:28,956 - INFO - Force regenerating ai-ethics-responsibility-charter
+2025-03-31 06:22:28,956 - INFO - Force regenerating vertical-market-selection-criteria
+2025-03-31 06:22:28,956 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:22:28,957 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:22:28,957 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:22:28,957 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 06:22:28,957 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 06:22:28,957 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:22:28,958 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:22:28,958 - INFO - Successfully loaded document for vertical-integration-strategy
+2025-03-31 06:22:28,959 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:22:28,959 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:22:28,959 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 06:22:28,959 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:22:28,959 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:22:28,960 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:22:28,960 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:22:28,960 - INFO - Successfully loaded document for remote-first-collaboration
+2025-03-31 06:22:28,960 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:22:28,960 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:22:28,961 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 06:22:28,961 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 06:22:28,961 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:22:28,961 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:22:28,961 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:22:28,962 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 06:22:28,962 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 06:22:28,962 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:22:28,962 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:22:28,962 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:22:28,963 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 06:22:28,963 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:22:28,963 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:22:28,963 - INFO - Loaded 5 useful context resources
+2025-03-31 06:22:28,963 - INFO - Loaded 6 useful context resources
+2025-03-31 06:22:28,963 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 06:22:28,963 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 06:22:28,963 - INFO - Generating TSX component for remote-first-collaboration
+2025-03-31 06:22:28,964 - INFO - Successfully loaded document for talent-acquisition-development
+2025-03-31 06:22:28,964 - INFO - Generating TSX component for talent-acquisition-development
+2025-03-31 06:22:28,964 - INFO - Loaded 6 useful context resources
+2025-03-31 06:22:28,964 - INFO - Loaded 6 useful context resources
+2025-03-31 06:22:28,964 - INFO - Loaded 6 useful context resources
+2025-03-31 06:22:28,971 - INFO - Generating TSX component for vertical-market-selection-criteria
+2025-03-31 06:22:28,971 - INFO - Generating TSX component for innovation-incentive-structure
+2025-03-31 06:22:28,972 - INFO - Generating TSX component for ai-ethics-responsibility-charter
+2025-03-31 06:25:18,637 - INFO - Successfully generated TSX component for talent-acquisition-development
+2025-03-31 06:25:18,639 - INFO - Extracted code between tsx markers for talent-acquisition-development
+2025-03-31 06:25:18,640 - INFO - Saved TSX component for talent-acquisition-development
+2025-03-31 06:26:19,869 - INFO - Successfully generated TSX component for ai-ethics-responsibility-charter
+2025-03-31 06:26:19,871 - INFO - Extracted code between tsx markers for ai-ethics-responsibility-charter
+2025-03-31 06:26:19,874 - INFO - Saved TSX component for ai-ethics-responsibility-charter
+2025-03-31 06:26:38,300 - INFO - Successfully generated TSX component for vertical-market-selection-criteria
+2025-03-31 06:26:38,304 - INFO - Extracted code between tsx markers for vertical-market-selection-criteria
+2025-03-31 06:26:38,306 - INFO - Saved TSX component for vertical-market-selection-criteria
+2025-03-31 06:27:29,531 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:27:29,565 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:27:31,567 - INFO - Waiting 10 seconds between batches...
+2025-03-31 06:27:41,568 - INFO - Processing batch 5 of 5 (5 resources)
+2025-03-31 06:27:41,569 - INFO - Force regenerating go-to-market-playbook
+2025-03-31 06:27:41,570 - INFO - Force regenerating pricing-philosophy-framework
+2025-03-31 06:27:41,571 - INFO - Force regenerating customer-success-integration-model
+2025-03-31 06:27:41,571 - INFO - Force regenerating partnership-evaluation-matrix
+2025-03-31 06:27:41,572 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:27:41,572 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 06:27:41,573 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 06:27:41,573 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:27:41,573 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 06:27:41,574 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 06:27:41,574 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:27:41,574 - INFO - Successfully loaded document for product-development-lifecycle
+2025-03-31 06:27:41,574 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:27:41,575 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 06:27:41,575 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:27:41,575 - INFO - Successfully loaded document for partner-integration-handbook
+2025-03-31 06:27:41,575 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:27:41,576 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 06:27:41,576 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 06:27:41,577 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:27:41,577 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:27:41,577 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 06:27:41,577 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:27:41,578 - INFO - Successfully loaded document for go-to-market-playbook
+2025-03-31 06:27:41,578 - INFO - Successfully loaded document for customer-success-integration-model
+2025-03-31 06:27:41,578 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:27:41,578 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 06:27:41,579 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 06:27:41,579 - INFO - Successfully loaded document for pricing-philosophy-framework
+2025-03-31 06:27:41,579 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 06:27:41,579 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 06:27:41,580 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:27:41,580 - INFO - Successfully loaded document for enterprise-client-engagement-protocol
+2025-03-31 06:27:41,580 - INFO - Loaded 6 useful context resources
+2025-03-31 06:27:41,580 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:27:41,580 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 06:27:41,581 - INFO - Successfully loaded document for kinos-knowledge-transfer-protocol
+2025-03-31 06:27:41,581 - INFO - Generating TSX component for go-to-market-playbook
+2025-03-31 06:27:41,581 - INFO - Loaded 6 useful context resources
+2025-03-31 06:27:41,581 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 06:27:41,581 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 06:27:41,581 - INFO - Loaded 6 useful context resources
+2025-03-31 06:27:41,584 - INFO - Generating TSX component for pricing-philosophy-framework
+2025-03-31 06:27:41,585 - INFO - Loaded 6 useful context resources
+2025-03-31 06:27:41,585 - INFO - Generating TSX component for customer-success-integration-model
+2025-03-31 06:27:41,585 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 06:27:41,587 - INFO - Generating TSX component for enterprise-client-engagement-protocol
+2025-03-31 06:27:41,591 - INFO - Loaded 6 useful context resources
+2025-03-31 06:27:41,593 - INFO - Generating TSX component for partnership-evaluation-matrix
+2025-03-31 06:29:32,078 - INFO - Successfully generated TSX component for pricing-philosophy-framework
+2025-03-31 06:29:32,080 - INFO - Extracted code between tsx markers for pricing-philosophy-framework
+2025-03-31 06:29:32,083 - INFO - Saved TSX component for pricing-philosophy-framework
+2025-03-31 06:30:56,083 - INFO - Successfully generated TSX component for enterprise-client-engagement-protocol
+2025-03-31 06:30:56,085 - INFO - Extracted code between tsx markers for enterprise-client-engagement-protocol
+2025-03-31 06:30:56,087 - INFO - Saved TSX component for enterprise-client-engagement-protocol
+2025-03-31 06:31:18,892 - INFO - Successfully generated TSX component for customer-success-integration-model
+2025-03-31 06:31:18,894 - INFO - Extracted code between tsx markers for customer-success-integration-model
+2025-03-31 06:31:18,896 - INFO - Saved TSX component for customer-success-integration-model
+2025-03-31 06:31:45,398 - INFO - Successfully generated TSX component for partnership-evaluation-matrix
+2025-03-31 06:31:45,400 - INFO - Extracted code between tsx markers for partnership-evaluation-matrix
+2025-03-31 06:31:45,401 - INFO - Saved TSX component for partnership-evaluation-matrix
+2025-03-31 06:32:42,274 - ERROR - Error generating TSX component: HTTPSConnectionPool(host='api.anthropic.com', port=443): Read timed out. (read timeout=300)
+2025-03-31 06:32:44,278 - INFO - Resource TSX generation process completed
+2025-03-31 08:13:34,625 - INFO - Starting resource TSX generation process
+2025-03-31 08:13:34,626 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 08:13:34,627 - INFO - Successfully loaded presentation.txt
+2025-03-31 08:13:34,628 - INFO - Found 10 resources to process
+2025-03-31 08:13:34,629 - INFO - Processing batch 1 of 4 (3 resources)
+2025-03-31 08:13:34,634 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 08:13:34,634 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 08:13:34,635 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 08:13:34,636 - INFO - Successfully loaded document for kinos-ventures-manifesto
+2025-03-31 08:13:34,637 - INFO - Successfully loaded document for kinos-engine-architecture-guide
+2025-03-31 08:13:34,637 - INFO - Successfully loaded document for vertical-performance-evaluation
+2025-03-31 08:13:34,638 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 08:13:34,638 - INFO - Successfully loaded document for cross-vertical-feature-implementation
+2025-03-31 08:13:34,639 - INFO - Successfully loaded document for metrics-standardization-guide
+2025-03-31 08:13:34,640 - INFO - Successfully loaded document for ai-ethics-responsibility-charter
+2025-03-31 08:13:34,640 - INFO - Successfully loaded document for organizational-structure-blueprint
+2025-03-31 08:13:34,641 - INFO - Successfully loaded document for technical-debt-management
+2025-03-31 08:13:34,641 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 08:13:34,642 - INFO - Successfully loaded document for vertical-market-selection-criteria
+2025-03-31 08:13:34,642 - INFO - Successfully loaded document for ai-memory-context-retention
+2025-03-31 08:13:34,643 - INFO - Successfully loaded document for partnership-evaluation-matrix
+2025-03-31 08:13:34,643 - INFO - Loaded 5 useful context resources
+2025-03-31 08:13:34,643 - INFO - Generating TSX component for first-principles-decision-making
+2025-03-31 08:13:34,643 - INFO - Successfully loaded document for innovation-incentive-structure
+2025-03-31 08:13:34,644 - INFO - Successfully loaded document for first-principles-decision-making
+2025-03-31 08:13:34,646 - INFO - Successfully loaded document for resource-allocation-framework
+2025-03-31 08:13:34,646 - INFO - Loaded 6 useful context resources
+2025-03-31 08:13:34,647 - INFO - Successfully loaded document for technology-unification-principles
+2025-03-31 08:13:34,647 - INFO - Generating TSX component for technology-unification-principles
+2025-03-31 08:13:34,647 - INFO - Loaded 6 useful context resources
+2025-03-31 08:13:34,652 - INFO - Generating TSX component for resource-allocation-framework
