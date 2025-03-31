@@ -291,7 +291,7 @@ Please provide the complete TSX code for this component.
             "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
-            timeout=240  # Increased from 120 to 240 for larger responses
+            timeout=300  # Increased from 240 to 300 for larger responses
         )
         
         if response.status_code != 200:
