@@ -24,19 +24,17 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Get API keys from environment variables
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 IDEOGRAM_API_KEY = os.getenv("IDEOGRAM_API_KEY")
 
-# Determine which API to use based on available keys
-if OPENAI_API_KEY:
-    logger.info("Using OpenAI DALL-E for image generation")
-    API_PROVIDER = "openai"
-elif IDEOGRAM_API_KEY:
-    logger.info("Using Ideogram for image generation")
-    API_PROVIDER = "ideogram"
-else:
-    logger.error("No API keys found for image generation. Please add OPENAI_API_KEY or IDEOGRAM_API_KEY to your .env file.")
-    raise ValueError("No API keys found for image generation")
+# Check if API keys are available
+if not ANTHROPIC_API_KEY:
+    logger.error("ANTHROPIC_API_KEY not found in environment variables. Please add it to your .env file.")
+    raise ValueError("ANTHROPIC_API_KEY not found in environment variables. Please add it to your .env file.")
+
+if not IDEOGRAM_API_KEY:
+    logger.error("IDEOGRAM_API_KEY not found in environment variables. Please add it to your .env file.")
+    raise ValueError("IDEOGRAM_API_KEY not found in environment variables. Please add it to your .env file.")
 
 # Load the resources.json file
 def load_resources():
@@ -50,10 +48,15 @@ def load_resources():
         logger.error(f"Error loading resources.json: {str(e)}")
         raise
 
-# Create image prompt based on resource information and visual style guide
-def create_image_prompt(resource, category_name):
-    title = resource["title"]
-    description = resource["description"]
+# Generate image prompt with Claude
+def generate_image_prompt_with_claude(resource, category_name):
+    logger.info(f"Generating Ideogram prompt for resource: {resource['title']}")
+    
+    headers = {
+        "x-api-key": ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json"
+    }
     
     # Style guide specifications
     style_guide = """
@@ -75,59 +78,61 @@ def create_image_prompt(resource, category_name):
     
     elements = category_elements.get(category_name, "abstract AI elements")
     
-    prompt = f"""Create a modern, minimalist abstract image representing "{title}" for a business resource about {description}.
+    system_prompt = """You are an expert in creating prompts for AI image generation tools like Ideogram. 
+You have been provided with a visual style guide for KinOS Ventures and a resource description.
+Your task is to create a detailed prompt for Ideogram that will generate an image representing this resource
+while adhering to the KinOS Ventures visual style guide.
 
-The image should include visual elements related to {elements} using a color palette of vibrant blues and purples as primary colors, with accents of teal and orange.
-
-The style should be forward-thinking, innovative, and professional with abstract representations of AI, connectivity, and growth.
-
-Avoid realistic human faces, outdated tech imagery, and cluttered compositions.
-
-The image will be used as a header for a business resource document in the KinOS Ventures framework.
+The image should be in 16:9 aspect ratio and follow the style guide precisely.
 """
-    
-    logger.info(f"Generated prompt for {title}: {prompt[:100]}...")
-    return prompt
 
-# Call OpenAI DALL-E API
-def generate_image_dalle(prompt, resource_id):
-    logger.info(f"Calling DALL-E API for resource {resource_id}...")
-    headers = {
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    
+    user_prompt = f"""
+VISUAL STYLE GUIDE:
+{style_guide}
+
+RESOURCE INFORMATION:
+Title: {resource['title']}
+Description: {resource['description']}
+Presentation: {resource.get('presentation', '')}
+Category: {category_name}
+Visual Elements: {elements}
+
+Based on the KinOS Ventures visual style guide and this resource information, create a detailed prompt for Ideogram.
+The prompt should create an image that visually represents the concept of this resource while maintaining the KinOS Ventures visual identity.
+
+Return ONLY the prompt text that should be sent to Ideogram, nothing else.
+"""
+
     data = {
-        "model": "dall-e-3",
-        "prompt": prompt,
-        "n": 1,
-        "size": "1024x1024",
-        "response_format": "b64_json"
+        "model": "claude-3-opus-20240229",
+        "max_tokens": 1000,
+        "system": system_prompt,
+        "messages": [{"role": "user", "content": user_prompt}]
     }
     
     try:
         response = requests.post(
-            "https://api.openai.com/v1/images/generations",
+            "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
             timeout=60
         )
         
         if response.status_code != 200:
-            logger.error(f"API Error: {response.status_code}")
+            logger.error(f"Claude API Error: {response.status_code}")
             logger.error(response.text)
             return None
         
-        logger.info(f"Successfully received image for {resource_id}")
-        return {
-            "type": "base64",
-            "data": response.json()["data"][0]["b64_json"]
-        }
+        prompt = response.json()["content"][0]["text"].strip()
+        logger.info(f"Successfully generated Ideogram prompt for {resource['title']}")
+        logger.info(f"Prompt: {prompt[:100]}...")
+        return prompt
+        
     except Exception as e:
-        logger.error(f"Error calling DALL-E API: {str(e)}")
+        logger.error(f"Error calling Claude API for {resource['title']}: {str(e)}")
         return None
 
-# Call Ideogram API
+# Call Ideogram API to generate an image
 def generate_image_ideogram(prompt, resource_id):
     logger.info(f"Calling Ideogram API for resource {resource_id}...")
     
@@ -154,7 +159,7 @@ def generate_image_ideogram(prompt, resource_id):
         )
         
         if response.status_code != 200:
-            logger.error(f"API Error: {response.status_code}")
+            logger.error(f"Ideogram API Error: {response.status_code}")
             logger.error(response.text)
             return None
         
@@ -164,10 +169,7 @@ def generate_image_ideogram(prompt, resource_id):
         # Extract the image URL from the response
         if response_data and "data" in response_data and len(response_data["data"]) > 0:
             image_url = response_data["data"][0]["url"]
-            return {
-                "type": "url",
-                "data": image_url
-            }
+            return image_url
         else:
             logger.error(f"No image URL found in response for {resource_id}")
             return None
@@ -176,49 +178,36 @@ def generate_image_ideogram(prompt, resource_id):
         logger.error(f"Error calling Ideogram API for {resource_id}: {str(e)}")
         return None
 
-# Generate image using selected API
-def generate_image(prompt, resource_id):
-    if API_PROVIDER == "openai":
-        return generate_image_dalle(prompt, resource_id)
-    else:
-        return generate_image_ideogram(prompt, resource_id)
-
-# Save image to file
-def save_image(image_result, resource_id, category_name):
-    if not image_result:
-        logger.error(f"No image data provided for {resource_id}")
+# Download and save the image
+def save_image(image_url, resource_id, category_name):
+    if not image_url:
+        logger.error(f"No image URL provided for {resource_id}")
         return False
     
+    # Create directory for category if it doesn't exist
+    category_dir = os.path.join("public", category_name.replace(" & ", "_").replace(" ", "_").lower())
+    os.makedirs(category_dir, exist_ok=True)
+    
+    # Define the output file path
+    output_file = os.path.join(category_dir, f"{resource_id}.png")
+    
     try:
-        # Create directory structure
-        category_dir = os.path.join("resource_images", category_name.replace(" & ", "_").replace(" ", "_"))
-        os.makedirs(category_dir, exist_ok=True)
+        # Download the image
+        response = requests.get(image_url, timeout=60)
         
-        # Define the output file path
-        output_file = os.path.join(category_dir, f"{resource_id}.png")
+        if response.status_code != 200:
+            logger.error(f"Error downloading image for {resource_id}: {response.status_code}")
+            return False
         
-        if image_result["type"] == "base64":
-            # Decode base64 image
-            image_bytes = base64.b64decode(image_result["data"])
-            image = Image.open(io.BytesIO(image_bytes))
-            image.save(output_file, "PNG")
-        else:  # URL type
-            # Download the image
-            response = requests.get(image_result["data"], timeout=60)
-            
-            if response.status_code != 200:
-                logger.error(f"Error downloading image for {resource_id}: {response.status_code}")
-                return False
-            
-            # Save the image to file
-            with open(output_file, "wb") as f:
-                f.write(response.content)
+        # Save the image to file
+        with open(output_file, "wb") as f:
+            f.write(response.content)
         
         logger.info(f"Successfully saved image for {resource_id} to {output_file}")
         return True
         
     except Exception as e:
-        logger.error(f"Error saving image for {resource_id}: {str(e)}")
+        logger.error(f"Error downloading and saving image for {resource_id}: {str(e)}")
         return False
 
 # Check if an image already exists
@@ -239,15 +228,19 @@ def process_resource(resource, category_name):
         logger.info(f"Skipping {resource_title} - image already exists")
         return True
     
-    # Create prompt for the image
-    prompt = create_image_prompt(resource, category_name)
+    # Generate prompt for the image using Claude
+    prompt = generate_image_prompt_with_claude(resource, category_name)
     
-    # Generate the image
-    image_result = generate_image(prompt, resource_id)
+    if not prompt:
+        logger.error(f"Failed to generate prompt for {resource_title}")
+        return False
     
-    if image_result:
-        # Save the image
-        success = save_image(image_result, resource_id, category_name)
+    # Generate the image with Ideogram
+    image_url = generate_image_ideogram(prompt, resource_id)
+    
+    if image_url:
+        # Download and save the image
+        success = save_image(image_url, resource_id, category_name)
         return success
     else:
         logger.error(f"Failed to generate image for {resource_title}")
@@ -259,10 +252,6 @@ def process_all_resources():
     
     try:
         resources_json = load_resources()
-        
-        # Create output directory if it doesn't exist
-        os.makedirs("resource_images", exist_ok=True)
-        logger.info("Created resource_images directory")
         
         # Collect all resources to process
         all_resources = []
@@ -288,42 +277,23 @@ def process_all_resources():
             logger.info("No new resources to process. All images already exist.")
             return
         
-        # Process resources in batches
-        batch_size = 5 if API_PROVIDER == "ideogram" else 3  # Smaller batch for DALL-E due to stricter rate limits
+        # Process resources in batches of 3 to avoid rate limiting
+        batch_size = 3
         
         for i in range(0, len(all_resources), batch_size):
             batch = all_resources[i:i+batch_size]
             logger.info(f"Processing batch {i//batch_size + 1} of {(len(all_resources) + batch_size - 1) // batch_size} ({len(batch)} resources)")
             
-            # Process the batch
-            if API_PROVIDER == "openai":
-                # Process sequentially for DALL-E to better manage rate limits
-                for item in batch:
-                    try:
-                        process_resource(item["resource"], item["category_name"])
-                    except Exception as e:
-                        logger.error(f"Error processing resource: {str(e)}")
-            else:
-                # Process with ThreadPoolExecutor for Ideogram
-                with concurrent.futures.ThreadPoolExecutor(max_workers=batch_size) as executor:
-                    futures = []
-                    for item in batch:
-                        futures.append(executor.submit(
-                            process_resource, 
-                            item["resource"], 
-                            item["category_name"]
-                        ))
-                    
-                    # Wait for all to complete
-                    for future in concurrent.futures.as_completed(futures):
-                        try:
-                            future.result()
-                        except Exception as e:
-                            logger.error(f"Error in batch processing: {str(e)}")
+            # Process the batch sequentially to avoid overwhelming the APIs
+            for item in batch:
+                try:
+                    process_resource(item["resource"], item["category_name"])
+                except Exception as e:
+                    logger.error(f"Error processing resource: {str(e)}")
             
             # Add a delay between batches to avoid rate limiting
             if i + batch_size < len(all_resources):
-                delay = 15 if API_PROVIDER == "openai" else 10
+                delay = 15
                 logger.info(f"Waiting {delay} seconds between batches...")
                 time.sleep(delay)
         
@@ -351,8 +321,9 @@ def integrate_images_into_documents():
                 
                 # Check if both document and image exist
                 doc_path = os.path.join("resource_documents", f"{resource_id}.md")
-                image_category_dir = os.path.join("resource_images", category_name.replace(" & ", "_").replace(" ", "_"))
-                image_path = os.path.join(image_category_dir, f"{resource_id}.png")
+                image_path = os.path.join("public", 
+                                         category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                         f"{resource_id}.png")
                 
                 if os.path.exists(doc_path) and os.path.exists(image_path):
                     # Read document content
@@ -365,8 +336,8 @@ def integrate_images_into_documents():
                         continue
                     
                     # Create relative path for image
-                    relative_image_path = os.path.join("../resource_images", 
-                                                      category_name.replace(" & ", "_").replace(" ", "_"), 
+                    relative_image_path = os.path.join("/", 
+                                                      category_name.replace(" & ", "_").replace(" ", "_").lower(), 
                                                       f"{resource_id}.png")
                     
                     # Add image reference after title
@@ -413,8 +384,9 @@ def integrate_images_into_expansions():
                 
                 # Check if both expansion and image exist
                 expansion_path = os.path.join(category_dir, f"{resource_id}.md")
-                image_category_dir = os.path.join("resource_images", category_name.replace(" & ", "_").replace(" ", "_"))
-                image_path = os.path.join(image_category_dir, f"{resource_id}.png")
+                image_path = os.path.join("public", 
+                                         category_name.replace(" & ", "_").replace(" ", "_").lower(), 
+                                         f"{resource_id}.png")
                 
                 if os.path.exists(expansion_path) and os.path.exists(image_path):
                     # Read expansion content
@@ -427,8 +399,8 @@ def integrate_images_into_expansions():
                         continue
                     
                     # Create relative path for image
-                    relative_image_path = os.path.join("../../resource_images", 
-                                                      category_name.replace(" & ", "_").replace(" ", "_"), 
+                    relative_image_path = os.path.join("/", 
+                                                      category_name.replace(" & ", "_").replace(" ", "_").lower(), 
                                                       f"{resource_id}.png")
                     
                     # Add image reference after title
