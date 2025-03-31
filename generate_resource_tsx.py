@@ -258,7 +258,7 @@ def generate_tsx_component(resource, category_name, document, context_resources,
     IMPORTANT: Create visual card components for lists and visual representations, rather than displaying them as plain text or entire sections. Use cards with appropriate styling, icons, and visual hierarchy to make the content more engaging and easier to scan.
     
     USE HEROICONS: Import and use Heroicons for all icons in the component. For example:
-    import { DocumentTextIcon, ChartBarIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+    import {{ DocumentTextIcon, ChartBarIcon, UserGroupIcon }} from '@heroicons/react/24/outline';
     
     Here is the context information:
     
