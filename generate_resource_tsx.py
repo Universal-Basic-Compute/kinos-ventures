@@ -141,7 +141,7 @@ Provide only the image prompt, nothing else.
             "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
-            timeout=30
+            timeout=60  # Increased from 30 to 60
         )
         
         if response.status_code != 200:
@@ -182,7 +182,7 @@ def generate_image_ideogram(prompt, resource_id):
             "https://api.ideogram.ai/api/v1/images",
             headers=headers,
             json=data,
-            timeout=60
+            timeout=120  # Increased from 60 to 120
         )
         
         if response.status_code != 200:
@@ -206,7 +206,7 @@ def save_image(image_url, resource_id, category_name):
     os.makedirs(f"public/categories/{category_dir}", exist_ok=True)
     
     try:
-        response = requests.get(image_url, timeout=30)
+        response = requests.get(image_url, timeout=60)  # Increased from 30 to 60
         if response.status_code == 200:
             with open(f"public/categories/{category_dir}/{resource_id}.png", "wb") as f:
                 f.write(response.content)
@@ -291,7 +291,7 @@ Please provide the complete TSX code for this component.
             "https://api.anthropic.com/v1/messages",
             headers=headers,
             json=data,
-            timeout=120  # Longer timeout for larger responses
+            timeout=240  # Increased from 120 to 240 for larger responses
         )
         
         if response.status_code != 200:
