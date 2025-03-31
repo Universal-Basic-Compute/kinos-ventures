@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import resourcesData from "@/public/resources.json";
 import fs from "fs";
 import path from "path";
-import { MDXRemote } from "next-mdx-remote/rsc";
 import ResourceImage from "@/components/ResourceImage";
+import { remark } from 'remark';
+import html from 'remark-html';
 
 // Define the types for the page params
 type PageProps = {
@@ -58,12 +59,18 @@ function getRelatedResources(resourceIds: string[]) {
   return relatedResources;
 }
 
-// Function to get resource content
+// Function to get resource content and convert markdown to HTML
 async function getResourceContent(id: string) {
   try {
     const filePath = path.join(process.cwd(), 'resource_documents', `${id}.md`);
     const fileContent = fs.readFileSync(filePath, 'utf8');
-    return fileContent;
+    
+    // Convert markdown to HTML
+    const processedContent = await remark()
+      .use(html)
+      .process(fileContent);
+    
+    return processedContent.toString();
   } catch (error) {
     console.error(`Error reading resource document for ${id}:`, error);
     return null;
@@ -84,7 +91,7 @@ export default async function ResourcePage({ params }: PageProps) {
     : [];
   
   // Get resource content
-  const content = await getResourceContent(id);
+  const contentHtml = await getResourceContent(id);
   
   // Image path
   const imagePath = `/categories/${getCategoryDir(category)}/${id}.png`;
@@ -137,8 +144,8 @@ export default async function ResourcePage({ params }: PageProps) {
           
           {/* Resource Content */}
           <div className="bg-slate-800 border border-slate-700 rounded-xl p-8 mb-8 prose prose-invert max-w-none">
-            {content ? (
-              <MDXRemote source={content} />
+            {contentHtml ? (
+              <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
             ) : (
               <div className="text-center py-12">
                 <p className="text-gray-400">Content for this resource is being developed.</p>
