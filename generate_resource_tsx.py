@@ -257,6 +257,9 @@ def generate_tsx_component(resource, category_name, document, context_resources,
     
     IMPORTANT: Create visual card components for lists and visual representations, rather than displaying them as plain text or entire sections. Use cards with appropriate styling, icons, and visual hierarchy to make the content more engaging and easier to scan.
     
+    USE HEROICONS: Import and use Heroicons for all icons in the component. For example:
+    import { DocumentTextIcon, ChartBarIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+    
     Here is the context information:
     
     1. KinOS Ventures Framework:
@@ -293,6 +296,7 @@ IMPORTANT DESIGN REQUIREMENTS:
 - Use visual hierarchy to make the content easy to scan
 - For key points or features, use individual cards rather than bullet points
 - Ensure all text is clearly visible on dark backgrounds
+- Use Heroicons for all icons (import from @heroicons/react/24/outline or @heroicons/react/24/solid)
 
 For markdown content, use the prose-invert class and additional prose styling classes to ensure text is visible on dark backgrounds.
 
