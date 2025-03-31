@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { DocumentTextIcon, ChartBarIcon, ScaleIcon, AcademicCapIcon, UserGroupIcon, CogIcon, ArrowPathIcon, ChipIcon, ClipboardDocumentListIcon, PresentationChartLineIcon, CalendarIcon, TableCellsIcon } from '@heroicons/react/24/outline'
+import { DocumentTextIcon, ChartBarIcon, ScaleIcon, AcademicCapIcon, UserGroupIcon, CogIcon, ArrowPathIcon, CpuChipIcon, ClipboardDocumentListIcon, PresentationChartLineIcon, CalendarIcon, TableCellsIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'
 
 const ResourceAllocationFrameworkPage = () => {
@@ -74,7 +74,7 @@ const ResourceAllocationFrameworkPage = () => {
               <div className="bg-slate-800 rounded-lg shadow-lg overflow-hidden border border-slate-700">
                 <div className="bg-blue-900/30 px-4 py-3">
                   <h4 className="font-semibold text-white flex items-center">
-                    <ChipIcon className="h-5 w-5 mr-2 text-blue-400" />
+                    <CpuChipIcon className="h-5 w-5 mr-2 text-blue-400" />
                     Engineering Resources
                   </h4>
                 </div>
@@ -336,7 +336,7 @@ const ResourceAllocationFrameworkPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-slate-800 rounded-lg shadow p-6 border border-slate-700">
                 <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
-                  <ChipIcon className="h-6 w-6 mr-2 text-blue-400" />
+                  <CpuChipIcon className="h-6 w-6 mr-2 text-blue-400" />
                   Core Technology Investment
                 </h3>
                 <ul className="space-y-3 text-gray-300">
@@ -533,7 +533,7 @@ const ResourceAllocationFrameworkPage = () => {
               <div className="bg-slate-800 rounded-lg shadow overflow-hidden border border-slate-700">
                 <div className="bg-blue-900/30 px-4 py-3">
                   <h4 className="font-semibold text-white flex items-center">
-                    <ChipIcon className="h-5 w-5 mr-2 text-blue-400" />
+                    <CpuChipIcon className="h-5 w-5 mr-2 text-blue-400" />
                     Resource Allocation Intelligence
                   </h4>
                 </div>
@@ -760,7 +760,7 @@ def optimize_resource_allocation(verticals,
               <div className="bg-slate-800 rounded-lg shadow overflow-hidden border border-slate-700">
                 <div className="bg-blue-900/30 px-4 py-3">
                   <h4 className="font-semibold text-white flex items-center">
-                    <ChipIcon className="h-5 w-5 mr-2 text-blue-400" />
+                    <CpuChipIcon className="h-5 w-5 mr-2 text-blue-400" />
                     Technical Resource Council
                   </h4>
                 </div>
