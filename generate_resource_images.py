@@ -127,7 +127,7 @@ Return ONLY the prompt text that should be sent to Ideogram, nothing else.
 """
 
     data = {
-        "model": "claude-3-opus-20240229",
+        "model": "claude-3-7-sonnet-latest",  # Changed from claude-3-opus-20240229 to claude-3-7-sonnet-latest
         "max_tokens": 1000,
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_prompt}]
