@@ -105,7 +105,7 @@ export default function ResourcePage(props: any) {
               href={`/resources/${category}`}
               className="hover:text-white transition-colors"
             >
-              {category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+              {category.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
             </Link>
             <svg className="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -129,7 +129,7 @@ export default function ResourcePage(props: any) {
               <p className="text-xl text-gray-300 mb-6">{resource.presentation}</p>
               <div className="flex items-center text-gray-400">
                 <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm">
-                  {category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                  {category.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
                 </span>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function ResourcePage(props: any) {
             <div className="mt-12">
               <h2 className="text-2xl font-bold mb-6 text-white">Related Resources</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {relatedResources.map((related) => (
+                {relatedResources.map((related: any) => (
                   <Link 
                     href={related.url} 
                     key={related.id}
