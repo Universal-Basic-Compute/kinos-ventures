@@ -15,6 +15,8 @@ type ChatSettings = {
   darkMode: boolean;
   fontSize: 'small' | 'medium' | 'large';
   messageSound: boolean;
+  ttsEnabled: boolean;
+  sttEnabled: boolean;
 };
 
 export default function AiChat() {
@@ -26,13 +28,34 @@ export default function AiChat() {
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [settings, setSettings] = useState<ChatSettings>({
     darkMode: true,
     fontSize: 'medium',
     messageSound: true,
+    ttsEnabled: true,
+    sttEnabled: true,
   });
+  
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const audioChunksRef = useRef<Blob[]>([]);
+
+  // Initialize audio element
+  useEffect(() => {
+    audioRef.current = new Audio();
+    audioRef.current.onended = () => setIsPlaying(false);
+    
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
 
   // Scroll to bottom of messages when new messages are added
   useEffect(() => {
@@ -47,6 +70,14 @@ export default function AiChat() {
       }, 300);
     }
   }, [isOpen]);
+
+  // Play TTS for new assistant messages
+  useEffect(() => {
+    const lastMessage = messages[messages.length - 1];
+    if (lastMessage && lastMessage.role === 'assistant' && settings.ttsEnabled && !isLoading) {
+      playTTS(lastMessage.content);
+    }
+  }, [messages, isLoading, settings.ttsEnabled]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -156,6 +187,139 @@ export default function AiChat() {
       case 'small': return 'text-sm';
       case 'large': return 'text-lg';
       default: return 'text-base';
+    }
+  };
+
+  // Text-to-Speech function
+  const playTTS = async (text: string) => {
+    if (isPlaying) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+      setIsPlaying(false);
+      return;
+    }
+
+    // Extract plain text from markdown
+    const plainText = text.replace(/\*\*(.*?)\*\*/g, '$1')  // Bold
+                          .replace(/\*(.*?)\*/g, '$1')      // Italic
+                          .replace(/\[(.*?)\]\(.*?\)/g, '$1') // Links
+                          .replace(/#{1,6}\s(.*?)(\n|$)/g, '$1') // Headers
+                          .replace(/```.*?\n([\s\S]*?)```/g, 'Code block') // Code blocks
+                          .replace(/`(.*?)`/g, '$1')        // Inline code
+                          .replace(/>\s(.*?)(\n|$)/g, '$1') // Blockquotes
+                          .replace(/\n\s*[-*+]\s(.*?)(\n|$)/g, '$1') // Unordered lists
+                          .replace(/\n\s*\d+\.\s(.*?)(\n|$)/g, '$1'); // Ordered lists
+
+    try {
+      setIsPlaying(true);
+      
+      const response = await fetch('/api/tts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: plainText }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to generate speech');
+      }
+
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      
+      if (audioRef.current) {
+        audioRef.current.src = audioUrl;
+        audioRef.current.play().catch(e => {
+          console.error('Failed to play audio:', e);
+          setIsPlaying(false);
+        });
+      }
+    } catch (error) {
+      console.error('TTS error:', error);
+      setIsPlaying(false);
+    }
+  };
+
+  // Speech-to-Text functions
+  const startRecording = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      mediaRecorderRef.current = new MediaRecorder(stream);
+      audioChunksRef.current = [];
+
+      mediaRecorderRef.current.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorderRef.current.onstop = async () => {
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/wav' });
+        await transcribeAudio(audioBlob);
+        
+        // Stop all tracks to release the microphone
+        stream.getTracks().forEach(track => track.stop());
+      };
+
+      mediaRecorderRef.current.start();
+      setIsRecording(true);
+    } catch (error) {
+      console.error('Error starting recording:', error);
+    }
+  };
+
+  const stopRecording = () => {
+    if (mediaRecorderRef.current && isRecording) {
+      mediaRecorderRef.current.stop();
+      setIsRecording(false);
+    }
+  };
+
+  const transcribeAudio = async (audioBlob: Blob) => {
+    try {
+      const formData = new FormData();
+      formData.append('file', audioBlob, 'recording.wav');
+
+      const response = await fetch('/api/stt', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to transcribe audio');
+      }
+
+      const data = await response.json();
+      if (data.text) {
+        setInput(data.text);
+        
+        // Auto-submit if the setting is enabled and there's a clear instruction
+        if (data.text.trim().endsWith('?') || 
+            data.text.toLowerCase().includes('tell me') || 
+            data.text.toLowerCase().includes('what is') ||
+            data.text.toLowerCase().includes('how to')) {
+          setTimeout(() => {
+            const event = new Event('submit', { bubbles: true, cancelable: true }) as unknown as React.FormEvent;
+            handleSubmit(event);
+          }, 500);
+        }
+      }
+    } catch (error) {
+      console.error('Error transcribing audio:', error);
+    }
+  };
+
+  // Toggle TTS for a specific message
+  const toggleMessageTTS = (content: string) => {
+    if (isPlaying) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+      setIsPlaying(false);
+    } else {
+      playTTS(content);
     }
   };
 
@@ -322,6 +486,32 @@ export default function AiChat() {
                         </button>
                       </div>
                       
+                      {/* Text-to-Speech */}
+                      <div className="flex items-center justify-between">
+                        <label className="text-sm text-gray-400">Text-to-Speech</label>
+                        <button
+                          onClick={() => setSettings({...settings, ttsEnabled: !settings.ttsEnabled})}
+                          className={`w-12 h-6 rounded-full flex items-center transition-colors duration-300 focus:outline-none ${
+                            settings.ttsEnabled ? 'bg-blue-600 justify-end' : 'bg-slate-700 justify-start'
+                          }`}
+                        >
+                          <span className={`w-5 h-5 rounded-full bg-white shadow-md transform transition-transform duration-300`}></span>
+                        </button>
+                      </div>
+                      
+                      {/* Speech-to-Text */}
+                      <div className="flex items-center justify-between">
+                        <label className="text-sm text-gray-400">Speech-to-Text</label>
+                        <button
+                          onClick={() => setSettings({...settings, sttEnabled: !settings.sttEnabled})}
+                          className={`w-12 h-6 rounded-full flex items-center transition-colors duration-300 focus:outline-none ${
+                            settings.sttEnabled ? 'bg-blue-600 justify-end' : 'bg-slate-700 justify-start'
+                          }`}
+                        >
+                          <span className={`w-5 h-5 rounded-full bg-white shadow-md transform transition-transform duration-300`}></span>
+                        </button>
+                      </div>
+                      
                       {/* Dark Mode */}
                       <div className="flex items-center justify-between">
                         <label className="text-sm text-gray-400">Dark Mode</label>
@@ -384,6 +574,28 @@ export default function AiChat() {
                       >
                         {message.content}
                       </ReactMarkdown>
+                      
+                      {/* TTS button for assistant messages */}
+                      {message.role === 'assistant' && settings.ttsEnabled && (
+                        <button
+                          onClick={() => toggleMessageTTS(message.content)}
+                          className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity p-1 rounded-full bg-slate-800/50 hover:bg-slate-800"
+                          aria-label={isPlaying ? "Stop speaking" : "Speak message"}
+                        >
+                          {isPlaying ? (
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <rect x="6" y="4" width="4" height="16"></rect>
+                              <rect x="14" y="4" width="4" height="16"></rect>
+                            </svg>
+                          ) : (
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                            </svg>
+                          )}
+                        </button>
+                      )}
                     </div>
                     {message.role === 'user' && (
                       <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center ml-2 shadow-md flex-shrink-0">
@@ -420,7 +632,7 @@ export default function AiChat() {
 
               {/* Chat input */}
               <form onSubmit={handleSubmit} className="p-4 border-t border-slate-700 bg-slate-900">
-                <div className="flex gap-2 items-center">
+                <div className="flex gap-2 items-start">
                   <textarea
                     ref={inputRef}
                     value={input}
@@ -430,6 +642,30 @@ export default function AiChat() {
                     className="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none min-h-[50px] max-h-[150px] overflow-y-auto"
                     rows={Math.min(input.split('\n').length, 3)}
                   />
+                  
+                  {/* Voice input button */}
+                  {settings.sttEnabled && (
+                    <motion.button 
+                      type="button"
+                      onClick={isRecording ? stopRecording : startRecording}
+                      className={`${
+                        isRecording 
+                          ? 'bg-red-600 hover:bg-red-700' 
+                          : 'bg-slate-700 hover:bg-slate-600'
+                      } rounded-full p-3 text-white transition-colors shadow-md self-end`}
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      aria-label={isRecording ? "Stop recording" : "Start voice input"}
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                        <line x1="12" y1="19" x2="12" y2="23"></line>
+                        <line x1="8" y1="23" x2="16" y2="23"></line>
+                      </svg>
+                    </motion.button>
+                  )}
+                  
                   <motion.button 
                     type="submit"
                     disabled={isLoading || !input.trim()}
@@ -445,7 +681,11 @@ export default function AiChat() {
                   </motion.button>
                 </div>
                 <div className="mt-2 text-xs text-center text-gray-500">
-                  Press Enter to send, Shift+Enter for new line, Esc to close, F to toggle fullscreen
+                  {isRecording ? (
+                    <span className="text-red-400 animate-pulse">Recording... Click the microphone to stop</span>
+                  ) : (
+                    <span>Press Enter to send, Shift+Enter for new line, Esc to close, F to toggle fullscreen</span>
+                  )}
                 </div>
               </form>
             </motion.div>
