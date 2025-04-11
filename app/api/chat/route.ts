@@ -41,7 +41,8 @@ export async function POST(request: NextRequest) {
 
     const data = await response.json();
     
-    return NextResponse.json({ response: data.response.content });
+    // Fix: Access the content directly from the response
+    return NextResponse.json({ response: data.content });
   } catch (error) {
     console.error('Error in chat API:', error);
     return NextResponse.json(
