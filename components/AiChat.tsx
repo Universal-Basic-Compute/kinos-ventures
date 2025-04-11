@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 type Message = {
   role: 'user' | 'assistant';
@@ -30,7 +32,7 @@ export default function AiChat() {
     messageSound: true,
   });
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   // Scroll to bottom of messages when new messages are added
   useEffect(() => {
@@ -120,7 +122,8 @@ export default function AiChat() {
 
       // Toggle fullscreen with F
       if (e.key === 'f' && isOpen && !e.ctrlKey && !e.metaKey && !e.altKey && 
-          !(document.activeElement instanceof HTMLInputElement)) {
+          !(document.activeElement instanceof HTMLInputElement) &&
+          !(document.activeElement instanceof HTMLTextAreaElement)) {
         e.preventDefault();
         setIsFullscreen(prev => !prev);
       }
@@ -129,6 +132,23 @@ export default function AiChat() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, isFullscreen]);
+
+  // Handle textarea key press
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    // Submit on Enter without Shift key
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit(e as unknown as React.FormEvent);
+    }
+  };
+
+  // Auto-resize textarea based on content
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.style.height = 'auto';
+      inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 150)}px`;
+    }
+  }, [input]);
 
   // Get font size class based on settings
   const getFontSizeClass = () => {
@@ -337,13 +357,33 @@ export default function AiChat() {
                       </div>
                     )}
                     <div 
-                      className={`max-w-[80%] p-3 rounded-2xl shadow-md ${
+                      className={`max-w-[80%] p-3 rounded-2xl shadow-md overflow-hidden ${
                         message.role === 'user' 
-                          ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-br-none' 
-                          : 'bg-slate-700 text-white rounded-bl-none'
+                          ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-br-none markdown-user' 
+                          : 'bg-slate-700 text-white rounded-bl-none markdown-assistant'
                       }`}
                     >
-                      {message.content}
+                      <ReactMarkdown 
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          p: ({node, ...props}) => <p className="mb-2 last:mb-0" {...props} />,
+                          a: ({node, ...props}) => <a className="text-blue-300 underline hover:text-blue-200" {...props} />,
+                          ul: ({node, ...props}) => <ul className="list-disc pl-5 mb-2" {...props} />,
+                          ol: ({node, ...props}) => <ol className="list-decimal pl-5 mb-2" {...props} />,
+                          li: ({node, ...props}) => <li className="mb-1" {...props} />,
+                          h1: ({node, ...props}) => <h1 className="text-xl font-bold mb-2" {...props} />,
+                          h2: ({node, ...props}) => <h2 className="text-lg font-bold mb-2" {...props} />,
+                          h3: ({node, ...props}) => <h3 className="text-md font-bold mb-2" {...props} />,
+                          code: ({node, inline, ...props}) => 
+                            inline 
+                              ? <code className="bg-slate-800/50 px-1 py-0.5 rounded" {...props} />
+                              : <code className="block bg-slate-800/50 p-2 rounded my-2 overflow-x-auto" {...props} />,
+                          pre: ({node, ...props}) => <pre className="bg-slate-800/50 p-2 rounded my-2 overflow-x-auto" {...props} />,
+                          blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-slate-600 pl-4 italic my-2" {...props} />,
+                        }}
+                      >
+                        {message.content}
+                      </ReactMarkdown>
                     </div>
                     {message.role === 'user' && (
                       <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center ml-2 shadow-md flex-shrink-0">
@@ -381,18 +421,19 @@ export default function AiChat() {
               {/* Chat input */}
               <form onSubmit={handleSubmit} className="p-4 border-t border-slate-700 bg-slate-900">
                 <div className="flex gap-2 items-center">
-                  <input
+                  <textarea
                     ref={inputRef}
-                    type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
-                    placeholder="Ask KinOS AI anything..."
-                    className="flex-1 bg-slate-800 border border-slate-700 rounded-full px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    onKeyDown={handleKeyDown}
+                    placeholder="Ask KinOS AI anything... (Shift+Enter for new line)"
+                    className="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none min-h-[50px] max-h-[150px] overflow-y-auto"
+                    rows={Math.min(input.split('\n').length, 3)}
                   />
                   <motion.button 
                     type="submit"
                     disabled={isLoading || !input.trim()}
-                    className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:from-slate-700 disabled:to-slate-700 disabled:opacity-50 rounded-full p-3 text-white transition-colors shadow-md"
+                    className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:from-slate-700 disabled:to-slate-700 disabled:opacity-50 rounded-full p-3 text-white transition-colors shadow-md self-end"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     aria-label="Send message"
@@ -404,7 +445,7 @@ export default function AiChat() {
                   </motion.button>
                 </div>
                 <div className="mt-2 text-xs text-center text-gray-500">
-                  Press Enter to send, Esc to close, F to toggle fullscreen
+                  Press Enter to send, Shift+Enter for new line, Esc to close, F to toggle fullscreen
                 </div>
               </form>
             </motion.div>
