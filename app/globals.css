@@ -188,7 +188,8 @@ body {
 
 @layer base {
   * {
-    @apply border-slate-700 outline-none;
+    border-color: #334155; /* slate-700 equivalent */
+    outline: none;
  }
   body {
     @apply bg-background text-foreground;
