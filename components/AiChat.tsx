@@ -74,7 +74,7 @@ export default function AiChat() {
   // Play TTS for new assistant messages
   useEffect(() => {
     const lastMessage = messages[messages.length - 1];
-    if (lastMessage && lastMessage.role === 'assistant' && settings.ttsEnabled && !isLoading) {
+    if (lastMessage && lastMessage.role === 'assistant' && lastMessage.content && settings.ttsEnabled && !isLoading) {
       playTTS(lastMessage.content);
     }
   }, [messages, isLoading, settings.ttsEnabled]);
@@ -118,9 +118,18 @@ export default function AiChat() {
 
       // Play sound if enabled
       if (settings.messageSound) {
-        const audio = new Audio('/sounds/message.mp3');
-        audio.volume = 0.5;
-        audio.play().catch(e => console.log('Audio play failed:', e));
+        try {
+          const audio = new Audio('/sounds/message.mp3');
+          audio.volume = 0.5;
+          audio.play().catch(e => {
+            console.log('Audio play failed, using fallback:', e);
+            // Create a silent audio as fallback
+            const silentAudio = new Audio("data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4LjI5LjEwMAAAAAAAAAAAAAAA//tQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAACAAABIADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV6urq6urq6urq6urq6urq6urq6urq6urq6v////////////////////////////////8AAAAATGF2YzU4LjU0AAAAAAAAAAAAAAAAJAAAAAAAAAAAASDs90hvAAAAAAAAAAAAAAAAAAAA//MUZAAAAAGkAAAAAAAAA0gAAAAATEFN//MUZAMAAAGkAAAAAAAAA0gAAAAARTMu//MUZAYAAAGkAAAAAAAAA0gAAAAAOTku//MUZAkAAAGkAAAAAAAAA0gAAAAANVVV");
+            silentAudio.play().catch(e => console.log('Silent audio fallback failed:', e));
+          });
+        } catch (e) {
+          console.log('Audio creation failed:', e);
+        }
       }
     } catch (error) {
       console.error('Error fetching AI response:', error);
@@ -197,6 +206,12 @@ export default function AiChat() {
         audioRef.current.pause();
       }
       setIsPlaying(false);
+      return;
+    }
+
+    // Check if text is defined before processing
+    if (!text) {
+      console.error('Text is undefined or empty');
       return;
     }
 
