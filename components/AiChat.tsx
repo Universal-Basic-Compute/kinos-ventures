@@ -33,24 +33,38 @@ export default function AiChat() {
     setIsLoading(true);
 
     try {
-      // Here you would make an API call to your AI service
-      // For now, we'll simulate a response
-      setTimeout(() => {
-        setMessages(prev => [
-          ...prev, 
-          { 
-            role: 'assistant', 
-            content: `I'm a simulated response to: "${input}". In a real implementation, this would come from your AI backend.` 
-          }
-        ]);
-        setIsLoading(false);
-      }, 1000);
+      // Call the KinOS Engine API
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+          message: input,
+          history: messages.slice(-10) // Send last 10 messages for context
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to get response from AI');
+      }
+
+      const data = await response.json();
+      
+      setMessages(prev => [
+        ...prev, 
+        { 
+          role: 'assistant', 
+          content: data.response 
+        }
+      ]);
     } catch (error) {
       console.error('Error fetching AI response:', error);
       setMessages(prev => [
         ...prev, 
         { role: 'assistant', content: 'Sorry, I encountered an error. Please try again.' }
       ]);
+    } finally {
       setIsLoading(false);
     }
   };
