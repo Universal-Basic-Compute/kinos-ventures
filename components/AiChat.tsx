@@ -157,7 +157,7 @@ export default function AiChat() {
         </AnimatePresence>
       </div>
 
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-50" style={{ position: 'fixed', bottom: '1.5rem', right: '1.5rem' }}>
         {/* Chat button */}
         <AnimatePresence>
           {!isOpen && (
@@ -189,15 +189,15 @@ export default function AiChat() {
                 y: 0,
                 width: isFullscreen ? '100vw' : 'min(90vw, 600px)',
                 height: isFullscreen ? '100vh' : 'min(90vh, 700px)',
-                bottom: isFullscreen ? '0' : 'auto',
-                right: isFullscreen ? '0' : 'auto',
                 borderRadius: isFullscreen ? '0' : '1rem',
               }}
               exit={{ opacity: 0, scale: 0.95, y: 10 }}
               transition={{ duration: 0.2 }}
-              className={`absolute ${isFullscreen ? 'fixed inset-0' : 'bottom-16 right-0'} bg-slate-800 border border-slate-700 shadow-2xl overflow-hidden flex flex-col`}
+              className={`${isFullscreen ? 'fixed inset-0' : 'absolute bottom-16 right-0'} bg-slate-800 border border-slate-700 shadow-2xl overflow-hidden flex flex-col`}
               style={{ 
                 zIndex: isFullscreen ? 100 : 50,
+                maxHeight: isFullscreen ? '100vh' : 'calc(100vh - 100px)',
+                transform: isFullscreen ? 'none' : undefined
               }}
             >
               {/* Chat header */}
