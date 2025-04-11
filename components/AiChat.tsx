@@ -111,6 +111,16 @@ export default function AiChat() {
 
       const data = await response.json();
       
+      // Debug the response
+      console.log('API Response:', data);
+      
+      // Check if data.response exists and is a string
+      if (!data.response) {
+        console.error('Response is empty or undefined:', data);
+        throw new Error('Empty response from API');
+      }
+      
+      // Add the assistant message
       setMessages(prev => [
         ...prev, 
         { 
