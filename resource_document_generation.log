@@ -1,0 +1,506 @@
+2025-03-31 03:47:04,358 - INFO - Starting main resource document generation process
+2025-03-31 03:47:04,358 - INFO - Loading context files...
+2025-03-31 03:47:04,359 - INFO - Successfully loaded presentation.txt
+2025-03-31 03:47:04,359 - INFO - Successfully loaded resources.json with 25 resources
+2025-03-31 03:47:04,359 - INFO - Created resource_documents directory
+2025-03-31 03:47:04,359 - INFO - Added KinOS Ventures Manifesto to processing queue
+2025-03-31 03:47:04,360 - INFO - Added Vertical Integration Strategy to processing queue
+2025-03-31 03:47:04,360 - INFO - Added Technology Unification Principles to processing queue
+2025-03-31 03:47:04,361 - INFO - Added First Principles Decision-Making Framework to processing queue
+2025-03-31 03:47:04,361 - INFO - Added KinOS Engine Architecture Guide to processing queue
+2025-03-31 03:47:04,361 - INFO - Added Product Development Lifecycle to processing queue
+2025-03-31 03:47:04,361 - INFO - Added Cross-Vertical Feature Implementation Protocol to processing queue
+2025-03-31 03:47:04,361 - INFO - Added Technical Debt Management Strategy to processing queue
+2025-03-31 03:47:04,361 - INFO - Added AI Memory & Context Retention Standards to processing queue
+2025-03-31 03:47:04,362 - INFO - Added Organizational Structure Blueprint to processing queue
+2025-03-31 03:47:04,362 - INFO - Added Resource Allocation Framework to processing queue
+2025-03-31 03:47:04,362 - INFO - Added Metrics Standardization Guide to processing queue
+2025-03-31 03:47:04,362 - INFO - Added Vertical Performance Evaluation System to processing queue
+2025-03-31 03:47:04,362 - INFO - Added Partner Integration Handbook to processing queue
+2025-03-31 03:47:04,362 - INFO - Added KinOS Knowledge Transfer Protocol to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Talent Acquisition & Development Strategy to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Remote-First Collaboration Framework to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Innovation Incentive Structure to processing queue
+2025-03-31 03:47:04,363 - INFO - Added AI Ethics & Responsibility Charter to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Vertical Market Selection Criteria to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Go-To-Market Playbook to processing queue
+2025-03-31 03:47:04,363 - INFO - Added Pricing Philosophy & Framework to processing queue
+2025-03-31 03:47:04,364 - INFO - Added Customer Success Integration Model to processing queue
+2025-03-31 03:47:04,364 - INFO - Added Partnership Evaluation Matrix to processing queue
+2025-03-31 03:47:04,364 - INFO - Added Enterprise Client Engagement Protocol to processing queue
+2025-03-31 03:47:04,364 - INFO - Found 25 resources to process
+2025-03-31 03:47:04,364 - INFO - Processing batch 1 of 3 (10 resources)
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: KinOS Ventures Manifesto (kinos-ventures-manifesto)
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: Vertical Integration Strategy (vertical-integration-strategy)
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: Technology Unification Principles (technology-unification-principles)
+2025-03-31 03:47:04,366 - INFO - Loading expansion for KinOS Ventures Manifesto
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: First Principles Decision-Making Framework (first-principles-decision-making)
+2025-03-31 03:47:04,366 - INFO - Loading expansion for Vertical Integration Strategy
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: KinOS Engine Architecture Guide (kinos-engine-architecture-guide)
+2025-03-31 03:47:04,366 - INFO - Loading expansion for Technology Unification Principles
+2025-03-31 03:47:04,366 - INFO - Starting processing of resource: Product Development Lifecycle (product-development-lifecycle)
+2025-03-31 03:47:04,367 - INFO - Starting processing of resource: Cross-Vertical Feature Implementation Protocol (cross-vertical-feature-implementation)
+2025-03-31 03:47:04,367 - INFO - Loading expansion for Product Development Lifecycle
+2025-03-31 03:47:04,367 - INFO - Starting processing of resource: Technical Debt Management Strategy (technical-debt-management)
+2025-03-31 03:47:04,367 - INFO - Starting processing of resource: AI Memory & Context Retention Standards (ai-memory-context-retention)
+2025-03-31 03:47:04,367 - INFO - Loading expansion for KinOS Engine Architecture Guide
+2025-03-31 03:47:04,367 - INFO - Loading expansion for First Principles Decision-Making Framework
+2025-03-31 03:47:04,367 - INFO - Starting processing of resource: Organizational Structure Blueprint (organizational-structure-blueprint)
+2025-03-31 03:47:04,368 - INFO - Loading expansion for Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:47:04,368 - INFO - Loading expansion for Technical Debt Management Strategy
+2025-03-31 03:47:04,368 - INFO - Loading expansion for AI Memory & Context Retention Standards
+2025-03-31 03:47:04,368 - INFO - Loading expansion for Organizational Structure Blueprint
+2025-03-31 03:47:04,378 - INFO - Successfully loaded expansion for kinos-ventures-manifesto
+2025-03-31 03:47:04,379 - INFO - Successfully loaded expansion for vertical-integration-strategy
+2025-03-31 03:47:04,379 - INFO - Successfully loaded expansion for KinOS Ventures Manifesto (8663 characters)
+2025-03-31 03:47:04,379 - INFO - Successfully loaded expansion for Vertical Integration Strategy (9595 characters)
+2025-03-31 03:47:04,379 - INFO - Loading useful context resources for KinOS Ventures Manifesto
+2025-03-31 03:47:04,379 - INFO - Loading useful context resources for Vertical Integration Strategy
+2025-03-31 03:47:04,380 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,381 - INFO - Successfully loaded expansion for Technology Unification Principles (10286 characters)
+2025-03-31 03:47:04,381 - INFO - Successfully loaded expansion for product-development-lifecycle
+2025-03-31 03:47:04,381 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:47:04,382 - INFO - Loading useful context resources for Technology Unification Principles
+2025-03-31 03:47:04,382 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:47:04,382 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:47:04,382 - INFO - Successfully loaded expansion for Product Development Lifecycle (10968 characters)
+2025-03-31 03:47:04,382 - INFO - Successfully loaded expansion for KinOS Engine Architecture Guide (11288 characters)
+2025-03-31 03:47:04,382 - INFO - Loading useful context resources for Product Development Lifecycle
+2025-03-31 03:47:04,382 - INFO - Successfully loaded expansion for First Principles Decision-Making Framework (10947 characters)
+2025-03-31 03:47:04,383 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:47:04,383 - INFO - Successfully loaded expansion for ai-memory-context-retention
+2025-03-31 03:47:04,383 - INFO - Successfully loaded expansion for Cross-Vertical Feature Implementation Protocol (11999 characters)
+2025-03-31 03:47:04,383 - INFO - Successfully loaded expansion for Organizational Structure Blueprint (14148 characters)
+2025-03-31 03:47:04,383 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:47:04,383 - INFO - Loading useful context resources for Organizational Structure Blueprint
+2025-03-31 03:47:04,384 - INFO - Loading useful context resources for KinOS Engine Architecture Guide
+2025-03-31 03:47:04,384 - INFO - Successfully loaded expansion for AI Memory & Context Retention Standards (13385 characters)
+2025-03-31 03:47:04,384 - INFO - Loading useful context resources for Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:47:04,384 - INFO - Loading useful context resources for First Principles Decision-Making Framework
+2025-03-31 03:47:04,385 - INFO - Loading useful context resources for AI Memory & Context Retention Standards
+2025-03-31 03:47:04,385 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:47:04,385 - INFO - Successfully loaded expansion for vertical-integration-strategy
+2025-03-31 03:47:04,385 - INFO - Successfully loaded expansion for technical-debt-management
+2025-03-31 03:47:04,385 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,386 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,386 - INFO - Successfully loaded expansion for kinos-ventures-manifesto
+2025-03-31 03:47:04,386 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:47:04,386 - INFO - Successfully loaded expansion for Technical Debt Management Strategy (12667 characters)
+2025-03-31 03:47:04,387 - INFO - Successfully loaded expansion for technical-debt-management
+2025-03-31 03:47:04,388 - INFO - Successfully loaded expansion for ai-memory-context-retention
+2025-03-31 03:47:04,388 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:47:04,388 - INFO - Loading useful context resources for Technical Debt Management Strategy
+2025-03-31 03:47:04,388 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,389 - INFO - Successfully loaded expansion for ai-memory-context-retention
+2025-03-31 03:47:04,389 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:47:04,389 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:47:04,390 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:47:04,390 - INFO - Successfully loaded expansion for product-development-lifecycle
+2025-03-31 03:47:04,390 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,390 - INFO - Successfully loaded expansion for technical-debt-management
+2025-03-31 03:47:04,391 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:47:04,391 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:47:04,392 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:47:04,392 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:47:04,392 - INFO - Successfully loaded expansion for vertical-integration-strategy
+2025-03-31 03:47:04,393 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:47:04,393 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:47:04,395 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:47:04,398 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,398 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,398 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,398 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,398 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,399 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:47:04,399 - INFO - Successfully loaded expansion for kinos-ventures-manifesto
+2025-03-31 03:47:04,401 - INFO - Successfully loaded expansion for partner-integration-handbook
+2025-03-31 03:47:04,401 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:47:04,402 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:47:04,402 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,402 - INFO - Loaded 6 useful context resources for Technology Unification Principles
+2025-03-31 03:47:04,403 - INFO - Generating main document for Technology Unification Principles
+2025-03-31 03:47:04,403 - INFO - Generating main document for resource: Technology Unification Principles
+2025-03-31 03:47:04,403 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:47:04,403 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:47:04,403 - INFO - Calling Claude API...
+2025-03-31 03:47:04,405 - INFO - Loaded 5 useful context resources
+2025-03-31 03:47:04,405 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:47:04,405 - INFO - Loaded 5 useful context resources for AI Memory & Context Retention Standards
+2025-03-31 03:47:04,406 - INFO - Generating main document for AI Memory & Context Retention Standards
+2025-03-31 03:47:04,406 - INFO - Generating main document for resource: AI Memory & Context Retention Standards
+2025-03-31 03:47:04,406 - INFO - Successfully loaded expansion for technical-debt-management
+2025-03-31 03:47:04,406 - INFO - Calling Claude API...
+2025-03-31 03:47:04,408 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:47:04,409 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:47:04,409 - INFO - Loaded 5 useful context resources
+2025-03-31 03:47:04,409 - INFO - Loaded 5 useful context resources for KinOS Ventures Manifesto
+2025-03-31 03:47:04,410 - INFO - Generating main document for KinOS Ventures Manifesto
+2025-03-31 03:47:04,410 - INFO - Generating main document for resource: KinOS Ventures Manifesto
+2025-03-31 03:47:04,410 - INFO - Calling Claude API...
+2025-03-31 03:47:04,411 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:47:04,412 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,412 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:47:04,412 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:47:04,412 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:47:04,413 - INFO - Loaded 6 useful context resources for KinOS Engine Architecture Guide
+2025-03-31 03:47:04,413 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:47:04,413 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,414 - INFO - Successfully loaded expansion for partnership-evaluation-matrix
+2025-03-31 03:47:04,414 - INFO - Generating main document for KinOS Engine Architecture Guide
+2025-03-31 03:47:04,414 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:47:04,414 - INFO - Loaded 6 useful context resources for Vertical Integration Strategy
+2025-03-31 03:47:04,414 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:47:04,414 - INFO - Loaded 5 useful context resources
+2025-03-31 03:47:04,414 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:47:04,415 - INFO - Generating main document for resource: KinOS Engine Architecture Guide
+2025-03-31 03:47:04,415 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,415 - INFO - Generating main document for Vertical Integration Strategy
+2025-03-31 03:47:04,415 - INFO - Loaded 5 useful context resources for First Principles Decision-Making Framework
+2025-03-31 03:47:04,416 - INFO - Calling Claude API...
+2025-03-31 03:47:04,416 - INFO - Loaded 6 useful context resources for Product Development Lifecycle
+2025-03-31 03:47:04,416 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:47:04,416 - INFO - Generating main document for resource: Vertical Integration Strategy
+2025-03-31 03:47:04,416 - INFO - Generating main document for First Principles Decision-Making Framework
+2025-03-31 03:47:04,417 - INFO - Generating main document for Product Development Lifecycle
+2025-03-31 03:47:04,418 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:47:04,418 - INFO - Loaded 5 useful context resources
+2025-03-31 03:47:04,418 - INFO - Calling Claude API...
+2025-03-31 03:47:04,418 - INFO - Generating main document for resource: First Principles Decision-Making Framework
+2025-03-31 03:47:04,418 - INFO - Generating main document for resource: Product Development Lifecycle
+2025-03-31 03:47:04,418 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,419 - INFO - Loaded 5 useful context resources for Technical Debt Management Strategy
+2025-03-31 03:47:04,419 - INFO - Calling Claude API...
+2025-03-31 03:47:04,419 - INFO - Calling Claude API...
+2025-03-31 03:47:04,420 - INFO - Loaded 6 useful context resources for Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:47:04,420 - INFO - Generating main document for Technical Debt Management Strategy
+2025-03-31 03:47:04,421 - INFO - Generating main document for Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:47:04,421 - INFO - Generating main document for resource: Technical Debt Management Strategy
+2025-03-31 03:47:04,421 - INFO - Generating main document for resource: Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:47:04,422 - INFO - Calling Claude API...
+2025-03-31 03:47:04,422 - INFO - Calling Claude API...
+2025-03-31 03:47:04,423 - INFO - Successfully loaded expansion for remote-first-collaboration
+2025-03-31 03:47:04,435 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:47:04,435 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:47:04,436 - INFO - Loaded 6 useful context resources
+2025-03-31 03:47:04,436 - INFO - Loaded 6 useful context resources for Organizational Structure Blueprint
+2025-03-31 03:47:04,436 - INFO - Generating main document for Organizational Structure Blueprint
+2025-03-31 03:47:04,436 - INFO - Generating main document for resource: Organizational Structure Blueprint
+2025-03-31 03:47:04,436 - INFO - Calling Claude API...
+2025-03-31 03:48:03,359 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:03,360 - INFO - Successfully generated main document for Cross-Vertical Feature Implementation Protocol
+2025-03-31 03:48:03,361 - INFO - Saved main document for Cross-Vertical Feature Implementation Protocol to resource_documents\cross-vertical-feature-implementation.md (14793 characters)
+2025-03-31 03:48:05,794 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:05,796 - INFO - Successfully generated main document for KinOS Ventures Manifesto
+2025-03-31 03:48:05,799 - INFO - Saved main document for KinOS Ventures Manifesto to resource_documents\kinos-ventures-manifesto.md (16238 characters)
+2025-03-31 03:48:08,047 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:08,048 - INFO - Successfully generated main document for First Principles Decision-Making Framework
+2025-03-31 03:48:08,049 - INFO - Saved main document for First Principles Decision-Making Framework to resource_documents\first-principles-decision-making.md (16331 characters)
+2025-03-31 03:48:11,520 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:11,521 - INFO - Successfully generated main document for Technology Unification Principles
+2025-03-31 03:48:11,525 - INFO - Saved main document for Technology Unification Principles to resource_documents\technology-unification-principles.md (19310 characters)
+2025-03-31 03:48:20,385 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:20,387 - INFO - Successfully generated main document for Vertical Integration Strategy
+2025-03-31 03:48:20,390 - INFO - Saved main document for Vertical Integration Strategy to resource_documents\vertical-integration-strategy.md (19199 characters)
+2025-03-31 03:48:29,438 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:29,440 - INFO - Successfully generated main document for Technical Debt Management Strategy
+2025-03-31 03:48:29,442 - INFO - Saved main document for Technical Debt Management Strategy to resource_documents\technical-debt-management.md (21936 characters)
+2025-03-31 03:48:31,026 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:31,028 - INFO - Successfully generated main document for Product Development Lifecycle
+2025-03-31 03:48:31,029 - INFO - Saved main document for Product Development Lifecycle to resource_documents\product-development-lifecycle.md (21359 characters)
+2025-03-31 03:48:41,026 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:41,027 - INFO - Successfully generated main document for Organizational Structure Blueprint
+2025-03-31 03:48:41,031 - INFO - Saved main document for Organizational Structure Blueprint to resource_documents\organizational-structure-blueprint.md (23686 characters)
+2025-03-31 03:48:46,341 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:46,344 - INFO - Successfully generated main document for KinOS Engine Architecture Guide
+2025-03-31 03:48:46,346 - INFO - Saved main document for KinOS Engine Architecture Guide to resource_documents\kinos-engine-architecture-guide.md (26467 characters)
+2025-03-31 03:48:52,065 - INFO - Successfully received response from Claude API
+2025-03-31 03:48:52,068 - INFO - Successfully generated main document for AI Memory & Context Retention Standards
+2025-03-31 03:48:52,070 - INFO - Saved main document for AI Memory & Context Retention Standards to resource_documents\ai-memory-context-retention.md (27758 characters)
+2025-03-31 03:48:52,072 - INFO - Waiting 10 seconds between batches...
+2025-03-31 03:49:02,072 - INFO - Processing batch 2 of 3 (10 resources)
+2025-03-31 03:49:02,073 - INFO - Starting processing of resource: Resource Allocation Framework (resource-allocation-framework)
+2025-03-31 03:49:02,074 - INFO - Starting processing of resource: Metrics Standardization Guide (metrics-standardization-guide)
+2025-03-31 03:49:02,074 - INFO - Loading expansion for Resource Allocation Framework
+2025-03-31 03:49:02,074 - INFO - Loading expansion for Metrics Standardization Guide
+2025-03-31 03:49:02,075 - INFO - Starting processing of resource: Vertical Performance Evaluation System (vertical-performance-evaluation)
+2025-03-31 03:49:02,075 - INFO - Starting processing of resource: Partner Integration Handbook (partner-integration-handbook)
+2025-03-31 03:49:02,075 - INFO - Starting processing of resource: KinOS Knowledge Transfer Protocol (kinos-knowledge-transfer-protocol)
+2025-03-31 03:49:02,075 - INFO - Starting processing of resource: Talent Acquisition & Development Strategy (talent-acquisition-development)
+2025-03-31 03:49:02,076 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:49:02,076 - INFO - Loading expansion for Vertical Performance Evaluation System
+2025-03-31 03:49:02,076 - INFO - Starting processing of resource: Remote-First Collaboration Framework (remote-first-collaboration)
+2025-03-31 03:49:02,076 - INFO - Starting processing of resource: Innovation Incentive Structure (innovation-incentive-structure)
+2025-03-31 03:49:02,076 - INFO - Loading expansion for Partner Integration Handbook
+2025-03-31 03:49:02,076 - INFO - Starting processing of resource: AI Ethics & Responsibility Charter (ai-ethics-responsibility-charter)
+2025-03-31 03:49:02,076 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:49:02,076 - INFO - Loading expansion for KinOS Knowledge Transfer Protocol
+2025-03-31 03:49:02,077 - INFO - Starting processing of resource: Vertical Market Selection Criteria (vertical-market-selection-criteria)
+2025-03-31 03:49:02,077 - INFO - Successfully loaded expansion for Resource Allocation Framework (8385 characters)
+2025-03-31 03:49:02,077 - INFO - Loading expansion for Talent Acquisition & Development Strategy
+2025-03-31 03:49:02,077 - INFO - Loading expansion for Remote-First Collaboration Framework
+2025-03-31 03:49:02,077 - INFO - Loading expansion for Innovation Incentive Structure
+2025-03-31 03:49:02,077 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:49:02,077 - INFO - Loading expansion for AI Ethics & Responsibility Charter
+2025-03-31 03:49:02,078 - INFO - Successfully loaded expansion for partner-integration-handbook
+2025-03-31 03:49:02,078 - INFO - Successfully loaded expansion for Metrics Standardization Guide (9046 characters)
+2025-03-31 03:49:02,078 - INFO - Loading expansion for Vertical Market Selection Criteria
+2025-03-31 03:49:02,078 - INFO - Loading useful context resources for Resource Allocation Framework
+2025-03-31 03:49:02,078 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for remote-first-collaboration
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for Vertical Performance Evaluation System (12066 characters)
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for Partner Integration Handbook (10988 characters)
+2025-03-31 03:49:02,079 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:49:02,079 - INFO - Loading useful context resources for Metrics Standardization Guide
+2025-03-31 03:49:02,080 - INFO - Successfully loaded expansion for KinOS Knowledge Transfer Protocol (11927 characters)
+2025-03-31 03:49:02,080 - INFO - Successfully loaded expansion for Talent Acquisition & Development Strategy (11887 characters)
+2025-03-31 03:49:02,080 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:49:02,080 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:49:02,081 - INFO - Successfully loaded expansion for Remote-First Collaboration Framework (12059 characters)
+2025-03-31 03:49:02,081 - INFO - Loading useful context resources for Vertical Performance Evaluation System
+2025-03-31 03:49:02,081 - INFO - Successfully loaded expansion for Innovation Incentive Structure (12304 characters)
+2025-03-31 03:49:02,081 - INFO - Loading useful context resources for Partner Integration Handbook
+2025-03-31 03:49:02,081 - INFO - Successfully loaded expansion for AI Ethics & Responsibility Charter (12508 characters)
+2025-03-31 03:49:02,081 - INFO - Loading useful context resources for KinOS Knowledge Transfer Protocol
+2025-03-31 03:49:02,081 - INFO - Loading useful context resources for Talent Acquisition & Development Strategy
+2025-03-31 03:49:02,081 - INFO - Successfully loaded expansion for Vertical Market Selection Criteria (13848 characters)
+2025-03-31 03:49:02,082 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:49:02,082 - INFO - Loading useful context resources for Remote-First Collaboration Framework
+2025-03-31 03:49:02,082 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:49:02,082 - INFO - Loading useful context resources for Innovation Incentive Structure
+2025-03-31 03:49:02,082 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:49:02,082 - INFO - Loading useful context resources for AI Ethics & Responsibility Charter
+2025-03-31 03:49:02,082 - INFO - Successfully loaded expansion for partnership-evaluation-matrix
+2025-03-31 03:49:02,083 - INFO - Loading useful context resources for Vertical Market Selection Criteria
+2025-03-31 03:49:02,083 - INFO - Successfully loaded expansion for remote-first-collaboration
+2025-03-31 03:49:02,083 - INFO - Successfully loaded expansion for kinos-ventures-manifesto
+2025-03-31 03:49:02,083 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:49:02,083 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:49:02,084 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:49:02,084 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:49:02,084 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:49:02,084 - INFO - Successfully loaded expansion for kinos-ventures-manifesto
+2025-03-31 03:49:02,085 - INFO - Successfully loaded expansion for vertical-integration-strategy
+2025-03-31 03:49:02,085 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:49:02,085 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:49:02,085 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:49:02,085 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:49:02,086 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:49:02,086 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:49:02,086 - INFO - Successfully loaded expansion for vertical-integration-strategy
+2025-03-31 03:49:02,086 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:49:02,086 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:49:02,087 - INFO - Successfully loaded expansion for remote-first-collaboration
+2025-03-31 03:49:02,087 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:49:02,087 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:49:02,087 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:49:02,088 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:49:02,088 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:49:02,088 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:49:02,088 - INFO - Successfully loaded expansion for ai-memory-context-retention
+2025-03-31 03:49:02,089 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:49:02,089 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:49:02,089 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:49:02,089 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:49:02,089 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:49:02,090 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:49:02,090 - INFO - Successfully loaded expansion for organizational-structure-blueprint
+2025-03-31 03:49:02,091 - INFO - Successfully loaded expansion for partner-integration-handbook
+2025-03-31 03:49:02,091 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:49:02,091 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:49:02,091 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:49:02,091 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,092 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:49:02,092 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:49:02,093 - INFO - Loaded 5 useful context resources
+2025-03-31 03:49:02,093 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:49:02,093 - INFO - Successfully loaded expansion for innovation-incentive-structure
+2025-03-31 03:49:02,093 - INFO - Loaded 6 useful context resources for Resource Allocation Framework
+2025-03-31 03:49:02,093 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:49:02,093 - INFO - Loaded 5 useful context resources for Remote-First Collaboration Framework
+2025-03-31 03:49:02,093 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,094 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:49:02,094 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,094 - INFO - Successfully loaded expansion for product-development-lifecycle
+2025-03-31 03:49:02,094 - INFO - Generating main document for Resource Allocation Framework
+2025-03-31 03:49:02,094 - INFO - Generating main document for Remote-First Collaboration Framework
+2025-03-31 03:49:02,094 - INFO - Loaded 6 useful context resources for Talent Acquisition & Development Strategy
+2025-03-31 03:49:02,095 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,095 - INFO - Successfully loaded expansion for partnership-evaluation-matrix
+2025-03-31 03:49:02,095 - INFO - Loaded 6 useful context resources for Vertical Performance Evaluation System
+2025-03-31 03:49:02,095 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,095 - INFO - Generating main document for resource: Resource Allocation Framework
+2025-03-31 03:49:02,095 - INFO - Generating main document for resource: Remote-First Collaboration Framework
+2025-03-31 03:49:02,095 - INFO - Generating main document for Talent Acquisition & Development Strategy
+2025-03-31 03:49:02,095 - INFO - Loaded 6 useful context resources for KinOS Knowledge Transfer Protocol
+2025-03-31 03:49:02,095 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,095 - INFO - Generating main document for Vertical Performance Evaluation System
+2025-03-31 03:49:02,096 - INFO - Loaded 6 useful context resources for Innovation Incentive Structure
+2025-03-31 03:49:02,096 - INFO - Calling Claude API...
+2025-03-31 03:49:02,096 - INFO - Calling Claude API...
+2025-03-31 03:49:02,096 - INFO - Generating main document for resource: Talent Acquisition & Development Strategy
+2025-03-31 03:49:02,096 - INFO - Generating main document for KinOS Knowledge Transfer Protocol
+2025-03-31 03:49:02,096 - INFO - Loaded 6 useful context resources for Vertical Market Selection Criteria
+2025-03-31 03:49:02,096 - INFO - Generating main document for resource: Vertical Performance Evaluation System
+2025-03-31 03:49:02,096 - INFO - Generating main document for Innovation Incentive Structure
+2025-03-31 03:49:02,098 - INFO - Calling Claude API...
+2025-03-31 03:49:02,098 - INFO - Generating main document for resource: KinOS Knowledge Transfer Protocol
+2025-03-31 03:49:02,099 - INFO - Generating main document for Vertical Market Selection Criteria
+2025-03-31 03:49:02,099 - INFO - Calling Claude API...
+2025-03-31 03:49:02,099 - INFO - Successfully loaded expansion for enterprise-client-engagement-protocol
+2025-03-31 03:49:02,099 - INFO - Successfully loaded expansion for enterprise-client-engagement-protocol
+2025-03-31 03:49:02,099 - INFO - Generating main document for resource: Innovation Incentive Structure
+2025-03-31 03:49:02,100 - INFO - Calling Claude API...
+2025-03-31 03:49:02,100 - INFO - Generating main document for resource: Vertical Market Selection Criteria
+2025-03-31 03:49:02,102 - INFO - Calling Claude API...
+2025-03-31 03:49:02,102 - INFO - Successfully loaded expansion for talent-acquisition-development
+2025-03-31 03:49:02,103 - INFO - Successfully loaded expansion for kinos-engine-architecture-guide
+2025-03-31 03:49:02,103 - INFO - Calling Claude API...
+2025-03-31 03:49:02,103 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,103 - INFO - Successfully loaded expansion for pricing-philosophy-framework
+2025-03-31 03:49:02,103 - INFO - Loaded 6 useful context resources for AI Ethics & Responsibility Charter
+2025-03-31 03:49:02,103 - INFO - Loaded 5 useful context resources
+2025-03-31 03:49:02,103 - INFO - Generating main document for AI Ethics & Responsibility Charter
+2025-03-31 03:49:02,103 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:49:02,103 - INFO - Loaded 5 useful context resources for Metrics Standardization Guide
+2025-03-31 03:49:02,103 - INFO - Generating main document for resource: AI Ethics & Responsibility Charter
+2025-03-31 03:49:02,103 - INFO - Generating main document for Metrics Standardization Guide
+2025-03-31 03:49:02,103 - INFO - Calling Claude API...
+2025-03-31 03:49:02,103 - INFO - Generating main document for resource: Metrics Standardization Guide
+2025-03-31 03:49:02,103 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:49:02,108 - INFO - Calling Claude API...
+2025-03-31 03:49:02,110 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:49:02,110 - INFO - Loaded 6 useful context resources
+2025-03-31 03:49:02,110 - INFO - Loaded 6 useful context resources for Partner Integration Handbook
+2025-03-31 03:49:02,111 - INFO - Generating main document for Partner Integration Handbook
+2025-03-31 03:49:02,111 - INFO - Generating main document for resource: Partner Integration Handbook
+2025-03-31 03:49:02,111 - INFO - Calling Claude API...
+2025-03-31 03:49:55,553 - INFO - Successfully received response from Claude API
+2025-03-31 03:49:55,555 - INFO - Successfully generated main document for AI Ethics & Responsibility Charter
+2025-03-31 03:49:55,559 - INFO - Saved main document for AI Ethics & Responsibility Charter to resource_documents\ai-ethics-responsibility-charter.md (14026 characters)
+2025-03-31 03:50:02,840 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:02,841 - INFO - Successfully generated main document for Innovation Incentive Structure
+2025-03-31 03:50:02,844 - INFO - Saved main document for Innovation Incentive Structure to resource_documents\innovation-incentive-structure.md (15736 characters)
+2025-03-31 03:50:06,787 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:06,790 - INFO - Successfully generated main document for Talent Acquisition & Development Strategy
+2025-03-31 03:50:06,793 - INFO - Saved main document for Talent Acquisition & Development Strategy to resource_documents\talent-acquisition-development.md (17531 characters)
+2025-03-31 03:50:12,242 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:12,244 - INFO - Successfully generated main document for Remote-First Collaboration Framework
+2025-03-31 03:50:12,247 - INFO - Saved main document for Remote-First Collaboration Framework to resource_documents\remote-first-collaboration.md (17790 characters)
+2025-03-31 03:50:15,000 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:15,002 - INFO - Successfully generated main document for Resource Allocation Framework
+2025-03-31 03:50:15,005 - INFO - Saved main document for Resource Allocation Framework to resource_documents\resource-allocation-framework.md (19541 characters)
+2025-03-31 03:50:20,955 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:20,957 - INFO - Successfully generated main document for Metrics Standardization Guide
+2025-03-31 03:50:20,960 - INFO - Saved main document for Metrics Standardization Guide to resource_documents\metrics-standardization-guide.md (20275 characters)
+2025-03-31 03:50:23,001 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:23,002 - INFO - Successfully generated main document for Vertical Market Selection Criteria
+2025-03-31 03:50:23,006 - INFO - Saved main document for Vertical Market Selection Criteria to resource_documents\vertical-market-selection-criteria.md (20261 characters)
+2025-03-31 03:50:25,360 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:25,363 - INFO - Successfully generated main document for KinOS Knowledge Transfer Protocol
+2025-03-31 03:50:25,364 - INFO - Saved main document for KinOS Knowledge Transfer Protocol to resource_documents\kinos-knowledge-transfer-protocol.md (20967 characters)
+2025-03-31 03:50:39,394 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:39,397 - INFO - Successfully generated main document for Vertical Performance Evaluation System
+2025-03-31 03:50:39,399 - INFO - Saved main document for Vertical Performance Evaluation System to resource_documents\vertical-performance-evaluation.md (26017 characters)
+2025-03-31 03:50:49,133 - INFO - Successfully received response from Claude API
+2025-03-31 03:50:49,136 - INFO - Successfully generated main document for Partner Integration Handbook
+2025-03-31 03:50:49,137 - INFO - Saved main document for Partner Integration Handbook to resource_documents\partner-integration-handbook.md (27806 characters)
+2025-03-31 03:50:49,137 - INFO - Waiting 10 seconds between batches...
+2025-03-31 03:50:59,138 - INFO - Processing batch 3 of 3 (5 resources)
+2025-03-31 03:50:59,139 - INFO - Starting processing of resource: Go-To-Market Playbook (go-to-market-playbook)
+2025-03-31 03:50:59,140 - INFO - Loading expansion for Go-To-Market Playbook
+2025-03-31 03:50:59,140 - INFO - Starting processing of resource: Pricing Philosophy & Framework (pricing-philosophy-framework)
+2025-03-31 03:50:59,141 - INFO - Starting processing of resource: Customer Success Integration Model (customer-success-integration-model)
+2025-03-31 03:50:59,142 - INFO - Loading expansion for Pricing Philosophy & Framework
+2025-03-31 03:50:59,142 - INFO - Loading expansion for Customer Success Integration Model
+2025-03-31 03:50:59,142 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:50:59,142 - INFO - Starting processing of resource: Partnership Evaluation Matrix (partnership-evaluation-matrix)
+2025-03-31 03:50:59,142 - INFO - Starting processing of resource: Enterprise Client Engagement Protocol (enterprise-client-engagement-protocol)
+2025-03-31 03:50:59,142 - INFO - Successfully loaded expansion for pricing-philosophy-framework
+2025-03-31 03:50:59,142 - INFO - Successfully loaded expansion for Go-To-Market Playbook (9398 characters)
+2025-03-31 03:50:59,143 - INFO - Loading expansion for Partnership Evaluation Matrix
+2025-03-31 03:50:59,143 - INFO - Loading expansion for Enterprise Client Engagement Protocol
+2025-03-31 03:50:59,143 - INFO - Successfully loaded expansion for Pricing Philosophy & Framework (10238 characters)
+2025-03-31 03:50:59,143 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:50:59,143 - INFO - Loading useful context resources for Go-To-Market Playbook
+2025-03-31 03:50:59,143 - INFO - Loading useful context resources for Pricing Philosophy & Framework
+2025-03-31 03:50:59,143 - INFO - Successfully loaded expansion for partnership-evaluation-matrix
+2025-03-31 03:50:59,143 - INFO - Successfully loaded expansion for Customer Success Integration Model (10173 characters)
+2025-03-31 03:50:59,143 - INFO - Successfully loaded expansion for enterprise-client-engagement-protocol
+2025-03-31 03:50:59,144 - INFO - Successfully loaded expansion for Partnership Evaluation Matrix (11521 characters)
+2025-03-31 03:50:59,144 - INFO - Successfully loaded expansion for product-development-lifecycle
+2025-03-31 03:50:59,144 - INFO - Loading useful context resources for Customer Success Integration Model
+2025-03-31 03:50:59,144 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:50:59,144 - INFO - Successfully loaded expansion for Enterprise Client Engagement Protocol (12022 characters)
+2025-03-31 03:50:59,144 - INFO - Loading useful context resources for Partnership Evaluation Matrix
+2025-03-31 03:50:59,145 - INFO - Loading useful context resources for Enterprise Client Engagement Protocol
+2025-03-31 03:50:59,145 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:50:59,145 - INFO - Successfully loaded expansion for product-development-lifecycle
+2025-03-31 03:50:59,145 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:50:59,145 - INFO - Successfully loaded expansion for partner-integration-handbook
+2025-03-31 03:50:59,145 - INFO - Successfully loaded expansion for partner-integration-handbook
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for pricing-philosophy-framework
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for pricing-philosophy-framework
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for vertical-market-selection-criteria
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:50:59,146 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for customer-success-integration-model
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for first-principles-decision-making
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for go-to-market-playbook
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for enterprise-client-engagement-protocol
+2025-03-31 03:50:59,147 - INFO - Successfully loaded expansion for metrics-standardization-guide
+2025-03-31 03:50:59,148 - INFO - Successfully loaded expansion for cross-vertical-feature-implementation
+2025-03-31 03:50:59,148 - INFO - Successfully loaded expansion for enterprise-client-engagement-protocol
+2025-03-31 03:50:59,148 - INFO - Successfully loaded expansion for pricing-philosophy-framework
+2025-03-31 03:50:59,148 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:50:59,148 - INFO - Loaded 6 useful context resources
+2025-03-31 03:50:59,148 - INFO - Successfully loaded expansion for vertical-performance-evaluation
+2025-03-31 03:50:59,149 - INFO - Loaded 6 useful context resources for Go-To-Market Playbook
+2025-03-31 03:50:59,149 - INFO - Loaded 6 useful context resources
+2025-03-31 03:50:59,149 - INFO - Successfully loaded expansion for technology-unification-principles
+2025-03-31 03:50:59,149 - INFO - Successfully loaded expansion for kinos-knowledge-transfer-protocol
+2025-03-31 03:50:59,149 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:50:59,149 - INFO - Generating main document for Go-To-Market Playbook
+2025-03-31 03:50:59,149 - INFO - Loaded 6 useful context resources for Pricing Philosophy & Framework
+2025-03-31 03:50:59,149 - INFO - Loaded 6 useful context resources
+2025-03-31 03:50:59,149 - INFO - Successfully loaded expansion for ai-ethics-responsibility-charter
+2025-03-31 03:50:59,149 - INFO - Generating main document for resource: Go-To-Market Playbook
+2025-03-31 03:50:59,150 - INFO - Generating main document for Pricing Philosophy & Framework
+2025-03-31 03:50:59,150 - INFO - Successfully loaded expansion for resource-allocation-framework
+2025-03-31 03:50:59,150 - INFO - Loaded 6 useful context resources for Customer Success Integration Model
+2025-03-31 03:50:59,150 - INFO - Loaded 6 useful context resources
+2025-03-31 03:50:59,150 - INFO - Calling Claude API...
+2025-03-31 03:50:59,150 - INFO - Generating main document for resource: Pricing Philosophy & Framework
+2025-03-31 03:50:59,150 - INFO - Calling Claude API...
+2025-03-31 03:50:59,150 - INFO - Generating main document for Customer Success Integration Model
+2025-03-31 03:50:59,150 - INFO - Loaded 6 useful context resources for Partnership Evaluation Matrix
+2025-03-31 03:50:59,151 - INFO - Loaded 6 useful context resources
+2025-03-31 03:50:59,151 - INFO - Generating main document for resource: Customer Success Integration Model
+2025-03-31 03:50:59,152 - INFO - Generating main document for Partnership Evaluation Matrix
+2025-03-31 03:50:59,153 - INFO - Loaded 6 useful context resources for Enterprise Client Engagement Protocol
+2025-03-31 03:50:59,153 - INFO - Calling Claude API...
+2025-03-31 03:50:59,153 - INFO - Generating main document for resource: Partnership Evaluation Matrix
+2025-03-31 03:50:59,153 - INFO - Generating main document for Enterprise Client Engagement Protocol
+2025-03-31 03:50:59,153 - INFO - Calling Claude API...
+2025-03-31 03:50:59,154 - INFO - Generating main document for resource: Enterprise Client Engagement Protocol
+2025-03-31 03:50:59,155 - INFO - Calling Claude API...
+2025-03-31 03:51:55,372 - INFO - Successfully received response from Claude API
+2025-03-31 03:51:55,374 - INFO - Successfully generated main document for Pricing Philosophy & Framework
+2025-03-31 03:51:55,377 - INFO - Saved main document for Pricing Philosophy & Framework to resource_documents\pricing-philosophy-framework.md (14776 characters)
+2025-03-31 03:52:09,601 - INFO - Successfully received response from Claude API
+2025-03-31 03:52:09,603 - INFO - Successfully generated main document for Enterprise Client Engagement Protocol
+2025-03-31 03:52:09,605 - INFO - Saved main document for Enterprise Client Engagement Protocol to resource_documents\enterprise-client-engagement-protocol.md (18412 characters)
+2025-03-31 03:52:15,641 - INFO - Successfully received response from Claude API
+2025-03-31 03:52:15,643 - INFO - Successfully generated main document for Partnership Evaluation Matrix
+2025-03-31 03:52:15,646 - INFO - Saved main document for Partnership Evaluation Matrix to resource_documents\partnership-evaluation-matrix.md (19683 characters)
+2025-03-31 03:52:18,310 - INFO - Successfully received response from Claude API
+2025-03-31 03:52:18,313 - INFO - Successfully generated main document for Customer Success Integration Model
+2025-03-31 03:52:18,315 - INFO - Saved main document for Customer Success Integration Model to resource_documents\customer-success-integration-model.md (21155 characters)
+2025-03-31 03:52:46,132 - INFO - Successfully received response from Claude API
+2025-03-31 03:52:46,135 - INFO - Successfully generated main document for Go-To-Market Playbook
+2025-03-31 03:52:46,137 - INFO - Saved main document for Go-To-Market Playbook to resource_documents\go-to-market-playbook.md (26242 characters)
+2025-03-31 03:52:46,137 - INFO - Main resource document generation process completed

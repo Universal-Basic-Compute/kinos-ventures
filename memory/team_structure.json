@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2023-12-01",
+  "teamStructure": {
+    "parentCompany": {
+      "executiveTeam": [
+        {
+          "role": "Founder & CEO",
+          "responsibilities": [
+            "Overall strategic direction",
+            "Technology vision and roadmap",
+            "Investor relations and fundraising",
+            "Key partnership development"
+          ],
+          "profile": "Visionary entrepreneur with AI expertise and business development skills",
+          "status": "Current team member"
+        },
+        {
+          "role": "CTO/Technical Lead",
+          "responsibilities": [
+            "KinOS Engine development and evolution",
+            "Technical architecture across verticals",
+            "AI implementation and integration",
+            "Technical partnerships"
+          ],
+          "profile": "AI/ML expert with full-stack development capabilities",
+          "status": "Current team member"
+        },
+        {
+          "role": "COO/Business Development",
+          "responsibilities": [
+            "Operational execution",
+            "Vertical business development",
+            "Client relationships and sales",
+            "Marketing and communications"
+          ],
+          "profile": "Business strategist with startup experience and industry connections",
+          "status": "Current team member"
+        }
+      ],
+      "plannedExpansion": {
+        "maxTeamSize": "6-8 total team members",
+        "priorityHires": [
+          {
+            "role": "AI Engineer",
+            "focus": "Expanding KinOS Engine capabilities and vertical implementations",
+            "timing": "Next 6-12 months"
+          },
+          {
+            "role": "Vertical Business Lead",
+            "focus": "Driving growth in highest-potential vertical",
+            "timing": "When first vertical shows consistent traction"
+          },
+          {
+            "role": "Full-Stack Developer",
+            "focus": "Building and maintaining vertical applications and interfaces",
+            "timing": "As development needs exceed current capacity"
+          }
+        ],
+        "approachToScaling": "Leveraging AI tools and automation to maximize productivity of small team while maintaining lean operations"
+      }
+    },
+    "aiAugmentation": {
+      "philosophy": "Using AI as a force multiplier to enable a small team to accomplish the work of a much larger organization",
+      "keyApplications": [
+        {
+          "area": "Product Development",
+          "aiUtilization": "AI-assisted coding, testing, and documentation to accelerate development cycles",
+          "humanOversight": "Strategic direction, quality control, and creative problem-solving"
+        },
+        {
+          "area": "Business Operations",
+          "aiUtilization": "Automated workflows, document processing, and basic customer support",
+          "humanOversight": "Relationship management, strategic decisions, and exception handling"
+        },
+        {
+          "area": "Marketing & Communications",
+          "aiUtilization": "Content generation, market analysis, and campaign optimization",
+          "humanOversight": "Brand strategy, key messaging, and relationship building"
+        },
+        {
+          "area": "Research & Development",
+          "aiUtilization": "Literature review, code generation, and testing automation",
+          "humanOversight": "Innovation direction, quality validation, and strategic research focus"
+        }
+      ]
+    },
+    "verticalStructure": {
+      "currentApproach": "Each vertical initially managed directly by core team with heavy AI augmentation",
+      "evolutionPlan": "As verticals gain traction, consider dedicated lead for most promising vertical while maintaining lean shared resources",
+      "resourceAllocation": "Dynamic allocation of team resources based on vertical traction and strategic priorities"
+    },
+    "talentStrategy": {
+      "acquisition": {
+        "approach": "Highly selective recruitment focusing on versatile individuals who can work effectively with AI tools",
+        "valueProposition": "Opportunity to build innovative AI solutions with outsized impact through AI augmentation"
+      },
+      "development": {
+        "philosophy": "Continuous learning with emphasis on AI collaboration skills and broad capability development",
+        "approach": "Cross-training across functions with AI tools supporting skill acquisition"
+      },
+      "retention": {
+        "approach": "Meaningful equity participation, high autonomy, and cutting-edge work environment",
+        "keyElements": [
+          "Significant equity stakes reflecting outsized contribution expectations",
+          "Flexible working arrangements optimized for productivity",
+          "Direct impact on company direction and success",
+          "Opportunity to work at the frontier of AI-human collaboration"
+        ]
+      }
+    }
+  }
+}

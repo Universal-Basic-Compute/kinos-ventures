@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2023-12-01",
+  "memoryStructure": {
+    "businessModel": {
+      "description": "Core business structure, revenue models, and value propositions",
+      "organization": "Organized by business components and strategic elements",
+      "primaryFiles": [
+        "memory/business_model.json"
+      ],
+      "purpose": "Maintain consistent understanding of the KinOS Ventures business model"
+    },
+    "verticals": {
+      "description": "Detailed information about each vertical business unit",
+      "organization": "Organized by vertical with comprehensive business details",
+      "primaryFiles": [
+        "memory/verticals.json"
+      ],
+      "purpose": "Track the development and details of each vertical business"
+    },
+    "teamStructure": {
+      "description": "Organizational design and role definitions",
+      "organization": "Organized by organizational level and function",
+      "primaryFiles": [
+        "memory/team_structure.json"
+      ],
+      "purpose": "Maintain understanding of organizational design and talent strategy"
+    },
+    "roadmap": {
+      "description": "Development timelines and strategic milestones",
+      "organization": "Organized by phase with detailed milestones and objectives",
+      "primaryFiles": [
+        "memory/roadmap.json"
+      ],
+      "purpose": "Track strategic plan and development timeline"
+    },
+    "decisionFramework": {
+      "description": "Structured frameworks for strategic decision-making",
+      "organization": "Organized by decision type and methodology",
+      "primaryFiles": [
+        "memory/decision_framework/vertical_evaluation.json",
+        "memory/decision_framework/resource_allocation.json",
+        "memory/decision_framework/go_no_go_criteria.json",
+        "memory/decision_framework/strategic_decisions.json"
+      ],
+      "purpose": "Support systematic, consistent decision-making across the organization"
+    },
+    "projectTracking": {
+      "description": "Detailed tracking of all KinOS Ventures projects",
+      "organization": "Organized by project maturity level and individual project",
+      "primaryFiles": [
+        "memory/project_tracking/ventures_overview.json"
+      ],
+      "categories": {
+        "partnerSwarms": {
+          "description": "Established partner projects",
+          "projects": ["kin-kong", "digitalkin", "logicatlas"]
+        },
+        "earlySwarms": {
+          "description": "Projects in early development stage",
+          "projects": ["robinhood-agent", "swarm-ventures", "kinos", "therapykin", "duoai", "synthetic-souls", "xforge", "ai-alley", "deskmate"]
+        },
+        "inceptionSwarms": {
+          "description": "Projects in concept or incubation phase",
+          "projects": ["marketingmesh", "propertykin", "grantkin", "stride", "careerkin", "playwise", "talentkin", "studiokin", "carehive", "publishkin", "stumped", "travelaid", "profitbeeai"]
+        }
+      },
+      "purpose": "Track detailed status, progress, and plans for all ventures"
+    }
+  },
+  "crossReferences": {
+    "verticalToBusinessModel": "Each vertical connects to the overall business model",
+    "roadmapToVerticals": "Roadmap includes specific milestones for each vertical",
+    "teamToVerticals": "Team structure includes vertical-specific organizations",
+    "businessModelToRoadmap": "Business model evolution is reflected in roadmap phases"
+  },
+  "maintenanceProtocol": {
+    "businessModelUpdate": "Update when business strategy or revenue models change",
+    "verticalsUpdate": "Update when new verticals are added or existing ones evolve",
+    "teamStructureUpdate": "Update when organizational design changes or new roles are defined",
+    "roadmapUpdate": "Update quarterly to reflect progress and strategic adjustments"
+  }
+}
