@@ -141,41 +141,41 @@ body {
 
 /* Prose styling for dark mode */
 .prose {
-  --tw-prose-body: theme('colors.gray.300');
-  --tw-prose-headings: theme('colors.white');
-  --tw-prose-lead: theme('colors.gray.300');
-  --tw-prose-links: theme('colors.blue.400');
-  --tw-prose-bold: theme('colors.white');
-  --tw-prose-counters: theme('colors.gray.400');
-  --tw-prose-bullets: theme('colors.gray.400');
-  --tw-prose-hr: theme('colors.gray.700');
-  --tw-prose-quotes: theme('colors.gray.300');
-  --tw-prose-quote-borders: theme('colors.gray.700');
-  --tw-prose-captions: theme('colors.gray.400');
-  --tw-prose-code: theme('colors.gray.200');
-  --tw-prose-pre-code: theme('colors.gray.200');
-  --tw-prose-pre-bg: theme('colors.gray.900');
-  --tw-prose-th-borders: theme('colors.gray.700');
-  --tw-prose-td-borders: theme('colors.gray.700');
+  --tw-prose-body: #d1d5db; /* gray-300 */
+  --tw-prose-headings: #ffffff; /* white */
+  --tw-prose-lead: #d1d5db; /* gray-300 */
+  --tw-prose-links: #60a5fa; /* blue-400 */
+  --tw-prose-bold: #ffffff; /* white */
+  --tw-prose-counters: #9ca3af; /* gray-400 */
+  --tw-prose-bullets: #9ca3af; /* gray-400 */
+  --tw-prose-hr: #374151; /* gray-700 */
+  --tw-prose-quotes: #d1d5db; /* gray-300 */
+  --tw-prose-quote-borders: #374151; /* gray-700 */
+  --tw-prose-captions: #9ca3af; /* gray-400 */
+  --tw-prose-code: #e5e7eb; /* gray-200 */
+  --tw-prose-pre-code: #e5e7eb; /* gray-200 */
+  --tw-prose-pre-bg: #111827; /* gray-900 */
+  --tw-prose-th-borders: #374151; /* gray-700 */
+  --tw-prose-td-borders: #374151; /* gray-700 */
 }
 
 .prose-invert {
-  --tw-prose-body: theme('colors.gray.300');
-  --tw-prose-headings: theme('colors.white');
-  --tw-prose-lead: theme('colors.gray.300');
-  --tw-prose-links: theme('colors.blue.400');
-  --tw-prose-bold: theme('colors.white');
-  --tw-prose-counters: theme('colors.gray.400');
-  --tw-prose-bullets: theme('colors.gray.400');
-  --tw-prose-hr: theme('colors.gray.700');
-  --tw-prose-quotes: theme('colors.gray.300');
-  --tw-prose-quote-borders: theme('colors.gray.700');
-  --tw-prose-captions: theme('colors.gray.400');
-  --tw-prose-code: theme('colors.gray.200');
-  --tw-prose-pre-code: theme('colors.gray.200');
-  --tw-prose-pre-bg: theme('colors.gray.900');
-  --tw-prose-th-borders: theme('colors.gray.700');
-  --tw-prose-td-borders: theme('colors.gray.700');
+  --tw-prose-body: #d1d5db; /* gray-300 */
+  --tw-prose-headings: #ffffff; /* white */
+  --tw-prose-lead: #d1d5db; /* gray-300 */
+  --tw-prose-links: #60a5fa; /* blue-400 */
+  --tw-prose-bold: #ffffff; /* white */
+  --tw-prose-counters: #9ca3af; /* gray-400 */
+  --tw-prose-bullets: #9ca3af; /* gray-400 */
+  --tw-prose-hr: #374151; /* gray-700 */
+  --tw-prose-quotes: #d1d5db; /* gray-300 */
+  --tw-prose-quote-borders: #374151; /* gray-700 */
+  --tw-prose-captions: #9ca3af; /* gray-400 */
+  --tw-prose-code: #e5e7eb; /* gray-200 */
+  --tw-prose-pre-code: #e5e7eb; /* gray-200 */
+  --tw-prose-pre-bg: #111827; /* gray-900 */
+  --tw-prose-th-borders: #374151; /* gray-700 */
+  --tw-prose-td-borders: #374151; /* gray-700 */
 }
 
 /* Dark mode variables are now defined in the @layer base section above */
