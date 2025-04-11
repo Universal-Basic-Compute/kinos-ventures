@@ -18,6 +18,23 @@ export const metadata: Metadata = {
   title: "KinOS Ventures - AI-Driven Innovation Across Verticals",
   description: "KinOS Ventures accelerates AI-driven innovation across multiple verticals with our unified KinOS engine technology.",
   keywords: "KinOS, AI, artificial intelligence, ventures, technology, innovation",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" },
+    ],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/safari-pinned-tab.svg",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
