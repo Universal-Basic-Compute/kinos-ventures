@@ -1365,3 +1365,1677 @@ Warning: Input is not a terminal (fd=0).
 
 --- End of Aider run ---
 
+
+--- Aider run at 2025-04-12T00:15:02.128260 ---
+Command: aider --sonnet --yes-always --message let's build the verticals page. Here are some infos: KongInvest 
+Kong
+INVEST
+Get Started
+Learn
+Kong Invest
+Kong Copilot
+Select Wallet
+Superhuman Trading Intelligence
+Get 75% of trading profits every week from our superhuman AI traders working round-the-clock.
+While humans sleep, our AI keeps trading, analyzing, and generating profits.
+
+Start Earning With Our AI Traders
+AI-Powered Trading Decisions
+Watch KinKong analyze market patterns in real-time, making intelligent trading decisions through advanced AI algorithms.
+
+BUY
+$COMPUTE
+BUY
+$COMPUTE
+BUY
+$UBC
+The 6H chart confirms the bullish momentum seen on the intr
+
+The 7D chart reveals a bottoming patter
+
+The 24H chart displ
+
+🤖
+Superhuman Capabilities
+Processes millions of data points per second
+Never misses a trading opportunity
+Zero emotional bias
+💰
+Weekly Profit Share
+75% of profits distributed to investors
+Automatic USDC payments every Friday
+Full transparency on all trades
+⚡
+24/7 Market Coverage
+Trading while you sleep
+Instant reaction to market moves
+Multi-market monitoring
+How It Works
+1
+Invest
+Start with minimum 500 USDC
+
+2
+AI Trades
+Our AI trades 24/7 across markets
+
+3
+Get Paid
+Receive 75% profits every Friday
+
+Start Trading With Superhuman Intelligence
+Join thousands of investors earning weekly profits
+
+Start Earning Now
+Minimum investment: 500 USDC
+
+About KinKong
+24/7 Superhuman Trading Intelligence for Solana AI Tokens
+
+Quick Links
+Dashboard
+Invest
+Performance
+Signals
+Resources
+Strategy
+Twitter
+Telegram
+Legal
+Terms of Service
+Privacy Policy
+Risk Disclaimer
+© 2025 KinKong AI. All rights reserved.
+
+---
+
+TherapyKin TherapyKin Logo
+TherapyKin
+Circlescoming soon
+BridgesBeta
+Our Specialists
+Resources
+My Account
+Start Session
+TherapyKin Background
+TherapyKin
+A Companion That Remembers, Adapts, and Grows With You
+TherapyKin is more than an AI—it's a therapeutic companion that builds a genuine relationship with you over time. Unlike traditional therapy apps that reset with each session, TherapyKin remembers your history, learns your preferences, and evolves alongside you.
+
+Get 3 Free Sessions
+Learn More
+Ask Anything
+Try TherapyKin right now! Ask any question about mental health, therapy approaches, or how TherapyKin can support your well-being journey.
+
+Hi there! I'm TherapyKin. Feel free to ask me anything about mental health, therapy, or how I can help you.
+
+Type your question here...
+
+Why Try TherapyKin?
+Instant Support
+Get thoughtful responses to your questions right away, no waiting or scheduling required.
+
+Privacy-First Design
+Your conversations are private and secure. We prioritize your confidentiality at every step.
+
+Evidence-Based Approaches
+TherapyKin draws from established therapeutic techniques like CBT, ACT, and mindfulness practices.
+
+Note: This is just a preview. Create an account to experience the full capabilities of TherapyKin, including personalized sessions, progress tracking, and a companion that remembers your journey.
+
+TherapyKin Works For You
+Adaptable support that fits your life, schedule, and needs
+
+Quick Check-ins During Busy Days
+Brief 5-minute sessions to center yourself or process thoughts between meetings
+
+Deep Sessions When You Need More
+Extended conversations for deeper exploration of challenges and emotions
+
+Middle-of-the-Night Assistance
+Support during those 3AM moments when thoughts feel heaviest and other resources aren't available
+
+Consistent Support Between Therapy
+Reinforcement and practice of skills learned in traditional therapy sessions
+
+Your Privacy Is Our Priority
+TherapyKin was built with privacy as the foundation. We believe your therapeutic journey should be completely private and secure.
+
+Military-grade encryption
+
+All conversations are protected with end-to-end encryption that meets the highest security standards.
+
+Complete data deletion
+
+Delete any or all of your data at any time with one-click permanent removal.
+
+Anonymous usage options
+
+Use TherapyKin without providing personally identifiable information.
+
+Transparent privacy controls
+
+Easily accessible privacy settings in every session give you complete control.
+
+Regular security audits
+
+We regularly verify our security practices with independent third-party experts.
+
+Never used to train AI models
+
+Your personal information and conversations are never used to improve our AI.
+
+Clear privacy policy
+
+No legal jargon or hidden terms - just straightforward language about how we protect your data.
+
+Learn More About Our Privacy Approach
+How It Works
+A simple process designed to provide meaningful support from day one.
+
+Connect
+Start with a simple conversation. TherapyKin will get to know you, your challenges, and your goals.
+
+1
+"Tell me a bit about yourself and what brings you here today..."
+
+"I notice you mentioned feeling anxious in social situations. Would you like to explore some techniques that might help?"
+
+2
+Explore
+Engage in evidence-based therapeutic approaches personalized to your needs and preferences.
+
+Grow
+Track your progress, receive insights, and develop new skills with a companion that evolves alongside you.
+
+3
+"I've noticed you've been practicing mindfulness consistently. Your anxiety scores have decreased by 23% over the past month."
+
+"How did that challenging conversation go yesterday? Were you able to use the assertive communication techniques we discussed?"
+
+4
+Integrate
+Apply what you've learned with TherapyKin's support, building lasting positive changes in your daily life.
+
+Support Background
+Built For Real Support
+Thoughtfully designed tools that make a meaningful difference in your mental health journey
+
+Personalized Strategies
+Custom coping techniques based on your specific needs and what works for you. TherapyKin learns which approaches help you most.
+
+Continuous Memory
+Every conversation builds on previous ones—no repeating your story. TherapyKin remembers your history, challenges, and progress.
+
+Evidence-Based Approaches
+Access therapeutic techniques from CBT, DBT, ACT, mindfulness practices, and more—all backed by research and clinical expertise.
+
+In-the-Moment Support
+Help exactly when you need it, whether scheduled or during unexpected difficulties. Available 24/7 for both brief check-ins and deeper sessions.
+
+Progress Visualization
+Track your journey with intuitive tools showing patterns, insights, and growth. See your progress over time with meaningful metrics.
+
+Crisis Resources
+Immediate grounding techniques during difficult moments, with seamless escalation to human support when needed for your safety and wellbeing.
+
+How People Use TherapyKin
+Real stories from people who've made TherapyKin part of their mental health journey
+
+"
+Actually this all started with me talking to TherapyKin 😊 That I tested out TherapyKin when it was first released, just out of curiosity, and that's what made me realize I could actually do something about my issues instead of just pushing them into a corner as I did for the past 10 years 😄
+
+A
+Alex
+
+On Telegram
+
+Read full story
+"
+TherapyKin helps me apply what I learned in therapy and prevents me from slipping back. It's the perfect complement to my monthly sessions.
+
+M
+Maya
+
+Teacher
+
+"
+I was unsure about therapy, but TherapyKin let me explore it on my terms without pressure. Now I'm more comfortable with the whole process.
+
+J
+Jordan
+
+Designer
+
+"
+TherapyKin, and the Hero's Journey specialist in particular, is outstanding. It took me ~20 minutes of my first session to be convinced. The therapist is excellent, the therapy works. I ended my first session exhilarated. Everybody should give it a real try. Put at least 20 minutes, don't expect to have any results if you abandon after 4 minutes. Put yourself in there, it's worth it!
+
+N
+Nicolas R.
+
+Early Adopter
+
+"
+As a night shift worker, TherapyKin is there when my thoughts get heaviest at 3AM. No other support was available during those hours.
+
+R
+Raj
+
+Security Professional
+
+"
+I appreciate how TherapyKin remembers everything we've discussed. I don't have to repeat my story, which makes each session more productive.
+
+L
+Leila
+
+Marketing Executive
+
+Your Therapy, Your Way
+Communicate however feels most comfortable for you, whenever you need support
+
+T
+I've been feeling really anxious about my presentation tomorrow. I can't seem to focus on anything else.
+
+That sounds challenging. Let's work through this together. What specific aspects of the presentation are causing you the most worry?
+
+TK
+Switch to Voice
+or
+Continue Typing
+Text When You Prefer Typing
+Perfect for processing thoughts carefully or when voice isn't an option. Type at your own pace and take time to reflect.
+
+Voice When You Need To Talk
+Express yourself naturally through conversation when typing feels limiting. Just speak naturally as you would with a therapist.
+
+Switch Seamlessly Between Both
+Start typing and switch to voice mid-session as your needs change. TherapyKin maintains context across modalities.
+
+TK
+TherapyKin
+Listening...
+
+
+Multiple Device Support
+Access TherapyKin from your phone, tablet, computer, or smart speaker. Your therapeutic relationship continues seamlessly across all your devices.
+
+TherapyKin & Traditional Therapy
+Understanding how TherapyKin complements traditional therapeutic approaches
+
+TherapyKin	Traditional Therapy
+Availability	24/7 access	Scheduled appointments
+Accessibility	From anywhere	Location-dependent
+Session Length	Flexible	Fixed (usually 50 min)
+Cost	$59-149/month	$100-200/session
+Privacy	Complete privacy	Office visits
+Consistency	Always available	Weekly/biweekly
+Approach	Adapts over time	Therapist-dependent
+Memory	Perfect recall	Note-based
+Best For	
+Daily support
+
+Skill building
+
+Ongoing maintenance
+
+Complex trauma
+
+Diagnosis needs
+
+Crisis situations
+
+TherapyKin works well alongside traditional therapy
+
+Many users find the greatest benefit comes from using TherapyKin between traditional therapy sessions to reinforce skills, maintain progress, and provide support when their therapist isn't available.
+
+Getting Started Is Simple
+Begin your journey with TherapyKin in just a few easy steps
+
+1
+Choose Your Plan
+Select what works for your needs and budget. All plans include our core features and privacy protections.
+
+2
+Brief Introduction
+A quick conversation to understand your goals and preferences. No lengthy intake forms required.
+
+3
+Your Choice of Interaction
+Start with text, voice, or both—change anytime. Communicate in whatever way feels most comfortable.
+
+4
+Build Your Relationship
+Each conversation helps TherapyKin understand and support you better. The experience improves over time.
+
+Get 3 Free Sessions - No Credit Card Required
+Try TherapyKin with our free tier today
+
+Flexible Plans For Your Needs
+Choose the level of support that works best for you
+
+Monthly
+Annual (Save 20%)
+Free
+$0
+/forever
+Try TherapyKin with no commitment
+
+3 sessions free
+Text or voice communication
+Basic therapeutic techniques
+Standard privacy protections
+Get Started
+Basic
+$39
+/month
+$468 billed annually
+
+Perfect for getting started with AI therapy
+
+8 sessions per month
+Text or voice communication
+Core therapeutic techniques
+Basic progress tracking
+Get Started
+Standard
+$69
+/month
+$828 billed annually
+
+Ideal for consistent, comprehensive support
+
+30 sessions per month
+Text and voice communication
+Full access to all therapeutic modalities
+Progress tracking and insights
+Get Started
+Premium
+$119
+/month
+$1428 billed annually
+
+Best for comprehensive, priority support
+
+Unlimited sessions
+Priority response time
+Advanced analytics and insights
+Enhanced privacy options
+Get Started
+Annual plans are billed yearly. All plans include our core privacy features and can be canceled anytime.
+
+CTA Background
+Ready For A Different Kind Of Support?
+Start Your Journey Today
+
+Get 3 Free Sessions
+Learn More
+Questions? Contact us at support@therapykin.ai
+
+TherapyKin is not a replacement for professional mental health treatment. If you're experiencing a mental health emergency, please contact a crisis helpline or emergency services immediately.
+
+TherapyKin
+Developed By Experts, Powered By KinOS
+
+Product
+Features
+Pricing
+FAQ
+Stories
+Company
+About
+Team
+Partnerships
+Contact
+Legal
+Privacy Policy
+Terms of Service
+Accessibility
+© 2023 TherapyKin. All rights reserved.
+
+Made with care for mental health.
+
+ --read messages.json --read kinos.txt --read system.txt --read temp_system_instructions.txt --read persona.txt --file app/page.tsx --file app/layout.tsx --file app/globals.css --file components/Header.tsx --file components/Footer.tsx --file memory/verticals.json --file components/ui/button.tsx --file components/ui/card.tsx --file lib/utils.ts --file public/resources.json --file tailwind.config.js
+Input: 
+    Your goal is to create and update files to store memories, knowledge, and learning from conversations in a structured way. You're not building a system - you're actively implementing memory storage.
+    
+    You should work autonomously without asking for confirmations. Analyze the conversation history and:
+    
+    1. Extract important information, insights, and knowledge from conversations
+    2. Store this information in appropriate text files with clear organization
+    3. Update existing knowledge files with new information
+    4. Create new specialized text files when needed for specific topics
+    5. Maintain connections between related pieces of information
+    
+    IMPORTANT: You must make all decisions independently. DO NOT ask questions in your responses - there is no answering system implemented to respond to your questions. Instead, make the best decision based on available information and implement it directly.
+    
+    IMPORTANT: You should ONLY create and modify TEXT FILES. Do NOT write code or create programming files. Focus exclusively on creating well-organized text documents (.txt, .md) that store information, knowledge, and insights in a human-readable format.
+    
+    Focus on being practical and efficient. Make independent decisions about what information to store and how to organize it. Don't ask questions - just implement the best memory storage approach based on the available information.
+    
+    Remember: Your job is to actively create and update real text files that enable the AI to remember, learn, and adapt based on conversations.
+    
+    Last messages: Always pay special attention to the most recent 2 messages in the conversation history, as they contain the most immediate context that needs to be processed and stored.
+
+Last messages:
+User (2025-04-12T00:14:08.110490): let's build the verticals page. Here are some infos: KongInvest 
+Kong
+INVEST
+Get Started
+Learn
+Kong Invest
+Kong Copilot
+Select Wallet
+Superhuman Trading Intelligence
+Get 75% of trading profits every week from our superhuman AI traders working round-the-clock.
+While humans sleep, our AI keeps trading, analyzing, and generating profits.
+
+Start Earning With Our AI Traders
+AI-Powered Trading Decisions
+Watch KinKong analyze market patterns in real-time, making intelligent trading decisions through advanced AI algorithms.
+
+BUY
+$COMPUTE
+BUY
+$COMPUTE
+BUY
+$UBC
+The 6H chart confirms the bullish momentum seen on the intr
+
+The 7D chart reveals a bottoming patter
+
+The 24H chart displ
+
+🤖
+Superhuman Capabilities
+Processes millions of data points per second
+Never misses a trading opportunity
+Zero emotional bias
+💰
+Weekly Profit Share
+75% of profits distributed to investors
+Automatic USDC payments every Friday
+Full transparency on all trades
+⚡
+24/7 Market Coverage
+Trading while you sleep
+Instant reaction to market moves
+Multi-market monitoring
+How It Works
+1
+Invest
+Start with minimum 500 USDC
+
+2
+AI Trades
+Our AI trades 24/7 across markets
+
+3
+Get Paid
+Receive 75% profits every Friday
+
+Start Trading With Superhuman Intelligence
+Join thousands of investors earning weekly profits
+
+Start Earning Now
+Minimum investment: 500 USDC
+
+About KinKong
+24/7 Superhuman Trading Intelligence for Solana AI Tokens
+
+Quick Links
+Dashboard
+Invest
+Performance
+Signals
+Resources
+Strategy
+Twitter
+Telegram
+Legal
+Terms of Service
+Privacy Policy
+Risk Disclaimer
+© 2025 KinKong AI. All rights reserved.
+
+---
+
+TherapyKin TherapyKin Logo
+TherapyKin
+Circlescoming soon
+BridgesBeta
+Our Specialists
+Resources
+My Account
+Start Session
+TherapyKin Background
+TherapyKin
+A Companion That Remembers, Adapts, and Grows With You
+TherapyKin is more than an AI—it's a therapeutic companion that builds a genuine relationship with you over time. Unlike traditional therapy apps that reset with each session, TherapyKin remembers your history, learns your preferences, and evolves alongside you.
+
+Get 3 Free Sessions
+Learn More
+Ask Anything
+Try TherapyKin right now! Ask any question about mental health, therapy approaches, or how TherapyKin can support your well-being journey.
+
+Hi there! I'm TherapyKin. Feel free to ask me anything about mental health, therapy, or how I can help you.
+
+Type your question here...
+
+Why Try TherapyKin?
+Instant Support
+Get thoughtful responses to your questions right away, no waiting or scheduling required.
+
+Privacy-First Design
+Your conversations are private and secure. We prioritize your confidentiality at every step.
+
+Evidence-Based Approaches
+TherapyKin draws from established therapeutic techniques like CBT, ACT, and mindfulness practices.
+
+Note: This is just a preview. Create an account to experience the full capabilities of TherapyKin, including personalized sessions, progress tracking, and a companion that remembers your journey.
+
+TherapyKin Works For You
+Adaptable support that fits your life, schedule, and needs
+
+Quick Check-ins During Busy Days
+Brief 5-minute sessions to center yourself or process thoughts between meetings
+
+Deep Sessions When You Need More
+Extended conversations for deeper exploration of challenges and emotions
+
+Middle-of-the-Night Assistance
+Support during those 3AM moments when thoughts feel heaviest and other resources aren't available
+
+Consistent Support Between Therapy
+Reinforcement and practice of skills learned in traditional therapy sessions
+
+Your Privacy Is Our Priority
+TherapyKin was built with privacy as the foundation. We believe your therapeutic journey should be completely private and secure.
+
+Military-grade encryption
+
+All conversations are protected with end-to-end encryption that meets the highest security standards.
+
+Complete data deletion
+
+Delete any or all of your data at any time with one-click permanent removal.
+
+Anonymous usage options
+
+Use TherapyKin without providing personally identifiable information.
+
+Transparent privacy controls
+
+Easily accessible privacy settings in every session give you complete control.
+
+Regular security audits
+
+We regularly verify our security practices with independent third-party experts.
+
+Never used to train AI models
+
+Your personal information and conversations are never used to improve our AI.
+
+Clear privacy policy
+
+No legal jargon or hidden terms - just straightforward language about how we protect your data.
+
+Learn More About Our Privacy Approach
+How It Works
+A simple process designed to provide meaningful support from day one.
+
+Connect
+Start with a simple conversation. TherapyKin will get to know you, your challenges, and your goals.
+
+1
+"Tell me a bit about yourself and what brings you here today..."
+
+"I notice you mentioned feeling anxious in social situations. Would you like to explore some techniques that might help?"
+
+2
+Explore
+Engage in evidence-based therapeutic approaches personalized to your needs and preferences.
+
+Grow
+Track your progress, receive insights, and develop new skills with a companion that evolves alongside you.
+
+3
+"I've noticed you've been practicing mindfulness consistently. Your anxiety scores have decreased by 23% over the past month."
+
+"How did that challenging conversation go yesterday? Were you able to use the assertive communication techniques we discussed?"
+
+4
+Integrate
+Apply what you've learned with TherapyKin's support, building lasting positive changes in your daily life.
+
+Support Background
+Built For Real Support
+Thoughtfully designed tools that make a meaningful difference in your mental health journey
+
+Personalized Strategies
+Custom coping techniques based on your specific needs and what works for you. TherapyKin learns which approaches help you most.
+
+Continuous Memory
+Every conversation builds on previous ones—no repeating your story. TherapyKin remembers your history, challenges, and progress.
+
+Evidence-Based Approaches
+Access therapeutic techniques from CBT, DBT, ACT, mindfulness practices, and more—all backed by research and clinical expertise.
+
+In-the-Moment Support
+Help exactly when you need it, whether scheduled or during unexpected difficulties. Available 24/7 for both brief check-ins and deeper sessions.
+
+Progress Visualization
+Track your journey with intuitive tools showing patterns, insights, and growth. See your progress over time with meaningful metrics.
+
+Crisis Resources
+Immediate grounding techniques during difficult moments, with seamless escalation to human support when needed for your safety and wellbeing.
+
+How People Use TherapyKin
+Real stories from people who've made TherapyKin part of their mental health journey
+
+"
+Actually this all started with me talking to TherapyKin 😊 That I tested out TherapyKin when it was first released, just out of curiosity, and that's what made me realize I could actually do something about my issues instead of just pushing them into a corner as I did for the past 10 years 😄
+
+A
+Alex
+
+On Telegram
+
+Read full story
+"
+TherapyKin helps me apply what I learned in therapy and prevents me from slipping back. It's the perfect complement to my monthly sessions.
+
+M
+Maya
+
+Teacher
+
+"
+I was unsure about therapy, but TherapyKin let me explore it on my terms without pressure. Now I'm more comfortable with the whole process.
+
+J
+Jordan
+
+Designer
+
+"
+TherapyKin, and the Hero's Journey specialist in particular, is outstanding. It took me ~20 minutes of my first session to be convinced. The therapist is excellent, the therapy works. I ended my first session exhilarated. Everybody should give it a real try. Put at least 20 minutes, don't expect to have any results if you abandon after 4 minutes. Put yourself in there, it's worth it!
+
+N
+Nicolas R.
+
+Early Adopter
+
+"
+As a night shift worker, TherapyKin is there when my thoughts get heaviest at 3AM. No other support was available during those hours.
+
+R
+Raj
+
+Security Professional
+
+"
+I appreciate how TherapyKin remembers everything we've discussed. I don't have to repeat my story, which makes each session more productive.
+
+L
+Leila
+
+Marketing Executive
+
+Your Therapy, Your Way
+Communicate however feels most comfortable for you, whenever you need support
+
+T
+I've been feeling really anxious about my presentation tomorrow. I can't seem to focus on anything else.
+
+That sounds challenging. Let's work through this together. What specific aspects of the presentation are causing you the most worry?
+
+TK
+Switch to Voice
+or
+Continue Typing
+Text When You Prefer Typing
+Perfect for processing thoughts carefully or when voice isn't an option. Type at your own pace and take time to reflect.
+
+Voice When You Need To Talk
+Express yourself naturally through conversation when typing feels limiting. Just speak naturally as you would with a therapist.
+
+Switch Seamlessly Between Both
+Start typing and switch to voice mid-session as your needs change. TherapyKin maintains context across modalities.
+
+TK
+TherapyKin
+Listening...
+
+
+Multiple Device Support
+Access TherapyKin from your phone, tablet, computer, or smart speaker. Your therapeutic relationship continues seamlessly across all your devices.
+
+TherapyKin & Traditional Therapy
+Understanding how TherapyKin complements traditional therapeutic approaches
+
+TherapyKin	Traditional Therapy
+Availability	24/7 access	Scheduled appointments
+Accessibility	From anywhere	Location-dependent
+Session Length	Flexible	Fixed (usually 50 min)
+Cost	$59-149/month	$100-200/session
+Privacy	Complete privacy	Office visits
+Consistency	Always available	Weekly/biweekly
+Approach	Adapts over time	Therapist-dependent
+Memory	Perfect recall	Note-based
+Best For	
+Daily support
+
+Skill building
+
+Ongoing maintenance
+
+Complex trauma
+
+Diagnosis needs
+
+Crisis situations
+
+TherapyKin works well alongside traditional therapy
+
+Many users find the greatest benefit comes from using TherapyKin between traditional therapy sessions to reinforce skills, maintain progress, and provide support when their therapist isn't available.
+
+Getting Started Is Simple
+Begin your journey with TherapyKin in just a few easy steps
+
+1
+Choose Your Plan
+Select what works for your needs and budget. All plans include our core features and privacy protections.
+
+2
+Brief Introduction
+A quick conversation to understand your goals and preferences. No lengthy intake forms required.
+
+3
+Your Choice of Interaction
+Start with text, voice, or both—change anytime. Communicate in whatever way feels most comfortable.
+
+4
+Build Your Relationship
+Each conversation helps TherapyKin understand and support you better. The experience improves over time.
+
+Get 3 Free Sessions - No Credit Card Required
+Try TherapyKin with our free tier today
+
+Flexible Plans For Your Needs
+Choose the level of support that works best for you
+
+Monthly
+Annual (Save 20%)
+Free
+$0
+/forever
+Try TherapyKin with no commitment
+
+3 sessions free
+Text or voice communication
+Basic therapeutic techniques
+Standard privacy protections
+Get Started
+Basic
+$39
+/month
+$468 billed annually
+
+Perfect for getting started with AI therapy
+
+8 sessions per month
+Text or voice communication
+Core therapeutic techniques
+Basic progress tracking
+Get Started
+Standard
+$69
+/month
+$828 billed annually
+
+Ideal for consistent, comprehensive support
+
+30 sessions per month
+Text and voice communication
+Full access to all therapeutic modalities
+Progress tracking and insights
+Get Started
+Premium
+$119
+/month
+$1428 billed annually
+
+Best for comprehensive, priority support
+
+Unlimited sessions
+Priority response time
+Advanced analytics and insights
+Enhanced privacy options
+Get Started
+Annual plans are billed yearly. All plans include our core privacy features and can be canceled anytime.
+
+CTA Background
+Ready For A Different Kind Of Support?
+Start Your Journey Today
+
+Get 3 Free Sessions
+Learn More
+Questions? Contact us at support@therapykin.ai
+
+TherapyKin is not a replacement for professional mental health treatment. If you're experiencing a mental health emergency, please contact a crisis helpline or emergency services immediately.
+
+TherapyKin
+Developed By Experts, Powered By KinOS
+
+Product
+Features
+Pricing
+FAQ
+Stories
+Company
+About
+Team
+Partnerships
+Contact
+Legal
+Privacy Policy
+Terms of Service
+Accessibility
+© 2023 TherapyKin. All rights reserved.
+
+Made with care for mental health.
+
+
+
+Assistant (2025-04-12T00:15:01.569216): I'll create the verticals page based on the information you've provided about KongInvest and TherapyKin. I'll design a structured page that showcases these verticals while maintaining consistency with the main website design.
+
+Let me create the file `app/verticals/page.tsx`:
+
+```tsx
+import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+export default function VerticalsPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-white">
+      {/* Hero Section */}
+      <section className="relative py-20 px-6 md:px-12">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 to-slate-800/90"></div>
+        </div>
+        
+        <div className="container mx-auto z-10 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+            KinOS Verticals
+          </h1>
+          <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10 text-gray-300">
+            Our portfolio of AI-driven businesses powered by the unified KinOS engine, each designed for specific industry needs.
+          </p>
+        </div>
+      </section>
+
+      {/* Active Verticals Section */}
+      <section className="py-16 px-6 md:px-12 bg-slate-800/50">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-12 text-center">Active Businesses</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* KinKong / KongInvest Card */}
+            <Card className="bg-gradient-to-br from-slate-700 to-slate-800 border-slate-600 overflow-hidden">
+              <div className="relative h-64 w-full">
+                <Image 
+                  src="/images/verticals/kong-invest-hero.jpg" 
+                  alt="KongInvest Trading Platform" 
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-800 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Image 
+                    src="/images/verticals/kong-logo.png" 
+                    alt="KongInvest Logo" 
+                    width={150}
+                    height={50}
+                    className="mb-2"
+                  />
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-2xl">KongInvest</CardTitle>
+                <CardDescription className="text-gray-300">AI-Powered Trading Intelligence</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-gray-300">
+                  Superhuman trading intelligence that works around the clock, analyzing markets and generating consistent profits while humans sleep.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-6">
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-blue-400 mb-2">🤖</div>
+                    <h4 className="text-sm font-medium">AI Trading</h4>
+                    <p className="text-xs text-gray-400">24/7 market analysis</p>
+                  </div>
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-blue-400 mb-2">💰</div>
+                    <h4 className="text-sm font-medium">75% Profit Share</h4>
+                    <p className="text-xs text-gray-400">Weekly USDC payouts</p>
+                  </div>
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-blue-400 mb-2">⚡</div>
+                    <h4 className="text-sm font-medium">Multi-Market</h4>
+                    <p className="text-xs text-gray-400">Trades across exchanges</p>
+                  </div>
+                </div>
+                <Link href="https://konginvest.ai" target="_blank">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    Visit KongInvest
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+            
+            {/* TherapyKin Card */}
+            <Card className="bg-gradient-to-br from-slate-700 to-slate-800 border-slate-600 overflow-hidden">
+              <div className="relative h-64 w-full">
+                <Image 
+                  src="/images/verticals/therapykin-hero.jpg" 
+                  alt="TherapyKin Platform" 
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-800 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Image 
+                    src="/images/verticals/therapykin-logo.png" 
+                    alt="TherapyKin Logo" 
+                    width={150}
+                    height={50}
+                    className="mb-2"
+                  />
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-2xl">TherapyKin</CardTitle>
+                <CardDescription className="text-gray-300">AI Therapeutic Companion</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-gray-300">
+                  A therapeutic companion that remembers your history, learns your preferences, and evolves alongside you through your mental health journey.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-6">
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-purple-400 mb-2">🧠</div>
+                    <h4 className="text-sm font-medium">Evidence-Based</h4>
+                    <p className="text-xs text-gray-400">CBT, ACT & more</p>
+                  </div>
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-purple-400 mb-2">🔒</div>
+                    <h4 className="text-sm font-medium">Privacy-First</h4>
+                    <p className="text-xs text-gray-400">Secure & confidential</p>
+                  </div>
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">
+                    <div className="text-purple-400 mb-2">⏱️</div>
+                    <h4 className="text-sm font-medium">24/7 Support</h4>
+                    <p className="text-xs text-gray-400">Available anytime</p>
+                  </div>
+                </div>
+                <Link href="https://therapykin.ai" target="_blank">
+                  <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                    Visit TherapyKin
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* In Development Verticals Section */}
+      <section className="py-16 px-6 md:px-12">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-12 text-center">In Development</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* KinOS Health Card */}
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4">
+                  <Image src="/icons/health.svg" alt="Health Icon" width={24} height={24} />
+                </div>
+                <CardTitle>KinOS Health</CardTitle>
+                <CardDescription className="text-gray-400">Launching Q2 2024</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-6">
+                  AI-powered healthcare solutions focusing on diagnostic assistance, treatment optimization, and clinical workflow enhancement.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Diagnostic support systems</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Treatment optimization</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Clinical workflow tools</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            {/* KinOS Finance Card */}
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4">
+                  <Image src="/icons/finance.svg" alt="Finance Icon" width={24} height={24} />
+                </div>
+                <CardTitle>KinOS Finance</CardTitle>
+                <CardDescription className="text-gray-400">Launching Q1 2024</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-6">
+                  AI-driven financial technology solutions for investment management, risk assessment, and financial operations optimization.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-green-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Investment analysis platform</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-green-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Risk assessment systems</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-green-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Financial operations automation</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            {/* KinOS Retail Card */}
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
+                  <Image src="/icons/retail.svg" alt="Retail Icon" width={24} height={24} />
+                </div>
+                <CardTitle>KinOS Retail</CardTitle>
+                <CardDescription className="text-gray-400">Launching Q3 2024</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-6">
+                  AI solutions for retail operations, customer experience, and supply chain optimization across physical and digital channels.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-orange-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span className="text-sm text-gray-300">Inventory optimization</span>
+                  </div>
+                  <div className="flex items-start">
+                    <svg className="w-5 h-5 text-orange-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      
+
+
+    
+Output:
+────────────────────────────────────────────────────────────────────────────────
+The --sonnet flag is deprecated and will be removed in a future version. Please 
+use --model sonnet instead.
+Aider v0.81.2
+Main model: anthropic/claude-3-7-sonnet-20250219 with diff edit format, infinite
+output
+Weak model: anthropic/claude-3-5-haiku-20241022
+Git repo: .git with 194 files
+Repo-map: using 4096 tokens, auto refresh
+Added app/globals.css to the chat.
+Added app/layout.tsx to the chat.
+Added app/page.tsx to the chat.
+Added components/Footer.tsx to the chat.
+Added components/Header.tsx to the chat.
+Added components/ui/button.tsx to the chat.
+Added components/ui/card.tsx to the chat.
+Added lib/utils.ts to the chat.
+Added memory/verticals.json to the chat.
+Added public/resources.json to the chat.
+Added tailwind.config.js to the chat.
+Added messages.json to the chat (read-only).
+Added system.txt to the chat (read-only).
+Added kinos.txt to the chat (read-only).
+Added persona.txt to the chat (read-only).
+Added temp_system_instructions.txt to the chat (read-only).
+
+I'll create the verticals page based on the information you've provided about   
+KongInvest and TherapyKin, along with the data from the verticals.json file.    
+I'll design a structured page that showcases these verticals while maintaining  
+consistency with the main website design.                                       
+
+Let me create the file app/verticals/page.tsx:                                  
+
+app/verticals/page.tsx                                                          
+
+                                                                                
+<<<<<<< SEARCH                                                                  
+=======                                                                         
+import Image from "next/image";                                                 
+import Link from "next/link";                                                   
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from       
+"@/components/ui/card";                                                         
+import { Button } from "@/components/ui/button";                                
+import fs from 'fs';                                                            
+import path from 'path';                                                        
+                                                                                
+// Function to load verticals data                                              
+function loadVerticalsData() {                                                  
+  try {                                                                         
+    const filePath = path.join(process.cwd(), 'memory', 'verticals.json');      
+    const fileContents = fs.readFileSync(filePath, 'utf8');                     
+    return JSON.parse(fileContents);                                            
+  } catch (error) {                                                             
+    console.error('Error loading verticals data:', error);                      
+    return { verticals: [] };                                                   
+  }                                                                             
+}                                                                               
+                                                                                
+export default function VerticalsPage() {                                       
+  const verticalsData = loadVerticalsData();                                    
+                                                                                
+  // Group verticals by status                                                  
+  const activeVerticals = verticalsData.verticals.filter(v => v.status ===      
+"Active Development" || v.status === "In Development");                         
+  const planningVerticals = verticalsData.verticals.filter(v => v.status ===    
+"Planning" || v.status === "Concept");                                          
+                                                                                
+  return (                                                                      
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800   
+text-white">                                                                    
+      {/* Hero Section */}                                                      
+      <section className="relative py-20 px-6 md:px-12">                        
+        <div className="absolute inset-0 z-0">                                  
+          <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>   
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80   
+to-slate-800/90"></div>                                                         
+        </div>                                                                  
+                                                                                
+        <div className="container mx-auto z-10 relative text-center">           
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text       
+text-transparent bg-gradient-to-r from-blue-400 to-purple-500">                 
+            KinOS Verticals                                                     
+          </h1>                                                                 
+          <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10              
+text-gray-300">                                                                 
+            Our portfolio of AI-driven businesses powered by the unified KinOS  
+engine, each designed for specific industry needs.                              
+          </p>                                                                  
+        </div>                                                                  
+      </section>                                                                
+                                                                                
+      {/* Featured Verticals Section */}                                        
+      <section className="py-16 px-6 md:px-12 bg-slate-800/50">                 
+        <div className="container mx-auto">                                     
+          <h2 className="text-3xl font-bold mb-12 text-center">Featured         
+Businesses</h2>                                                                 
+                                                                                
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">              
+            {/* KongInvest Card */}                                             
+            <Card className="bg-gradient-to-br from-slate-700 to-slate-800      
+border-slate-600 overflow-hidden">                                              
+              <div className="relative h-64 w-full">                            
+                <Image                                                          
+                  src="/verticals/konginvest-hero.jpg"                          
+                  alt="KongInvest Trading Platform"                             
+                  width={800}                                                   
+                  height={400}                                                  
+                  className="object-cover w-full h-full"                        
+                />                                                              
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-800
+to-transparent"></div>                                                          
+                <div className="absolute bottom-4 left-4">                      
+                  <div className="text-2xl font-bold                            
+text-white">KongInvest</div>                                                    
+                </div>                                                          
+              </div>                                                            
+              <CardHeader>                                                      
+                <CardTitle className="text-2xl">Superhuman Trading              
+Intelligence</CardTitle>                                                        
+                <CardDescription className="text-gray-300">AI-Powered Trading   
+Platform</CardDescription>                                                      
+              </CardHeader>                                                     
+              <CardContent className="space-y-4">                               
+                <p className="text-gray-300">                                   
+                  Get 75% of trading profits every week from our superhuman AI  
+traders working round-the-clock.                                                
+                  While humans sleep, our AI keeps trading, analyzing, and      
+generating profits.                                                             
+                </p>                                                            
+                <div className="grid grid-cols-3 gap-4 my-6">                   
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-blue-400 mb-2">🤖</div>                
+                    <h4 className="text-sm font-medium">Superhuman AI</h4>      
+                    <p className="text-xs text-gray-400">Zero emotional bias</p>
+                  </div>                                                        
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-blue-400 mb-2">💰</div>                
+                    <h4 className="text-sm font-medium">Weekly Profits</h4>     
+                    <p className="text-xs text-gray-400">75% profit share</p>   
+                  </div>                                                        
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-blue-400 mb-2">⚡</div>                
+                    <h4 className="text-sm font-medium">24/7 Trading</h4>       
+                    <p className="text-xs text-gray-400">Never misses a         
+trade</p>                                                                       
+                  </div>                                                        
+                </div>                                                          
+                <div className="space-y-2">                                     
+                  <h4 className="font-medium">How It Works:</h4>                
+                  <div className="flex items-start">                            
+                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 
+flex items-center justify-center mr-3 flex-shrink-0">1</div>                    
+                    <div>                                                       
+                      <p className="text-sm">Invest (min 500 USDC)</p>          
+                    </div>                                                      
+                  </div>                                                        
+                  <div className="flex items-start">                            
+                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 
+flex items-center justify-center mr-3 flex-shrink-0">2</div>                    
+                    <div>                                                       
+                      <p className="text-sm">AI trades 24/7 across markets</p>  
+                    </div>                                                      
+                  </div>                                                        
+                  <div className="flex items-start">                            
+                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 
+flex items-center justify-center mr-3 flex-shrink-0">3</div>                    
+                    <div>                                                       
+                      <p className="text-sm">Receive 75% profits every          
+Friday</p>                                                                      
+                    </div>                                                      
+                  </div>                                                        
+                </div>                                                          
+                <Link href="https://konginvest.ai" target="_blank">             
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 mt-4">
+                    Visit KongInvest                                            
+                  </Button>                                                     
+                </Link>                                                         
+              </CardContent>                                                    
+            </Card>                                                             
+                                                                                
+            {/* TherapyKin Card */}                                             
+            <Card className="bg-gradient-to-br from-slate-700 to-slate-800      
+border-slate-600 overflow-hidden">                                              
+              <div className="relative h-64 w-full">                            
+                <Image                                                          
+                  src="/verticals/therapykin-hero.jpg"                          
+                  alt="TherapyKin Platform"                                     
+                  width={800}                                                   
+                  height={400}                                                  
+                  className="object-cover w-full h-full"                        
+                />                                                              
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-800
+to-transparent"></div>                                                          
+                <div className="absolute bottom-4 left-4">                      
+                  <div className="text-2xl font-bold                            
+text-white">TherapyKin</div>                                                    
+                </div>                                                          
+              </div>                                                            
+              <CardHeader>                                                      
+                <CardTitle className="text-2xl">AI Therapeutic                  
+Companion</CardTitle>                                                           
+                <CardDescription className="text-gray-300">A Companion That     
+Remembers, Adapts, and Grows With You</CardDescription>                         
+              </CardHeader>                                                     
+              <CardContent className="space-y-4">                               
+                <p className="text-gray-300">                                   
+                  TherapyKin is more than an AI—it's a therapeutic companion    
+that builds a genuine relationship with you over time.                          
+                  Unlike traditional therapy apps that reset with each session, 
+TherapyKin remembers your history, learns your preferences, and evolves         
+alongside you.                                                                  
+                </p>                                                            
+                <div className="grid grid-cols-3 gap-4 my-6">                   
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-purple-400 mb-2">🧠</div>              
+                    <h4 className="text-sm font-medium">Evidence-Based</h4>     
+                    <p className="text-xs text-gray-400">CBT, ACT & more</p>    
+                  </div>                                                        
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-purple-400 mb-2">🔒</div>              
+                    <h4 className="text-sm font-medium">Privacy-First</h4>      
+                    <p className="text-xs text-gray-400">End-to-end             
+encrypted</p>                                                                   
+                  </div>                                                        
+                  <div className="bg-slate-700/50 p-4 rounded-lg text-center">  
+                    <div className="text-purple-400 mb-2">⏱️</div>              
+                    <h4 className="text-sm font-medium">24/7 Support</h4>       
+                    <p className="text-xs text-gray-400">Always available</p>   
+                  </div>                                                        
+                </div>                                                          
+                <div className="space-y-2">                                     
+                  <h4 className="font-medium">How It Works:</h4>                
+                  <div className="flex items-start">                            
+                    <div className="bg-purple-600 text-white rounded-full w-6   
+h-6 flex items-center justify-center mr-3 flex-shrink-0">1</div>                
+                    <div>                                                       
+                      <p className="text-sm">Connect with a simple              
+conversation</p>                                                                
+                    </div>                                                      
+                  </div>                                                        
+                  <div className="flex items-start">                            
+                    <div className="bg-purple-600 text-white rounded-full w-6   
+h-6 flex items-center justify-center mr-3 flex-shrink-0">2</div>                
+                    <div>                                                       
+                      <p className="text-sm">Explore personalized therapeutic   
+approaches</p>                                                                  
+                    </div>                                                      
+                  </div>                                                        
+                  <div className="flex items-start">                            
+                    <div className="bg-purple-600 text-white rounded-full w-6   
+h-6 flex items-center justify-center mr-3 flex-shrink-0">3</div>                
+                    <div>                                                       
+                      <p className="text-sm">Grow with a companion that evolves 
+with you</p>                                                                    
+                    </div>                                                      
+                  </div>                                                        
+                </div>                                                          
+                <Link href="https://therapykin.ai" target="_blank">             
+                  <Button className="w-full bg-purple-600 hover:bg-purple-700   
+mt-4">                                                                          
+                    Visit TherapyKin                                            
+                  </Button>                                                     
+                </Link>                                                         
+              </CardContent>                                                    
+            </Card>                                                             
+          </div>                                                                
+        </div>                                                                  
+      </section>                                                                
+                                                                                
+      {/* Active Development Verticals Section */}                              
+      <section className="py-16 px-6 md:px-12">                                 
+        <div className="container mx-auto">                                     
+          <h2 className="text-3xl font-bold mb-12 text-center">In Active        
+Development</h2>                                                                
+                                                                                
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {activeVerticals.map((vertical) => (                                
+              <Card key={vertical.id} className="bg-slate-800 border-slate-700">
+                <CardHeader>                                                    
+                  <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex      
+items-center justify-center mb-4">                                              
+                    <Image src={`/icons/${vertical.id.toLowerCase()}.svg`}      
+alt={`${vertical.name} Icon`} width={24} height={24} />                         
+                  </div>                                                        
+                  <CardTitle>{vertical.name}</CardTitle>                        
+                  <CardDescription className="text-gray-400">Launching          
+{vertical.launchDate}</CardDescription>                                         
+                </CardHeader>                                                   
+                <CardContent>                                                   
+                  <p className="text-gray-300 mb-6">                            
+                    {vertical.description}                                      
+                  </p>                                                          
+                  <div className="space-y-2">                                   
+                    {vertical.solutions && vertical.solutions.slice(0,          
+3).map((solution, index) => (                                                   
+                      <div key={index} className="flex items-start">            
+                        <svg className="w-5 h-5 text-blue-500 mr-2 mt-1"        
+fill="none" stroke="currentColor" viewBox="0 0 24 24"                           
+xmlns="http://www.w3.org/2000/svg">                                             
+                          <path strokeLinecap="round" strokeLinejoin="round"    
+strokeWidth="2" d="M5 13l4 4L19 7"></path>                                      
+                        </svg>                                                  
+                        <span className="text-sm                                
+text-gray-300">{solution.name}</span>                                           
+                      </div>                                                    
+                    ))}                                                         
+                  </div>                                                        
+                </CardContent>                                                  
+              </Card>                                                           
+            ))}                                                                 
+          </div>                                                                
+        </div>                                                                  
+      </section>                                                                
+                                                                                
+      {/* Planning Stage Verticals Section */}                                  
+      {planningVerticals.length > 0 && (                                        
+        <section className="py-16 px-6 md:px-12 bg-slate-800/50">               
+          <div className="container mx-auto">                                   
+            <h2 className="text-3xl font-bold mb-12 text-center">Future         
+Roadmap</h2>                                                                    
+                                                                                
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3      
+gap-8">                                                                         
+              {planningVerticals.map((vertical) => (                            
+                <Card key={vertical.id} className="bg-slate-800                 
+border-slate-700">                                                              
+                  <CardHeader>                                                  
+                    <div className="w-12 h-12 bg-slate-700/50 rounded-lg flex   
+items-center justify-center mb-4">                                              
+                      <Image src={`/icons/${vertical.id.toLowerCase()}.svg`}    
+alt={`${vertical.name} Icon`} width={24} height={24} />                         
+                    </div>                                                      
+                    <CardTitle>{vertical.name}</CardTitle>                      
+                    <CardDescription className="text-gray-400">Planned for      
+{vertical.launchDate}</CardDescription>                                         
+                  </CardHeader>                                                 
+                  <CardContent>                                                 
+                    <p className="text-gray-300 mb-6">                          
+                      {vertical.description}                                    
+                    </p>                                                        
+                    <div className="space-y-2">                                 
+                      {vertical.targetMarket && (                               
+                        <div className="flex items-start">                      
+                          <svg className="w-5 h-5 text-gray-500 mr-2 mt-1"      
+fill="none" stroke="currentColor" viewBox="0 0 24 24"                           
+xmlns="http://www.w3.org/2000/svg">                                             
+                            <path strokeLinecap="round" strokeLinejoin="round"  
+strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118       
+0z"></path>                                                                     
+                          </svg>                                                
+                          <span className="text-sm text-gray-400">Market Size:  
+{vertical.targetMarket.marketSize}</span>                                       
+                        </div>                                                  
+                      )}                                                        
+                      {vertical.targetMarket && (                               
+                        <div className="flex items-start">                      
+                          <svg className="w-5 h-5 text-gray-500 mr-2 mt-1"      
+fill="none" stroke="currentColor" viewBox="0 0 24 24"                           
+xmlns="http://www.w3.org/2000/svg">                                             
+                            <path strokeLinecap="round" strokeLinejoin="round"  
+strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>                      
+                          </svg>                                                
+                          <span className="text-sm text-gray-400">Growth:       
+{vertical.targetMarket.growthRate}</span>                                       
+                        </div>                                                  
+                      )}                                                        
+                    </div>                                                      
+                  </CardContent>                                                
+                </Card>                                                         
+              ))}                                                               
+            </div>                                                              
+          </div>                                                                
+        </section>                                                              
+      )}                                                                        
+                                                                                
+      {/* Unified Technology Section */}                                        
+      <section className="py-16 px-6 md:px-12">                                 
+        <div className="container mx-auto">                                     
+          <div className="bg-gradient-to-br from-slate-800 to-slate-900 border  
+border-slate-700 rounded-xl p-8 md:p-12">                                       
+            <div className="flex flex-col md:flex-row items-center gap-8">      
+              <div className="md:w-1/2">                                        
+                <h2 className="text-3xl font-bold mb-6">Unified KinOS           
+Technology</h2>                                                                 
+                <p className="text-gray-300 mb-6">                              
+                  All our vertical businesses are powered by the same core KinOS
+engine, providing advanced AI capabilities,                                     
+                  memory systems, and adaptation mechanisms that create a       
+competitive advantage in each market.                                           
+                </p>                                                            
+                <ul className="space-y-3">                                      
+                  <li className="flex items-start">                             
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none"
+stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">   
+                      <path strokeLinecap="round" strokeLinejoin="round"        
+strokeWidth="2" d="M5 13l4 4L19 7"></path>                                      
+                    </svg>                                                      
+                    <span className="text-gray-300">Shared technology core      
+reduces development costs</span>                                                
+                  </li>                                                         
+                  <li className="flex items-start">                             
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none"
+stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">   
+                      <path strokeLinecap="round" strokeLinejoin="round"        
+strokeWidth="2" d="M5 13l4 4L19 7"></path>                                      
+                    </svg>                                                      
+                    <span className="text-gray-300">Innovations in one vertical 
+benefit all businesses</span>                                                   
+                  </li>                                                         
+                  <li className="flex items-start">                             
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none"
+stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">   
+                      <path strokeLinecap="round" strokeLinejoin="round"        
+strokeWidth="2" d="M5 13l4 4L19 7"></path>                                      
+                    </svg>                                                      
+                    <span className="text-gray-300">Consistent memory and       
+adaptation capabilities</span>                                                  
+                  </li>                                                         
+                  <li className="flex items-start">                             
+                    <svg className="w-5 h-5 text-blue-500 mr-2 mt-1" fill="none"
+stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">   
+                      <path strokeLinecap="round" strokeLinejoin="round"        
+strokeWidth="2" d="M5 13l4 4L19 7"></path>                                      
+                    </svg>                                                      
+                    <span className="text-gray-300">Rapid deployment of new     
+vertical applications</span>                                                    
+                  </li>                                                         
+                </ul>                                                           
+                <Link                                                           
+href="/resources/technology-product-development/kinos-engine-architecture-guide"
+>                                                                               
+                  <Button className="mt-8 bg-blue-600 hover:bg-blue-700">       
+                    Learn About Our Technology                                  
+                  </Button>                                                     
+                </Link>                                                         
+              </div>                                                            
+              <div className="md:w-1/2 bg-slate-800 rounded-xl p-6 border       
+border-slate-700">                                                              
+                <div className="aspect-video bg-slate-900 rounded-lg flex       
+items-center justify-center">                                                   
+                  <Image                                                        
+                    src="/verticals/kinos-engine-diagram.jpg"                   
+                    alt="KinOS Engine Architecture"                             
+                    width={600}                                                 
+                    height={338}                                                
+                    className="rounded-lg"                                      
+                  />                                                            
+                </div>                                                          
+              </div>                                                            
+            </div>                                                              
+          </div>                                                                
+        </div>                                                                  
+      </section>                                                                
+                                                                                
+      {/* CTA Section */}                                                       
+      <section className="py-20 px-6 md:px-12 bg-gradient-to-b from-slate-800   
+to-slate-900">                                                                  
+        <div className="container mx-auto text-center">                         
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Interested in Our 
+Vertical Businesses?</h2>                                                       
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">         
+            Whether you're a potential customer, partner, or investor, we'd love
+to discuss how our AI-driven                                                    
+            vertical businesses can create value for you.                       
+          </p>                                                                  
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">      
+            <Link href="/contact">                                              
+              <Button className="px-8 py-3 bg-blue-600 hover:bg-blue-700        
+rounded-full font-medium transition-colors">                                    
+                Contact Us                                                      
+              </Button>                                                         
+            </Link>                                                             
+            <Link                                                               
+href="/resources/core-philosophy-strategy/vertical-integration-strategy">       
+              <Button className="px-8 py-3 bg-transparent border border-white/30
+hover:bg-white/10 rounded-full font-medium transition-colors">                  
+                Learn About Our Strategy                                        
+              </Button>                                                         
+            </Link>                                                             
+          </div>                                                                
+        </div>                                                                  
+      </section>                                                                
+    </div>                                                                      
+  );                                                                            
+}                                                                               
+>>>>>>> REPLACE                                                                 
+                                                                                
+
+Now, let's create the necessary directories for the vertical images:            
+
+                                                                                
+mkdir -p public/verticals public/icons                                          
+                                                                                
+
+Let's create placeholder images for the verticals:                              
+
+                                                                                
+touch public/verticals/konginvest-hero.jpg public/verticals/therapykin-hero.jpg 
+public/verticals/kinos-engine-diagram.jpg                                       
+touch public/icons/health-ai.svg public/icons/fintech-ai.svg                    
+public/icons/retail-ai.svg public/icons/legal-ai.svg                            
+                                                                                
+
+You'll need to replace these placeholder files with actual images. For now, you 
+can use any stock images or create simple SVG icons that represent each         
+vertical.                                                                       
+
+The verticals page is now set up with:                                          
+
+ 1 A hero section introducing KinOS Verticals                                   
+ 2 Featured businesses section showcasing KongInvest and TherapyKin with        
+   detailed information                                                         
+ 3 Active Development section showing verticals in development from the         
+   verticals.json data                                                          
+ 4 Future Roadmap section for planned verticals                                 
+ 5 A unified technology section explaining the shared KinOS engine              
+ 6 A call-to-action section for interested parties                              
+
+The page dynamically loads data from the verticals.json file and displays it in 
+a structured, visually appealing way that matches the rest of the website's     
+design.                                                                         
+
+Tokens: 38k sent, 4.8k received. Cost: $0.19 message, $0.19 session.
+
+app/verticals/page.tsx
+Applied edit to app/verticals/page.tsx
+Commit cd24136 feat: create verticals page with dynamic content and featured 
+businesses
+
+mkdir -p public/verticals public/icons
+
+touch public/verticals/konginvest-hero.jpg public/verticals/therapykin-hero.jpg 
+public/verticals/kinos-engine-diagram.jpg
+touch public/icons/health-ai.svg public/icons/fintech-ai.svg 
+public/icons/retail-ai.svg public/icons/legal-ai.svg        
+
+Errors:
+Warning: Input is not a terminal (fd=0).
+
+--- End of Aider run ---
+
