@@ -588,7 +588,7 @@ export default function AiChat() {
                       </div>
                     )}
                     <div 
-                      className={`max-w-[80%] p-3 rounded-2xl shadow-md overflow-hidden ${
+                      className={`max-w-[80%] p-3 rounded-2xl shadow-md overflow-hidden group relative ${
                         message.role === 'user' 
                           ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-br-none markdown-user' 
                           : 'bg-slate-700 text-white rounded-bl-none markdown-assistant'
