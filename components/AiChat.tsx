@@ -67,7 +67,7 @@ export default function AiChat() {
     if (isOpen && inputRef.current) {
       setTimeout(() => {
         inputRef.current?.focus();
-      }, 300);
+      }, 60000);
     }
   }, [isOpen]);
 
@@ -344,7 +344,7 @@ export default function AiChat() {
           setTimeout(() => {
             const event = new Event('submit', { bubbles: true, cancelable: true }) as unknown as React.FormEvent;
             handleSubmit(event);
-          }, 500);
+          }, 60000);
         }
       }
     } catch (error) {
