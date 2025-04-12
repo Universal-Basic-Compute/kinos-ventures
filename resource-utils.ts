@@ -1,19 +1,46 @@
 import fs from 'fs';
 import path from 'path';
 
+// Define interfaces for type safety
+interface Resource {
+  id: string;
+  title: string;
+  description?: string;
+  presentation?: string;
+  direction?: string;
+  url?: string;
+  usefulContext?: string[];
+  [key: string]: any; // For any other properties
+}
+
+interface Category {
+  category: string;
+  resources: Resource[];
+  [key: string]: any;
+}
+
+interface ResourcesData {
+  foundationalResources: Category[];
+  [key: string]: any;
+}
+
+interface RelatedResource extends Resource {
+  category: string;
+}
+
 // Cache for resource data
-let resourcesCache: any = null;
+let resourcesCache: ResourcesData | null = null;
 
 // Load resources.json
-function loadResources() {
+function loadResources(): ResourcesData | null {
   if (resourcesCache) {
     return resourcesCache;
   }
   
   try {
     const resourcesJson = JSON.parse(fs.readFileSync('public/resources.json', 'utf8'));
-    resourcesCache = resourcesJson;
-    return resourcesJson;
+    resourcesCache = resourcesJson as ResourcesData;
+    return resourcesCache;
   } catch (error) {
     console.error(`Error loading resources.json: ${error}`);
     return null;
@@ -53,7 +80,7 @@ export function getCategoryPath(resourceId: string): string {
 }
 
 // Get all related resources for a resource ID
-export function getRelatedResources(resourceId: string): any[] {
+export function getRelatedResources(resourceId: string): RelatedResource[] {
   const resources = loadResources();
   if (!resources) return [];
   
@@ -70,7 +97,7 @@ export function getRelatedResources(resourceId: string): any[] {
   }
   
   // Get the full resource objects for each context ID
-  const relatedResources = [];
+  const relatedResources: RelatedResource[] = [];
   
   for (const contextId of usefulContext) {
     for (const category of resources.foundationalResources) {
