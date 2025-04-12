@@ -605,7 +605,7 @@ export default function AiChat() {
                           h1: ({node, ...props}) => <h1 className="text-xl font-bold mb-2" {...props} />,
                           h2: ({node, ...props}) => <h2 className="text-lg font-bold mb-2" {...props} />,
                           h3: ({node, ...props}) => <h3 className="text-md font-bold mb-2" {...props} />,
-                          code: ({node, inline, ...props}) => 
+                          code: ({node, inline, ...props}: {node?: any, inline?: boolean, [key: string]: any}) => 
                             inline 
                               ? <code className="bg-slate-800/50 px-1 py-0.5 rounded" {...props} />
                               : <code className="block bg-slate-800/50 p-2 rounded my-2 overflow-x-auto" {...props} />,
