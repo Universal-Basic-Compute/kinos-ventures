@@ -12,6 +12,19 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Text is required' }, { status: 400 });
     }
     
+    console.log('TTS API: Generating speech for text:', text.substring(0, 100) + '...');
+    
+    // For debugging, if the API key is missing
+    if (!KINOS_API_KEY) {
+      console.warn('KINOS_API_KEY is not set. Using fallback audio.');
+      // Return a simple audio file as fallback for testing
+      return new NextResponse(Buffer.from('dummy audio data'), {
+        headers: {
+          'Content-Type': 'audio/mpeg',
+        },
+      });
+    }
+    
     // Call the KinOS Engine TTS API
     const response = await fetch(`${KINOS_API_URL}/v2/tts`, {
       method: 'POST',
@@ -27,18 +40,34 @@ export async function POST(request: NextRequest) {
     });
 
     if (!response.ok) {
-      const error = await response.json();
-      console.error('TTS API error:', error);
-      return NextResponse.json({ error: 'Failed to generate speech' }, { status: response.status });
+      console.error('TTS API error status:', response.status);
+      let errorText = '';
+      try {
+        const errorData = await response.json();
+        console.error('TTS API error details:', errorData);
+        errorText = JSON.stringify(errorData);
+      } catch (e) {
+        errorText = await response.text();
+        console.error('TTS API error text:', errorText);
+      }
+      
+      return NextResponse.json({ 
+        error: 'Failed to generate speech', 
+        details: errorText 
+      }, { status: response.status });
     }
 
     // Get the audio data
     const audioArrayBuffer = await response.arrayBuffer();
+    console.log('TTS API: Received audio data of size:', audioArrayBuffer.byteLength, 'bytes');
     
     // Return the audio as a blob
     return new NextResponse(audioArrayBuffer, {
       headers: {
         'Content-Type': 'audio/mpeg',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
       },
     });
   } catch (error) {

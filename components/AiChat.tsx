@@ -47,7 +47,18 @@ export default function AiChat() {
   // Initialize audio element
   useEffect(() => {
     audioRef.current = new Audio();
-    audioRef.current.onended = () => setIsPlaying(false);
+    
+    // Add event listeners for debugging
+    audioRef.current.onplay = () => console.log('Audio started playing');
+    audioRef.current.onpause = () => console.log('Audio paused');
+    audioRef.current.onended = () => {
+      console.log('Audio playback ended');
+      setIsPlaying(false);
+    };
+    audioRef.current.onerror = (e) => {
+      console.error('Audio error:', e);
+      setIsPlaying(false);
+    };
     
     return () => {
       if (audioRef.current) {
@@ -254,6 +265,7 @@ export default function AiChat() {
 
     try {
       setIsPlaying(true);
+      console.log('Generating speech for text:', plainText.substring(0, 100) + '...');
       
       const response = await fetch('/api/tts', {
         method: 'POST',
@@ -264,18 +276,43 @@ export default function AiChat() {
       });
 
       if (!response.ok) {
+        console.error('TTS API error:', response.status, response.statusText);
         throw new Error('Failed to generate speech');
       }
 
       const audioBlob = await response.blob();
+      console.log('Received audio blob:', audioBlob.size, 'bytes, type:', audioBlob.type);
+      
       const audioUrl = URL.createObjectURL(audioBlob);
       
       if (audioRef.current) {
-        audioRef.current.src = audioUrl;
-        audioRef.current.play().catch(e => {
-          console.error('Failed to play audio:', e);
+        // Create a new audio element each time to avoid caching issues
+        audioRef.current = new Audio(audioUrl);
+        audioRef.current.onended = () => {
+          console.log('Audio playback ended');
           setIsPlaying(false);
-        });
+        };
+        audioRef.current.onerror = (e) => {
+          console.error('Audio playback error:', e);
+          setIsPlaying(false);
+        };
+        
+        console.log('Playing audio...');
+        const playPromise = audioRef.current.play();
+        
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              console.log('Audio playback started successfully');
+            })
+            .catch(e => {
+              console.error('Failed to play audio:', e);
+              setIsPlaying(false);
+            });
+        }
+      } else {
+        console.error('Audio reference is null');
+        setIsPlaying(false);
       }
     } catch (error) {
       console.error('TTS error:', error);
