@@ -8,13 +8,12 @@ export default function Footer() {
         <div className="col-span-1 md:col-span-1">
           <Link href="/" className="flex items-center mb-4">
             <Image
-              src="/kinos-logo.png"
+              src="/logo.png"
               alt="KinOS Ventures Logo"
-              width={30}
-              height={30}
+              width={100}
+              height={100}
               className="mr-2"
             />
-            <span className="text-lg font-semibold">KinOS Ventures</span>
           </Link>
           <p className="text-sm text-gray-400">
             Accelerating AI-driven innovation across multiple verticals with our unified KinOS engine.
