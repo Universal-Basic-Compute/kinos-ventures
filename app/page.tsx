@@ -15,8 +15,8 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="KinOS Ventures Logo"
-            width={450}
-            height={450}
+            width={600}
+            height={600}
             className="mx-auto mb-8"
           />
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300">
