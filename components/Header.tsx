@@ -18,8 +18,8 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="KinOS Ventures Logo"
-            width={120}
-            height={120}
+            width={180}
+            height={180}
             className="mr-3"
           />
         </Link>
