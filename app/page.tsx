@@ -13,15 +13,12 @@ export default function Home() {
         
         <div className="container mx-auto px-6 z-10 text-center">
           <Image
-            src="/kinos-logo-large.png"
+            src="/logo.png"
             alt="KinOS Ventures Logo"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className="mx-auto mb-8"
           />
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-            KinOS Ventures
-          </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300">
             Accelerating AI-driven innovation across multiple verticals with our unified KinOS engine.
           </p>
