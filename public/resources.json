@@ -416,6 +416,22 @@
             "ai-ethics-responsibility-charter",
             "resource-allocation-framework"
           ]
+        },
+        {
+          "id": "business-plan-framework",
+          "title": "Business Plan Framework",
+          "description": "A comprehensive methodology for developing strategic business plans across vertical business units",
+          "presentation": "A structured approach to business planning that ensures consistency while allowing for vertical-specific customization to support sustainable growth across diverse markets.",
+          "direction": "This framework should provide a comprehensive methodology for developing business plans across all KinOS Ventures vertical business units. It should include templates and guidelines for market analysis, business model development, go-to-market strategy, financial projections, and risk assessment. The document should balance standardization with flexibility for vertical-specific customization.",
+          "url": "/resources/business-growth/business-plan-framework",
+          "usefulContext": [
+            "vertical-market-selection-criteria",
+            "go-to-market-playbook",
+            "pricing-philosophy-framework",
+            "resource-allocation-framework",
+            "metrics-standardization-guide",
+            "vertical-performance-evaluation"
+          ]
         }
       ]
     }
