@@ -7,17 +7,22 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {/* Replace the existing background with our new spacetime mesh */}
+          {/* Enhanced spacetime mesh with glow effect */}
           <div className="absolute inset-0 spacetime-mesh"></div>
           
-          {/* Add a 3D effect overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-800/80 to-slate-800/90"></div>
+          {/* Improved gradient overlay with more blue tones */}
+          <div className="absolute inset-0 bg-gradient-radial from-blue-900/10 via-slate-900/80 to-slate-950/90"></div>
           
-          {/* Add subtle particles or stars */}
+          {/* Enhanced stars with different sizes */}
           <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)',
-            backgroundSize: '50px 50px'
+            backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 2px), radial-gradient(circle, rgba(99,102,241,0.2) 1.5px, transparent 1.5px)',
+            backgroundSize: '60px 60px, 120px 120px, 170px 170px'
           }}></div>
+          
+          {/* Add subtle blue glow in the center */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-1/2 h-1/2 rounded-full bg-gradient-radial from-blue-500/20 via-blue-700/5 to-transparent"></div>
+          </div>
         </div>
         
         <div className="container mx-auto px-6 z-10 text-center">

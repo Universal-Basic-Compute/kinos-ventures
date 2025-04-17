@@ -54,21 +54,28 @@ body {
 }
 
 @keyframes pulse {
-  0% { opacity: 0.05; }
-  50% { opacity: 0.15; }
-  100% { opacity: 0.05; }
+  0% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.1; }
+}
+
+@keyframes float {
+  0% { transform: perspective(1000px) rotateX(60deg) scale(1.5) translateY(0px); }
+  50% { transform: perspective(1000px) rotateX(60deg) scale(1.5) translateY(-10px); }
+  100% { transform: perspective(1000px) rotateX(60deg) scale(1.5) translateY(0px); }
 }
 
 .spacetime-mesh {
   background-image: 
-    linear-gradient(rgba(30, 41, 59, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(30, 41, 59, 0.1) 1px, transparent 1px),
-    linear-gradient(rgba(100, 116, 139, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(100, 116, 139, 0.1) 1px, transparent 1px);
+    linear-gradient(rgba(59, 130, 246, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.2) 1px, transparent 1px),
+    linear-gradient(rgba(99, 102, 241, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.15) 1px, transparent 1px);
   background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
   background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
   transform: perspective(1000px) rotateX(60deg) scale(1.5);
-  animation: pulse 4s ease-in-out infinite;
+  animation: pulse 4s ease-in-out infinite, float 6s ease-in-out infinite;
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
 }
 
 @keyframes slideIn {
