@@ -11,17 +11,43 @@ export default function Home() {
           <div className="absolute inset-0 spacetime-mesh"></div>
           
           {/* Improved gradient overlay with more blue tones */}
-          <div className="absolute inset-0 bg-gradient-radial from-blue-900/10 via-slate-900/80 to-slate-950/90"></div>
+          <div className="absolute inset-0 bg-gradient-radial from-blue-900/20 via-slate-900/70 to-slate-950/90"></div>
           
-          {/* Enhanced stars with different sizes */}
+          {/* Enhanced stars with different sizes and animations */}
           <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px), radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 2px), radial-gradient(circle, rgba(99,102,241,0.2) 1.5px, transparent 1.5px)',
-            backgroundSize: '60px 60px, 120px 120px, 170px 170px'
+            backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px), radial-gradient(circle, rgba(255,255,255,0.3) 2px, transparent 2px), radial-gradient(circle, rgba(99,102,241,0.4) 1.5px, transparent 1.5px)',
+            backgroundSize: '60px 60px, 120px 120px, 170px 170px',
+            animation: 'pulse 8s ease-in-out infinite alternate'
           }}></div>
           
-          {/* Add subtle blue glow in the center */}
+          {/* Add animated blue glow in the center */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-1/2 h-1/2 rounded-full bg-gradient-radial from-blue-500/20 via-blue-700/5 to-transparent"></div>
+            <div 
+              className="w-3/4 h-3/4 rounded-full" 
+              style={{
+                background: 'radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%)',
+                animation: 'pulse 6s ease-in-out infinite'
+              }}
+            ></div>
+          </div>
+          
+          {/* Add floating particles */}
+          <div className="absolute inset-0 overflow-hidden">
+            {Array.from({ length: 20 }).map((_, i) => (
+              <div 
+                key={i}
+                className="absolute rounded-full bg-blue-400"
+                style={{
+                  width: `${Math.random() * 4 + 1}px`,
+                  height: `${Math.random() * 4 + 1}px`,
+                  top: `${Math.random() * 100}%`,
+                  left: `${Math.random() * 100}%`,
+                  opacity: Math.random() * 0.5 + 0.2,
+                  animation: `float ${Math.random() * 10 + 10}s linear infinite`,
+                  animationDelay: `${Math.random() * 10}s`
+                }}
+              />
+            ))}
           </div>
         </div>
         
@@ -32,6 +58,9 @@ export default function Home() {
             width={800}
             height={800}
             className="mx-auto mb-8"
+            style={{
+              filter: 'drop-shadow(0 0 20px rgba(59, 130, 246, 0.5))'
+            }}
           />
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300">
             Accelerating AI-driven innovation across multiple verticals with our unified KinOS engine.
