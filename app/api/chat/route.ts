@@ -48,15 +48,15 @@ export async function POST(request: NextRequest) {
     console.log('KinOS API response:', data);
     
     // Check if data.content exists
-    if (!data.content) {
-      console.error('Content is missing from KinOS API response:', data);
+    if (!data.response) {
+      console.error('Response is missing from KinOS API response:', data);
       return NextResponse.json({ 
         response: "I'm sorry, I couldn't process your request at this time. Please try again later." 
       });
     }
     
-    // Fix: Access the content directly from the response
-    return NextResponse.json({ response: data.content });
+    // Return the response field from the data
+    return NextResponse.json({ response: data.response });
   } catch (error) {
     console.error('Error in chat API:', error);
     return NextResponse.json(
