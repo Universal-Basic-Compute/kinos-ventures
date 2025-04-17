@@ -55,7 +55,8 @@ export async function POST(request: NextRequest) {
       }
 
       const data = await response.json();
-      console.log('KinOS API response:', data);
+      // Add more detailed logging of the entire response
+      console.log('KinOS API response:', JSON.stringify(data, null, 2));
       
       // Check if data.response exists
       if (!data.response) {
