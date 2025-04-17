@@ -7,16 +7,25 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/80 to-slate-800/90"></div>
+          {/* Replace the existing background with our new spacetime mesh */}
+          <div className="absolute inset-0 spacetime-mesh"></div>
+          
+          {/* Add a 3D effect overlay */}
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-800/80 to-slate-800/90"></div>
+          
+          {/* Add subtle particles or stars */}
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)',
+            backgroundSize: '50px 50px'
+          }}></div>
         </div>
         
         <div className="container mx-auto px-6 z-10 text-center">
           <Image
             src="/logo.png"
             alt="KinOS Ventures Logo"
-            width={600}
-            height={600}
+            width={800}
+            height={800}
             className="mx-auto mb-8"
           />
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300">
