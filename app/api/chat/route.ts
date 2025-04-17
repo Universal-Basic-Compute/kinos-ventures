@@ -31,9 +31,7 @@ export async function POST(request: NextRequest) {
         },
         body: JSON.stringify({
           content: message,
-          model: 'claude-3-7-sonnet-latest',
-          history_length: 25,
-          mode: 'helpful'
+          model: 'claude-3-7-sonnet-latest'
         }),
       });
 
