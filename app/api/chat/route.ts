@@ -21,42 +21,59 @@ export async function POST(request: NextRequest) {
       historyLength: formattedHistory.length
     });
     
-    // Call the KinOS Engine API
-    const response = await fetch(`${KINOS_API_URL}/v2/blueprints/${BLUEPRINT_ID}/kins/${KIN_ID}/messages`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${KINOS_API_KEY}`
-      },
-      body: JSON.stringify({
-        content: message,
-        model: 'claude-3-7-sonnet-latest',
-        history_length: 25,
-        mode: 'helpful',
-        addSystem: 'You are KinOS AI, a helpful assistant for the KinOS Ventures website. Provide concise, accurate information about KinOS Ventures, its verticals, technology, and resources. Be friendly and professional.',
-        addContext: ['knowledge/kinos_ventures_overview.md']
-      }),
-    });
-
-    if (!response.ok) {
-      const errorData = await response.json();
-      console.error('KinOS API error:', errorData);
-      throw new Error(`API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    console.log('KinOS API response:', data);
-    
-    // Check if data.content exists
-    if (!data.response) {
-      console.error('Response is missing from KinOS API response:', data);
-      return NextResponse.json({ 
-        response: "I'm sorry, I couldn't process your request at this time. Please try again later." 
+    try {
+      // Call the KinOS Engine API
+      const response = await fetch(`${KINOS_API_URL}/v2/blueprints/${BLUEPRINT_ID}/kins/${KIN_ID}/messages`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${KINOS_API_KEY}`
+        },
+        body: JSON.stringify({
+          content: message,
+          model: 'claude-3-7-sonnet-latest',
+          history_length: 25,
+          mode: 'helpful',
+          addSystem: 'You are KinOS AI, a helpful assistant for the KinOS Ventures website. Provide concise, accurate information about KinOS Ventures, its verticals, technology, and resources. Be friendly and professional.',
+          addContext: ['knowledge/kinos_ventures_overview.md']
+        }),
       });
+
+      if (!response.ok) {
+        let errorMessage = `API error: ${response.status}`;
+        try {
+          const errorData = await response.json();
+          console.error('KinOS API error:', errorData);
+          errorMessage = errorData.error || errorMessage;
+        } catch (parseError) {
+          console.error('Failed to parse error response:', parseError);
+        }
+        
+        return NextResponse.json({ 
+          response: "I'm sorry, I couldn't process your request at this time. Please try again later." 
+        }, { status: 200 }); // Return a 200 status with an error message to the client
+      }
+
+      const data = await response.json();
+      console.log('KinOS API response:', data);
+      
+      // Check if data.response exists
+      if (!data.response) {
+        console.error('Response is missing from KinOS API response:', data);
+        return NextResponse.json({ 
+          response: "I'm sorry, I couldn't process your request at this time. Please try again later." 
+        });
+      }
+      
+      // Return the response field from the data
+      return NextResponse.json({ response: data.response });
+    } catch (error) {
+      console.error('Error in chat API:', error);
+      return NextResponse.json(
+        { response: "I'm sorry, I couldn't process your request at this time. Please try again later." },
+        { status: 200 } // Return a 200 status with an error message to the client
+      );
     }
-    
-    // Return the response field from the data
-    return NextResponse.json({ response: data.response });
   } catch (error) {
     console.error('Error in chat API:', error);
     return NextResponse.json(
