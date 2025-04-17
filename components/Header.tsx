@@ -18,11 +18,10 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="KinOS Ventures Logo"
-            width={40}
-            height={40}
+            width={80}
+            height={80}
             className="mr-3"
           />
-          <span className="text-xl font-semibold">KinOS Ventures</span>
         </Link>
       </div>
       <nav className="hidden md:flex space-x-8">
