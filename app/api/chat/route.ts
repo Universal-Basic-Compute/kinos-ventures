@@ -34,8 +34,8 @@ export async function POST(request: NextRequest) {
           model: 'claude-3-7-sonnet-latest',
           history_length: 25,
           mode: 'helpful',
-          addSystem: 'You are KinOS AI, a helpful assistant for the KinOS Ventures website. Provide concise, accurate information about KinOS Ventures, its verticals, technology, and resources. Be friendly and professional.',
-          addContext: ['knowledge/kinos_ventures_overview.md']
+          addSystem: "You are KinOS AI, a helpful assistant for the KinOS Ventures website. Provide concise, accurate information about KinOS Ventures, its verticals, technology, and resources. Be friendly and professional.",
+          addContext: ["knowledge/kinos_ventures_overview.md"]
         }),
       });
 
