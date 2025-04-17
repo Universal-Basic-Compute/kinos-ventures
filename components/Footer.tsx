@@ -10,8 +10,8 @@ export default function Footer() {
             <Image
               src="/logo.png"
               alt="KinOS Ventures Logo"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               className="mr-2"
             />
           </Link>
